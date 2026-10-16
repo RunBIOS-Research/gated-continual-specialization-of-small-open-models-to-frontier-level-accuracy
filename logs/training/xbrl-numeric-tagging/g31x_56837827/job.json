@@ -1,0 +1,326 @@
+{
+ "allocation_attempt_count": 1,
+ "attempt_count": 1,
+ "attempts": [
+  {
+   "activated_at": "2026-10-14T06:52:05.547132Z",
+   "attempt_number": 1,
+   "created_at": "2026-10-14T06:52:04.784068Z",
+   "ending": "Stopped as you asked",
+   "finished_at": "2026-10-14T07:37:51.492818Z",
+   "status": "stopped"
+  }
+ ],
+ "best_loss": 0.01757831498980522,
+ "billable_seconds": 0,
+ "billed_cents": 3529,
+ "billing_mode": "tokens",
+ "can_resume": true,
+ "completed_at": "2026-10-14T07:37:44.021935Z",
+ "config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 12,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 2,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 250
+ },
+ "created_at": "2026-10-14T06:51:54.391852Z",
+ "current_loss": 0.03819391876459122,
+ "current_step": 130,
+ "dataset_ids": [
+  "731d48e0-5faf-405e-8723-8fa93b3da32a"
+ ],
+ "desired_state": "stopped",
+ "error_code": null,
+ "error_message": null,
+ "eval_dataset_ids": [],
+ "execution_attempt_count": 1,
+ "final_artifact_deleted_at": null,
+ "final_artifact_state": "",
+ "final_artifact_verified": false,
+ "has_cached_dataset": false,
+ "id": "56837827-0a26-4478-800a-3015af8f8b7c",
+ "last_callback_at": "2026-10-14T07:37:44.024593Z",
+ "last_phase_update_at": "2026-10-14T07:37:41.870087Z",
+ "model_id": "google/gemma-4-31B-it",
+ "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+ "name": "Case study - XBRL tagging vg31x (gemma-4-31B-it)",
+ "phases": [
+  {
+   "done_bytes": 35240552,
+   "done_units": 0,
+   "ended_at": "2026-10-14T06:55:29.36859Z",
+   "eta_seconds": 38,
+   "pct": 100,
+   "phase": "dataset_download",
+   "rate": 57034120,
+   "state": "done",
+   "total_bytes": 35240552,
+   "units": "bytes",
+   "updated_at": "2026-10-14T07:36:39.620322Z"
+  },
+  {
+   "done_bytes": 61330353927,
+   "done_units": 0,
+   "ended_at": "2026-10-14T06:57:46.948586Z",
+   "eta_seconds": 2,
+   "pct": 98.01000213623047,
+   "phase": "model_download",
+   "rate": 294936000,
+   "started_at": "2026-10-14T06:55:34.679767Z",
+   "state": "done",
+   "total_bytes": 62578656403,
+   "units": "bytes",
+   "updated_at": "2026-10-14T07:36:39.624585Z"
+  },
+  {
+   "done_bytes": 62578657455,
+   "done_units": 0,
+   "ended_at": "2026-10-14T06:58:24.252588Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "model_load",
+   "started_at": "2026-10-14T06:58:19.12303Z",
+   "state": "done",
+   "total_bytes": 62578657455,
+   "units": "bytes",
+   "updated_at": "2026-10-14T07:36:39.644589Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 9504,
+   "ended_at": "2026-10-14T06:58:19.119427Z",
+   "eta_seconds": 9,
+   "pct": 100,
+   "phase": "preprocessing",
+   "rate": 594.9000244140625,
+   "started_at": "2026-10-14T06:58:08.419371Z",
+   "state": "done",
+   "total_units": 9504,
+   "units": "samples",
+   "updated_at": "2026-10-14T07:36:39.636589Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 125,
+   "eta_seconds": 418,
+   "pct": 84.45945739746094,
+   "phase": "training",
+   "rate": 2007.0999755859375,
+   "started_at": "2026-10-14T06:59:03.548984Z",
+   "state": "active",
+   "total_units": 148,
+   "units": "steps",
+   "updated_at": "2026-10-14T07:36:39.668586Z"
+  },
+  {
+   "done_bytes": 519670682,
+   "done_units": 0,
+   "ended_at": "2026-10-14T07:34:23.258645Z",
+   "pct": 100,
+   "phase": "checkpoint_upload",
+   "started_at": "2026-10-14T07:34:23.092933Z",
+   "state": "done",
+   "total_bytes": 519502737,
+   "units": "bytes",
+   "updated_at": "2026-10-14T07:37:41.870087Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-14T06:58:03.393416Z",
+   "pct": 0,
+   "phase": "model_build",
+   "started_at": "2026-10-14T06:57:57.386886Z",
+   "state": "done",
+   "updated_at": "2026-10-14T07:36:39.62859Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-14T06:58:08.417031Z",
+   "pct": 0,
+   "phase": "dataset_load",
+   "started_at": "2026-10-14T06:58:08.417031Z",
+   "state": "done",
+   "updated_at": "2026-10-14T07:36:39.632587Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 10,
+   "ended_at": "2026-10-14T06:58:19.121328Z",
+   "pct": 100,
+   "phase": "validation_prep",
+   "started_at": "2026-10-14T06:58:19.121328Z",
+   "state": "done",
+   "total_units": 10,
+   "units": "batches",
+   "updated_at": "2026-10-14T07:36:39.640588Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-14T06:59:09.506991Z",
+   "pct": 0,
+   "phase": "first_step",
+   "started_at": "2026-10-14T06:58:24.256588Z",
+   "state": "done",
+   "updated_at": "2026-10-14T07:36:39.648582Z"
+  }
+ ],
+ "preserve_on_stop": true,
+ "progress": {
+  "eta_confidence": "measured",
+  "eta_scope": "run",
+  "eta_seconds": 463,
+  "phases": [
+   {
+    "done_bytes": 35240552,
+    "pct": 100,
+    "phase": "dataset_download",
+    "rate": 57034119.2,
+    "state": "done",
+    "total_bytes": 35240552,
+    "units": "bytes"
+   },
+   {
+    "phase": "model_download",
+    "state": "done"
+   },
+   {
+    "phase": "model_build",
+    "state": "done"
+   },
+   {
+    "phase": "dataset_load",
+    "state": "done"
+   },
+   {
+    "done_units": 9504,
+    "pct": 100,
+    "phase": "preprocessing",
+    "state": "done",
+    "total_units": 9504,
+    "units": "samples"
+   },
+   {
+    "done_units": 10,
+    "pct": 100,
+    "phase": "validation_prep",
+    "state": "done",
+    "total_units": 10,
+    "units": "batches"
+   },
+   {
+    "done_bytes": 62578657455,
+    "eta_seconds": 0,
+    "pct": 100,
+    "phase": "model_load",
+    "state": "done",
+    "total_bytes": 62578657455,
+    "units": "bytes"
+   },
+   {
+    "phase": "first_step",
+    "state": "done"
+   }
+  ],
+  "schema_version": 2,
+  "ts": "2026-10-14T07:34:41.678854+00:00"
+ },
+ "queue": {
+  "admission_state": "terminal",
+  "created_at": "2026-10-14T06:51:54.412738Z",
+  "deadline_at": "2026-10-21T06:50:54.410804Z",
+  "eligible_choices": [
+   {
+    "eligible": true,
+    "id": 4243,
+    "price_per_gpu_hour_cents": 559,
+    "rank": 1,
+    "selected": true,
+    "tier": "secure",
+    "total_price_hour_cents": 2236
+   },
+   {
+    "eligible": true,
+    "id": 4244,
+    "price_per_gpu_hour_cents": 741,
+    "rank": 2,
+    "selected": false,
+    "tier": "secure",
+    "total_price_hour_cents": 2964
+   }
+  ],
+  "enqueue_sequence": 620,
+  "job_id": "56837827-0a26-4478-800a-3015af8f8b7c",
+  "position": null,
+  "position_estimated": false,
+  "position_scope": "",
+  "position_truncated": false,
+  "priority": 0,
+  "selected_choice": {
+   "eligible": true,
+   "id": 4243,
+   "price_per_gpu_hour_cents": 559,
+   "rank": 1,
+   "selected": true,
+   "tier": "secure",
+   "total_price_hour_cents": 2236
+  },
+  "selected_price_hour_cents": 2236,
+  "state": "promoted",
+  "updated_at": "2026-10-14T06:52:05.548923Z"
+ },
+ "queue_deadline": "2026-10-21T06:50:54.410804Z",
+ "queue_if_unavailable": true,
+ "queue_position": null,
+ "restart_child_job_id": null,
+ "restarted_from_job_id": null,
+ "resume_count": 0,
+ "resume_from_job_id": null,
+ "rlhf_type": null,
+ "stage": "stopped",
+ "stage_detail": "",
+ "started_at": "2026-10-14T06:55:23.862869Z",
+ "status": "stopped",
+ "stop_bios_accepted_at": "2026-10-14T07:36:16.549587Z",
+ "stop_origin": "user",
+ "stop_requested_at": "2026-10-14T07:36:16.288307Z",
+ "stop_state": "applied",
+ "submitted_config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 12,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 2,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 250
+ },
+ "token_charge": {
+  "band_max_params_b": 80,
+  "band_min_params_b": 16,
+  "cents_per_million_tokens": 300,
+  "cost_cents": 3529,
+  "final": true,
+  "method": "lora",
+  "minimum_applied": false,
+  "minimum_charge_cents": 100,
+  "no_output_refunded": false,
+  "params_b": 31.27,
+  "token_cost_cents": 3528.1947,
+  "tokens": 11760649
+ },
+ "total_steps": 148,
+ "train_type": "lora",
+ "training_method": "sft",
+ "note": "trained but the adapter could not be served on RunBios, so it was not evaluated"
+}

@@ -1,0 +1,46 @@
+{
+ "benchmark_id": "703c58e9-6809-4447-b555-131d192e84da",
+ "points": [
+  {
+   "benchmark_run_id": "72a3afe7-3eac-48d3-a89e-a702f211bd84",
+   "run_id": "443fff5c-1dda-4d8e-9c25-3d86925accbd",
+   "run_seq": 6,
+   "attempt_no": 6,
+   "version": 2,
+   "rule_id": "7daee5f9-d8d5-4526-9ba5-f9f4a10f8a06",
+   "rule_name": "Case study: Consumer finance: regulatory complaint triage",
+   "created_at": "2026-10-15T09:04:32.22675Z",
+   "candidate_score": 0.61,
+   "incumbent_score": 0.56,
+   "score_delta": 0.04999999999999993,
+   "incumbent_pass_rate": 0.56,
+   "candidate_pass_rate": 0.61,
+   "checkpoint_id": "e2c21ca3-0284-4f92-9da7-0999113c1aec",
+   "learned_by_version": 0,
+   "decision": "promoted",
+   "status": "done",
+   "status_reason": null
+  },
+  {
+   "benchmark_run_id": "bfe78533-7f0b-4f80-85bb-8d4f7789dbbe",
+   "run_id": "fbf3a1cd-0c71-4535-bfc1-8f888b408534",
+   "run_seq": 5,
+   "attempt_no": 5,
+   "version": 1,
+   "rule_id": "7daee5f9-d8d5-4526-9ba5-f9f4a10f8a06",
+   "rule_name": "Case study: Consumer finance: regulatory complaint triage",
+   "created_at": "2026-10-14T16:21:02.637575Z",
+   "candidate_score": 0.56,
+   "incumbent_score": 0.24,
+   "score_delta": 0.32000000000000006,
+   "incumbent_pass_rate": 0.24,
+   "candidate_pass_rate": 0.56,
+   "checkpoint_id": "303dc5c4-ddda-431c-8928-093d026857b3",
+   "learned_by_version": 0,
+   "decision": "promoted",
+   "status": "done",
+   "status_reason": null
+  }
+ ],
+ "total": 2
+}

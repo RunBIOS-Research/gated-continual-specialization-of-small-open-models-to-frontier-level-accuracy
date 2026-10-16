@@ -1,0 +1,63 @@
+{
+ "checkpoints": [
+  {
+   "base_model_id": "Qwen/Qwen3.6-27B",
+   "base_model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+   "created_at": "2026-10-13T23:58:41.297225Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "e836f619-0834-432f-90d5-100e78dc3859",
+   "is_best": true,
+   "is_final": false,
+   "name": "checkpoint-396",
+   "size_bytes": 350443284,
+   "step": 396
+  },
+  {
+   "base_model_id": "Qwen/Qwen3.6-27B",
+   "base_model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+   "created_at": "2026-10-14T00:31:41.420588Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "9d1d764a-725b-47c7-8af1-5831127e1791",
+   "is_best": false,
+   "is_final": true,
+   "name": "final",
+   "size_bytes": 350475605,
+   "step": 594
+  }
+ ],
+ "deleted": [
+  {
+   "deleted_at": "2026-10-14T00:31:45.188839Z",
+   "is_final": false,
+   "step": 1
+  },
+  {
+   "deleted_at": "2026-10-14T00:31:44.9046Z",
+   "is_final": false,
+   "step": 66
+  },
+  {
+   "deleted_at": "2026-10-14T00:31:44.584595Z",
+   "is_final": false,
+   "step": 198
+  },
+  {
+   "deleted_at": "2026-10-14T00:31:44.272606Z",
+   "is_final": false,
+   "step": 264
+  },
+  {
+   "deleted_at": "2026-10-14T00:31:43.99439Z",
+   "is_final": false,
+   "step": 330
+  },
+  {
+   "deleted_at": "2026-10-14T00:31:43.71826Z",
+   "is_final": false,
+   "step": 500
+  }
+ ],
+ "downloads_enabled": true
+}

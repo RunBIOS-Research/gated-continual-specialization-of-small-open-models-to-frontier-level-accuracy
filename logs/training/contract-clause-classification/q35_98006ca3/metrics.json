@@ -1,0 +1,74 @@
+{
+ "graph_configs": [
+  {
+   "color": "#3B82F6",
+   "goal": "minimize",
+   "key": "loss",
+   "label": "Training Loss",
+   "unit": "scalar"
+  },
+  {
+   "color": "#06B6D4",
+   "goal": "minimize",
+   "key": "eval_loss",
+   "label": "Eval Loss",
+   "unit": "scalar"
+  },
+  {
+   "color": "#10B981",
+   "goal": "schedule",
+   "key": "learning_rate",
+   "label": "Learning Rate",
+   "unit": "scalar"
+  },
+  {
+   "color": "#F59E0B",
+   "goal": "observe",
+   "key": "grad_norm",
+   "label": "Gradient Norm",
+   "unit": "scalar"
+  },
+  {
+   "color": "#8B5CF6",
+   "goal": "maximize",
+   "key": "token_acc",
+   "label": "Token Accuracy",
+   "unit": "fraction"
+  },
+  {
+   "color": "#6B7280",
+   "goal": "progress",
+   "key": "epoch",
+   "label": "Epoch",
+   "unit": "epochs"
+  }
+ ],
+ "metric_summaries": [],
+ "metrics": [],
+ "rlhf_type": null,
+ "run_context": {
+  "current_step": 0,
+  "model_id": "Qwen/Qwen3.6-35B-A3B",
+  "model_revision": "995ad96eacd98c81ed38be0c5b274b04031597b0",
+  "omitted_parameter_keys": [],
+  "parameters": {
+   "early_stopping_patience": 3,
+   "eval_steps": 24,
+   "eval_strategy": "steps",
+   "learning_rate": 0.0002,
+   "lr_scheduler_type": "cosine",
+   "max_length": 2048,
+   "num_train_epochs": 3,
+   "optim": "adamw_torch_fused",
+   "precision": "bf16",
+   "split_dataset_samples": 991
+  },
+  "rlhf_type": null,
+  "status": "stopped",
+  "total_steps": 0,
+  "train_type": "lora",
+  "training_method": "sft"
+ },
+ "series_meta": {},
+ "training_method": "sft"
+}

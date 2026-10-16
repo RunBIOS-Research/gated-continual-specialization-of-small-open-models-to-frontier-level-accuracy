@@ -1,0 +1,30 @@
+{
+ "deployment_id": "6fe57946-246b-4a8f-a23e-4f6bbaf32c30",
+ "checkpoint": {
+  "id": "ac696c60-e22b-458d-8332-0c7f322d10ec",
+  "step": 120,
+  "is_best": true,
+  "eval_loss": null,
+  "kind": null,
+  "label": null
+ },
+ "created": {
+  "id": "6fe57946-246b-4a8f-a23e-4f6bbaf32c30",
+  "name": null,
+  "model": "cs-ledgar-ftq9-af4315-3292",
+  "gpu_type": null,
+  "gpu_count": null,
+  "price_per_hour_cents": null,
+  "total_price_per_hour_cents": null,
+  "status": "provisioning"
+ },
+ "throughput_measurement": {
+  "hourly_cents": 349,
+  "gpu": "1x RTX_PRO_6000_96GB",
+  "throughput_rps": 7.838,
+  "wall_seconds": 173.0,
+  "concurrency": 32,
+  "throughput_note": "isolated run: 300 requests, 32 concurrent, 38.3s, 2026-10-14T03:29:52+0400",
+  "latency_p50_isolated": 3.1642680168151855
+ }
+}

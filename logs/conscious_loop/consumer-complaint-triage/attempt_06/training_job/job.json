@@ -1,0 +1,365 @@
+{
+ "allocation_attempt_count": 1,
+ "attempt_count": 1,
+ "attempts": [
+  {
+   "activated_at": "2026-10-15T08:17:29.756596Z",
+   "attempt_number": 1,
+   "created_at": "2026-10-15T08:17:27.877814Z",
+   "ending": "Finished",
+   "finished_at": "2026-10-15T08:35:04.249716Z",
+   "status": "completed"
+  }
+ ],
+ "best_loss": 0.034491606056690216,
+ "billable_seconds": 0,
+ "billed_cents": 532,
+ "billing_mode": "tokens",
+ "can_resume": false,
+ "completed_at": "2026-10-15T08:34:59.421622Z",
+ "config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 10,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lora_alpha": 32,
+  "lora_rank": 16,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 228
+ },
+ "created_at": "2026-10-15T08:17:07.215738Z",
+ "current_loss": 0.03556134179234505,
+ "current_step": 100,
+ "dataset_ids": [
+  "0fefcf9f-2d50-4c09-ad04-6eacb8c63d89"
+ ],
+ "desired_state": "running",
+ "error_code": null,
+ "error_message": null,
+ "eval_dataset_ids": [],
+ "execution_attempt_count": 1,
+ "final_artifact_deleted_at": null,
+ "final_artifact_state": "verified",
+ "final_artifact_verified": true,
+ "has_cached_dataset": false,
+ "id": "2239f247-91a6-4616-94aa-19c7ea2682c8",
+ "last_callback_at": "2026-10-15T08:35:02.513829Z",
+ "last_phase_update_at": "2026-10-15T08:35:02.776604Z",
+ "merged_checkpoint_id": "ef7743b6-e475-409c-bc45-af217f349f90",
+ "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+ "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+ "name": "Case study: Consumer finance: regulatory complaint triage run 6",
+ "phases": [
+  {
+   "done_bytes": 94979850,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:19:44.084266Z",
+   "eta_seconds": 5127,
+   "pct": 100,
+   "phase": "dataset_download",
+   "rate": 78279944,
+   "state": "done",
+   "total_bytes": 94979850,
+   "units": "bytes",
+   "updated_at": "2026-10-15T08:34:55.502193Z"
+  },
+  {
+   "done_bytes": 15316931931,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:21:15.504591Z",
+   "eta_seconds": 3,
+   "pct": 95.30000305175781,
+   "phase": "model_download",
+   "rate": 238880496,
+   "started_at": "2026-10-15T08:19:57.941928Z",
+   "state": "done",
+   "total_bytes": 16071906651,
+   "units": "bytes",
+   "updated_at": "2026-10-15T08:34:55.508594Z"
+  },
+  {
+   "done_bytes": 16071907714,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:22:25.206496Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "model_load",
+   "started_at": "2026-10-15T08:22:04.58859Z",
+   "state": "done",
+   "total_bytes": 16071907714,
+   "units": "bytes",
+   "updated_at": "2026-10-15T08:34:55.542691Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 12996,
+   "ended_at": "2026-10-15T08:21:59.354249Z",
+   "eta_seconds": 6,
+   "pct": 100,
+   "phase": "preprocessing",
+   "rate": 1552.5,
+   "started_at": "2026-10-15T08:21:54.218479Z",
+   "state": "done",
+   "total_units": 12996,
+   "units": "samples",
+   "updated_at": "2026-10-15T08:34:55.532603Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 98,
+   "eta_seconds": 23,
+   "pct": 95.1456298828125,
+   "phase": "training",
+   "rate": 9720.099609375,
+   "started_at": "2026-10-15T08:22:33.456677Z",
+   "state": "active",
+   "total_units": 103,
+   "units": "steps",
+   "updated_at": "2026-10-15T08:30:04.700602Z"
+  },
+  {
+   "done_bytes": 3196838068,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:34:56.006757Z",
+   "eta_seconds": 41,
+   "pct": 100,
+   "phase": "checkpoint_upload",
+   "rate": 306577024,
+   "started_at": "2026-10-15T08:34:55.568595Z",
+   "state": "done",
+   "total_bytes": 321994432,
+   "units": "bytes",
+   "updated_at": "2026-10-15T08:35:02.776604Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:21:48.164604Z",
+   "pct": 0,
+   "phase": "model_build",
+   "started_at": "2026-10-15T08:21:33.647135Z",
+   "state": "done",
+   "updated_at": "2026-10-15T08:34:55.516594Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:21:54.205328Z",
+   "pct": 0,
+   "phase": "dataset_load",
+   "started_at": "2026-10-15T08:21:54.205328Z",
+   "state": "done",
+   "updated_at": "2026-10-15T08:34:55.522977Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 10,
+   "ended_at": "2026-10-15T08:22:04.580584Z",
+   "eta_seconds": 1,
+   "pct": 100,
+   "phase": "validation_prep",
+   "rate": 3.5999999046325684,
+   "started_at": "2026-10-15T08:21:59.355868Z",
+   "state": "done",
+   "total_units": 10,
+   "units": "batches",
+   "updated_at": "2026-10-15T08:34:55.535947Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:22:38.904765Z",
+   "pct": 0,
+   "phase": "first_step",
+   "started_at": "2026-10-15T08:22:25.225368Z",
+   "state": "done",
+   "updated_at": "2026-10-15T08:34:55.552624Z"
+  },
+  {
+   "done_bytes": 14892417568,
+   "done_units": 0,
+   "ended_at": "2026-10-15T08:34:55.560612Z",
+   "pct": 92.7300033569336,
+   "phase": "merged_export",
+   "started_at": "2026-10-15T08:30:23.860591Z",
+   "state": "done",
+   "total_bytes": 16060556376,
+   "units": "bytes",
+   "updated_at": "2026-10-15T08:34:55.560612Z"
+  }
+ ],
+ "preserve_on_stop": true,
+ "progress": {
+  "eta_confidence": "measured",
+  "eta_scope": "run",
+  "eta_seconds": 41,
+  "phases": [
+   {
+    "done_bytes": 94979850,
+    "pct": 100,
+    "phase": "dataset_download",
+    "rate": 78279944.2,
+    "state": "done",
+    "total_bytes": 94979850,
+    "units": "bytes"
+   },
+   {
+    "phase": "model_download",
+    "state": "done"
+   },
+   {
+    "phase": "model_build",
+    "state": "done"
+   },
+   {
+    "phase": "dataset_load",
+    "state": "done"
+   },
+   {
+    "done_units": 12996,
+    "pct": 100,
+    "phase": "preprocessing",
+    "state": "done",
+    "total_units": 12996,
+    "units": "samples"
+   },
+   {
+    "done_units": 10,
+    "pct": 100,
+    "phase": "validation_prep",
+    "state": "done",
+    "total_units": 10,
+    "units": "batches"
+   },
+   {
+    "done_bytes": 16071907714,
+    "eta_seconds": 0,
+    "pct": 100,
+    "phase": "model_load",
+    "state": "done",
+    "total_bytes": 16071907714,
+    "units": "bytes"
+   },
+   {
+    "phase": "first_step",
+    "state": "done"
+   },
+   {
+    "phase": "merged_export",
+    "state": "done"
+   },
+   {
+    "done_bytes": 3196838068,
+    "eta_seconds": 41,
+    "pct": 19.89,
+    "phase": "checkpoint_upload",
+    "rate": 306577014.3,
+    "state": "active",
+    "total_bytes": 16069723404,
+    "units": "bytes"
+   }
+  ],
+  "schema_version": 2,
+  "ts": "2026-10-15T08:34:14.718616+00:00"
+ },
+ "queue": {
+  "admission_state": "terminal",
+  "created_at": "2026-10-15T08:17:07.253431Z",
+  "deadline_at": "2026-10-22T08:16:07.253184Z",
+  "eligible_choices": [
+   {
+    "eligible": true,
+    "id": 4284,
+    "price_per_gpu_hour_cents": 559,
+    "rank": 1,
+    "selected": true,
+    "tier": "secure",
+    "total_price_hour_cents": 2236
+   }
+  ],
+  "enqueue_sequence": 640,
+  "job_id": "2239f247-91a6-4616-94aa-19c7ea2682c8",
+  "position": null,
+  "position_estimated": false,
+  "position_scope": "",
+  "position_truncated": false,
+  "priority": 0,
+  "selected_choice": {
+   "eligible": true,
+   "id": 4284,
+   "price_per_gpu_hour_cents": 559,
+   "rank": 1,
+   "selected": true,
+   "tier": "secure",
+   "total_price_hour_cents": 2236
+  },
+  "selected_price_hour_cents": 2236,
+  "state": "promoted",
+  "updated_at": "2026-10-15T08:17:29.764601Z"
+ },
+ "queue_deadline": "2026-10-22T08:16:07.253184Z",
+ "queue_if_unavailable": true,
+ "queue_position": null,
+ "restart_child_job_id": null,
+ "restarted_from_job_id": null,
+ "resume_count": 0,
+ "resume_from_job_id": null,
+ "rlhf_type": null,
+ "stage": "completed",
+ "stage_detail": "",
+ "start_from": {
+  "adapters": [
+   {
+    "checkpoint_id": "303dc5c4-ddda-431c-8928-093d026857b3",
+    "job_id": "3ceffe31-ab2d-4242-a729-53d397479bed"
+   }
+  ],
+  "chain_digest": "897f353c3d2b26e4863c6d3bf5bab419bdbe521d3b915eeb77ae9289e9969a12",
+  "export_merged": true
+ },
+ "started_at": "2026-10-15T08:19:33.266669Z",
+ "status": "completed",
+ "stop_bios_accepted_at": null,
+ "stop_origin": "",
+ "stop_requested_at": null,
+ "stop_state": "idle",
+ "submitted_config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 10,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lora_alpha": 32,
+  "lora_rank": 16,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 228
+ },
+ "token_charge": {
+  "band_max_params_b": 16,
+  "band_min_params_b": 0,
+  "cents_per_million_tokens": 50,
+  "cost_cents": 532,
+  "final": true,
+  "method": "lora",
+  "minimum_applied": false,
+  "minimum_charge_cents": 100,
+  "no_output_refunded": false,
+  "params_b": 8.03,
+  "planned_cost_cents": 548,
+  "planned_steps": 103,
+  "planned_tokens": 10941691,
+  "planned_tokens_exact": true,
+  "token_cost_cents": 531.17395,
+  "tokens": 10623479
+ },
+ "total_steps": 100,
+ "train_type": "lora",
+ "training_method": "sft"
+}

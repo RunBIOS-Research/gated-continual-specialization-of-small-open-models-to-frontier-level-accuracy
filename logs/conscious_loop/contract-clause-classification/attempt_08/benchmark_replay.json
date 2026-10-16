@@ -1,0 +1,51 @@
+{
+ "benchmark_run": {
+  "id": "13d0996d-9bf8-4709-8e36-bc824ea86a74",
+  "benchmark_id": "64df9834-4a43-41fa-9275-b1badf059f19",
+  "benchmark_name": "Legal: contract clause classification (exact, 200 frozen real records)",
+  "run_id": "1f39f30d-a4c6-4da5-96e5-10aedee1b3d6",
+  "incumbent_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-legal-contract-clause-classification-loop-1f39f30d:base",
+   "deployment_id": "1f1227bf-5097-4c34-82cc-ac2eea4ed635",
+   "model_version": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9"
+  },
+  "candidate_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-legal-contract-clause-classification-loop-1f39f30d",
+   "deployment_id": "1f1227bf-5097-4c34-82cc-ac2eea4ed635",
+   "model_version": "ab9c4189-f303-400d-8237-3d43d6a7497e"
+  },
+  "items_digest": "f52c5c0f72a28df29b7d28a927e7f6a967d78590077ce5d85bb0188029ed8fe5",
+  "rows_total": 200,
+  "rows_scored": 200,
+  "rows_failed": 0,
+  "candidate_score": 0.855,
+  "incumbent_score": 0.84,
+  "score_delta": 0.015000000000000013,
+  "per_dimension": [
+   {
+    "dimension": "match",
+    "incumbent": 0.84,
+    "candidate": 0.855,
+    "delta": 0.015000000000000013
+   }
+  ],
+  "pass_threshold": 0.7,
+  "incumbent_passed": 168,
+  "candidate_passed": 171,
+  "incumbent_pass_rate": 0.84,
+  "candidate_pass_rate": 0.855,
+  "wins": 9,
+  "losses": 6,
+  "ties": 185,
+  "prompt_tokens": 210838,
+  "completion_tokens": 1454,
+  "spent_cents": 0,
+  "learned_by_version": 0,
+  "status": "done",
+  "status_reason": null,
+  "created_at": "2026-10-14T16:32:43.762423Z",
+  "finished_at": "2026-10-14T16:40:25.634203Z"
+ }
+}

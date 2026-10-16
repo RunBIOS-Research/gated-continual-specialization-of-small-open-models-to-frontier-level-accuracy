@@ -1,0 +1,144 @@
+{
+ "evals": [
+  {
+   "created_at": "2026-10-14T18:40:58.904217Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 2.4736289978027344,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 47.040540707211484,
+    "validation_metrics/memory/max_reserved(GiB)": 37.24609375,
+    "validation_metrics/throughput(tps)": 8648.997948627071
+   },
+   "step": 1
+  },
+  {
+   "created_at": "2026-10-14T18:42:19.245991Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.20507848262786865,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9950.281313087538
+   },
+   "step": 6
+  },
+  {
+   "created_at": "2026-10-14T18:44:00.184628Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.19357797503471375,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9971.198582739746
+   },
+   "step": 12
+  },
+  {
+   "created_at": "2026-10-14T18:45:12.913042Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.18030275404453278,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9938.190067225378
+   },
+   "step": 18
+  },
+  {
+   "created_at": "2026-10-14T18:46:48.973214Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.16573646664619446,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9966.022123749375
+   },
+   "step": 24
+  },
+  {
+   "created_at": "2026-10-14T18:48:25.532969Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.16159003973007202,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9947.125042083946
+   },
+   "step": 30
+  },
+  {
+   "created_at": "2026-10-14T18:49:39.860946Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.16295847296714783,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9972.425027638661
+   },
+   "step": 36
+  },
+  {
+   "created_at": "2026-10-14T18:51:26.732884Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.15720044076442719,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9958.391261004592
+   },
+   "step": 42
+  },
+  {
+   "created_at": "2026-10-14T18:53:46.4293Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.15608888864517212,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9976.018582269848
+   },
+   "step": 48
+  },
+  {
+   "created_at": "2026-10-14T18:54:04.672952Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.15609237551689148,
+    "validation_metrics/memory/max_active(%)": 25.508043394598168,
+    "validation_metrics/memory/max_active(GiB)": 20.196939945220947,
+    "validation_metrics/memory/max_reserved(%)": 49.734209844719345,
+    "validation_metrics/memory/max_reserved(GiB)": 39.37890625,
+    "validation_metrics/throughput(tps)": 9963.407221052265
+   },
+   "step": 54
+  }
+ ]
+}

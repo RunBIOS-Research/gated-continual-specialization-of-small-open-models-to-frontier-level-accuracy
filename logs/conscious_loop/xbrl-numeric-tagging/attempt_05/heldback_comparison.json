@@ -1,0 +1,93 @@
+{
+ "id": "32c584e1-eb54-4782-9fbb-56d3abee5442",
+ "run_id": "27ebfda2-634a-4873-9f71-cba7941eec3f",
+ "split": "holdout",
+ "incumbent_ref": {
+  "kind": "deployment",
+  "name": "loop-case-study-financial-reporting-xbrl-tagging-of-sec-filings",
+  "deployment_id": "2b0b00b9-06c5-455f-a724-bfd31c772f2d",
+  "model_version": null
+ },
+ "candidate_ref": {
+  "kind": "deployment",
+  "name": "loop-case-study-financial-reporting-xbrl-tagging-of-sec-filings-loop-27ebfda2",
+  "deployment_id": "a0a33633-ec69-46c7-8d48-a60d9c60cfb0",
+  "model_version": "8cf14f9e-125c-4832-84b2-ae04e2fe2991"
+ },
+ "judge_id": "e7b5e2b5-f46d-4e2c-9b60-a30e46f9e89a",
+ "judge_name": "Conscious Loop default judge",
+ "judge_model": "anthropic/claude-sonnet-5",
+ "judge_dimensions": [
+  {
+   "key": "correctness",
+   "description": "Is the answer right, with nothing invented?"
+  },
+  {
+   "key": "helpfulness",
+   "description": "Does it do everything the person asked?"
+  },
+  {
+   "key": "clarity",
+   "description": "Is it clear, well organised and no longer than it needs to be?"
+  }
+ ],
+ "decoding": {
+  "temperature": 0,
+  "max_tokens": 1024,
+  "stream": false
+ },
+ "rows_selected": 350,
+ "rows_scored": 350,
+ "rows_failed": 0,
+ "wins": 31,
+ "losses": 16,
+ "ties": 303,
+ "win_rate": 0.6595744680851063,
+ "incumbent_mean": 0.8507619047619046,
+ "candidate_mean": 0.8738095238095236,
+ "mean_delta": 0.023047619047619053,
+ "pass_threshold": 0.7,
+ "incumbent_passed": 269,
+ "candidate_passed": 282,
+ "incumbent_pass_rate": 0.7685714285714286,
+ "candidate_pass_rate": 0.8057142857142857,
+ "judge_incumbent_mean": 0.8507619047619046,
+ "judge_candidate_mean": 0.8738095238095236,
+ "per_dimension": [
+  {
+   "dimension": "clarity",
+   "incumbent": 0.9931428571428572,
+   "candidate": 0.9897142857142858,
+   "delta": -0.0034285714285714475
+  },
+  {
+   "dimension": "correctness",
+   "incumbent": 0.779428571428571,
+   "candidate": 0.8157142857142854,
+   "delta": 0.036285714285714366
+  },
+  {
+   "dimension": "helpfulness",
+   "incumbent": 0.7797142857142854,
+   "candidate": 0.8159999999999996,
+   "delta": 0.036285714285714255
+  }
+ ],
+ "trainer_eval_loss": null,
+ "warnings": [],
+ "verdict": "not_better",
+ "verdict_reason": "The new model scored 0.87 against 0.85 on the scoring rubric (+0.023, it needed at least +0.037) and won 31 of the 47 conversations where one answer was better (66%), with 303 ties. Each conversation was compared twice, with the two answers in both orders, and counts as a win only when both orders agree. A model no better than the live one would win this often by chance 2% of the time.",
+ "margin_used": {
+  "promote_margin": 0.05,
+  "promote_min_win_rate": 0.55,
+  "min_holdout_rows": 100,
+  "mean_change_needed": 0.03730952380952385
+ },
+ "prompt_tokens": 6930583,
+ "completion_tokens": 102528,
+ "spent_cents": 1263,
+ "status": "done",
+ "last_error": null,
+ "created_at": "2026-10-15T08:47:35.661703Z",
+ "finished_at": "2026-10-15T09:07:06.611817Z"
+}

@@ -1,0 +1,334 @@
+{
+ "allocation_attempt_count": 2,
+ "attempt_count": 2,
+ "attempts": [
+  {
+   "attempt_number": 1,
+   "created_at": "2026-10-14T01:45:00.773646Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-14T01:45:00.86659Z",
+   "status": "abandoned"
+  },
+  {
+   "activated_at": "2026-10-14T02:04:08.289059Z",
+   "attempt_number": 2,
+   "created_at": "2026-10-14T02:04:06.32486Z",
+   "ending": "Finished",
+   "finished_at": "2026-10-14T03:32:19.115393Z",
+   "status": "completed"
+  }
+ ],
+ "best_loss": 0.020510723814368248,
+ "billable_seconds": 0,
+ "billed_cents": 6654,
+ "billing_mode": "tokens",
+ "can_resume": false,
+ "completed_at": "2026-10-14T03:32:14.980447Z",
+ "config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 222,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 1000
+ },
+ "created_at": "2026-10-14T01:41:30.178917Z",
+ "current_loss": 0.027271265164017677,
+ "current_step": 1332,
+ "dataset_ids": [
+  "731d48e0-5faf-405e-8723-8fa93b3da32a",
+  "8ffe1a4b-e64c-4b41-a8d0-eb0e96f6d0f5",
+  "bef04f47-dfde-48d4-b02a-29192afb7f37",
+  "ccfdc168-58dd-4314-8250-2af64cb1a24e",
+  "d178716a-368f-4cd5-95d3-77373f85b112",
+  "78eaf406-3f78-4bd8-8815-cd77060e4556",
+  "ba8d9ceb-e292-4555-82b8-ba7a763eaf95",
+  "d54943e3-ba39-499b-bbeb-8053c97b90df",
+  "34ca7b8e-995b-4719-ad5c-e2b24bf5288d",
+  "c09d1c91-6017-4946-b5ca-a9025ee8ed2f",
+  "8704409e-8f10-4e7a-ab43-569102866fdb",
+  "de51c52d-16b1-47e4-a30f-aa3e9f1f14eb"
+ ],
+ "desired_state": "running",
+ "error_code": null,
+ "error_message": null,
+ "eval_dataset_ids": [],
+ "execution_attempt_count": 1,
+ "final_artifact_deleted_at": null,
+ "final_artifact_state": "verified",
+ "final_artifact_verified": true,
+ "has_cached_dataset": false,
+ "id": "18521489-5677-4e19-8dab-3a89bde1f7ab",
+ "last_callback_at": "2026-10-14T03:32:07.521626Z",
+ "last_phase_update_at": "2026-10-14T03:32:14.736584Z",
+ "model_id": "Qwen/Qwen3.5-9B",
+ "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+ "name": "Case study - XBRL tagging vq9x (Qwen3.5-9B)",
+ "phases": [
+  {
+   "done_bytes": 405213594,
+   "done_units": 0,
+   "ended_at": "2026-10-14T02:07:11.307981Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "dataset_download",
+   "rate": 53686116,
+   "state": "done",
+   "total_bytes": 405213594,
+   "units": "bytes",
+   "updated_at": "2026-10-14T03:32:04.346954Z"
+  },
+  {
+   "done_bytes": 14292022552,
+   "done_units": 0,
+   "ended_at": "2026-10-14T02:07:51.192224Z",
+   "eta_seconds": 8,
+   "pct": 73.94000244140625,
+   "phase": "model_download",
+   "rate": 590092224,
+   "started_at": "2026-10-14T02:07:18.503157Z",
+   "state": "done",
+   "total_bytes": 19329302904,
+   "units": "bytes",
+   "updated_at": "2026-10-14T03:32:04.35121Z"
+  },
+  {
+   "done_bytes": 19329304137,
+   "done_units": 0,
+   "ended_at": "2026-10-14T02:10:41.250533Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "model_load",
+   "started_at": "2026-10-14T02:10:30.283623Z",
+   "state": "done",
+   "total_bytes": 19329304137,
+   "units": "bytes",
+   "updated_at": "2026-10-14T03:32:04.360593Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 169404,
+   "ended_at": "2026-10-14T02:10:25.892502Z",
+   "eta_seconds": 9,
+   "pct": 100,
+   "phase": "preprocessing",
+   "rate": 1320.300048828125,
+   "started_at": "2026-10-14T02:08:17.769157Z",
+   "state": "done",
+   "total_units": 169404,
+   "units": "samples",
+   "updated_at": "2026-10-14T03:32:04.356835Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 1326,
+   "eta_seconds": 4852,
+   "pct": 50.113380432128906,
+   "phase": "training",
+   "rate": 9016.599609375,
+   "started_at": "2026-10-14T02:10:56.728185Z",
+   "state": "active",
+   "total_units": 2646,
+   "units": "steps",
+   "updated_at": "2026-10-14T03:32:04.370405Z"
+  },
+  {
+   "done_bytes": 138856206,
+   "done_units": 0,
+   "ended_at": "2026-10-14T03:12:31.512588Z",
+   "pct": 100,
+   "phase": "checkpoint_upload",
+   "started_at": "2026-10-14T03:12:31.071999Z",
+   "state": "done",
+   "total_bytes": 138848462,
+   "units": "bytes",
+   "updated_at": "2026-10-14T03:32:14.736584Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-14T02:08:07.581645Z",
+   "pct": 0,
+   "phase": "model_build",
+   "started_at": "2026-10-14T02:08:01.75681Z",
+   "state": "done",
+   "updated_at": "2026-10-14T03:32:04.353508Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-14T02:08:12.625741Z",
+   "pct": 0,
+   "phase": "dataset_load",
+   "started_at": "2026-10-14T02:08:07.583377Z",
+   "state": "done",
+   "updated_at": "2026-10-14T03:32:04.354911Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 10,
+   "ended_at": "2026-10-14T02:10:30.281767Z",
+   "pct": 100,
+   "phase": "validation_prep",
+   "started_at": "2026-10-14T02:10:25.896586Z",
+   "state": "done",
+   "total_units": 10,
+   "units": "batches",
+   "updated_at": "2026-10-14T03:32:04.358497Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-14T02:10:54.88329Z",
+   "pct": 0,
+   "phase": "first_step",
+   "started_at": "2026-10-14T02:10:41.252321Z",
+   "state": "done",
+   "updated_at": "2026-10-14T03:32:04.362313Z"
+  }
+ ],
+ "preserve_on_stop": true,
+ "progress": {
+  "eta_confidence": "measured",
+  "eta_scope": "run",
+  "eta_seconds": 4852,
+  "phases": [
+   {
+    "done_bytes": 405213594,
+    "pct": 100,
+    "phase": "dataset_download",
+    "rate": 53686114.6,
+    "state": "done",
+    "total_bytes": 405213594,
+    "units": "bytes"
+   },
+   {
+    "phase": "model_download",
+    "state": "done"
+   },
+   {
+    "phase": "model_build",
+    "state": "done"
+   },
+   {
+    "phase": "dataset_load",
+    "state": "done"
+   },
+   {
+    "done_units": 169404,
+    "pct": 100,
+    "phase": "preprocessing",
+    "state": "done",
+    "total_units": 169404,
+    "units": "samples"
+   },
+   {
+    "done_units": 10,
+    "pct": 100,
+    "phase": "validation_prep",
+    "state": "done",
+    "total_units": 10,
+    "units": "batches"
+   },
+   {
+    "done_bytes": 19329304137,
+    "eta_seconds": 0,
+    "pct": 100,
+    "phase": "model_load",
+    "state": "done",
+    "total_bytes": 19329304137,
+    "units": "bytes"
+   },
+   {
+    "phase": "first_step",
+    "state": "done"
+   }
+  ],
+  "schema_version": 2,
+  "ts": "2026-10-14T03:31:40.096462+00:00"
+ },
+ "queue": {
+  "admission_state": "terminal",
+  "created_at": "2026-10-14T01:41:30.1886Z",
+  "deadline_at": "2026-10-21T01:40:30.184807Z",
+  "eligible_choices": [
+   {
+    "eligible": true,
+    "id": 4238,
+    "price_per_gpu_hour_cents": 559,
+    "rank": 1,
+    "selected": true,
+    "tier": "secure",
+    "total_price_hour_cents": 2236
+   }
+  ],
+  "enqueue_sequence": 619,
+  "job_id": "18521489-5677-4e19-8dab-3a89bde1f7ab",
+  "position": null,
+  "position_estimated": false,
+  "position_scope": "",
+  "position_truncated": false,
+  "priority": 0,
+  "selected_choice": {
+   "eligible": true,
+   "id": 4238,
+   "price_per_gpu_hour_cents": 559,
+   "rank": 1,
+   "selected": true,
+   "tier": "secure",
+   "total_price_hour_cents": 2236
+  },
+  "selected_price_hour_cents": 2236,
+  "state": "promoted",
+  "updated_at": "2026-10-14T02:04:08.291289Z"
+ },
+ "queue_deadline": "2026-10-21T01:40:30.184807Z",
+ "queue_if_unavailable": true,
+ "queue_position": null,
+ "restart_child_job_id": null,
+ "restarted_from_job_id": null,
+ "resume_count": 0,
+ "resume_from_job_id": null,
+ "rlhf_type": null,
+ "stage": "completed",
+ "stage_detail": "",
+ "started_at": "2026-10-14T02:06:59.158034Z",
+ "status": "completed",
+ "stop_bios_accepted_at": null,
+ "stop_origin": "",
+ "stop_requested_at": null,
+ "stop_state": "idle",
+ "submitted_config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 222,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 1000
+ },
+ "token_charge": {
+  "band_max_params_b": 16,
+  "band_min_params_b": 0,
+  "cents_per_million_tokens": 50,
+  "cost_cents": 6654,
+  "final": true,
+  "method": "lora",
+  "minimum_applied": false,
+  "minimum_charge_cents": 100,
+  "no_output_refunded": false,
+  "params_b": 9.65,
+  "token_cost_cents": 6653.14425,
+  "tokens": 133062885
+ },
+ "total_steps": 1332,
+ "train_type": "lora",
+ "training_method": "sft"
+}

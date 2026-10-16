@@ -1,0 +1,31 @@
+{
+ "deployment_id": "986215da-ddbe-420c-b22e-ccaa8549a36f",
+ "checkpoint": {
+  "id": "af9df1dc-04e4-4e1a-b049-30f21572a763",
+  "step": 45,
+  "is_best": true,
+  "eval_loss": null,
+  "kind": null,
+  "label": null
+ },
+ "created": {
+  "id": "986215da-ddbe-420c-b22e-ccaa8549a36f",
+  "name": null,
+  "model": "cs-banking77-ft",
+  "gpu_type": null,
+  "gpu_count": null,
+  "price_per_hour_cents": null,
+  "total_price_per_hour_cents": null,
+  "status": "provisioning"
+ },
+ "throughput_measurement": {
+  "hourly_cents": 349,
+  "gpu": "1x RTX_PRO_6000_96GB",
+  "throughput_rps": 18.199,
+  "wall_seconds": 95.0,
+  "concurrency": 32,
+  "hourly_source": "GET /api/inference/986215da-ddbe-420c-b22e-ccaa8549a36f cost_per_hour_cents",
+  "throughput_note": "isolated run: 300 requests, 32 concurrent, 16.5s, 2026-10-13T10:10:10+0400",
+  "latency_p50_isolated": 1.3892159461975098
+ }
+}

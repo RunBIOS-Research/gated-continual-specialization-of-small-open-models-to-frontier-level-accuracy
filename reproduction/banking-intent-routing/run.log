@@ -1,0 +1,25 @@
+18:27:00 banking-intent-routing: meta-llama/Llama-3.1-8B-Instruct, 9,968 rows, 3 epochs, instruction with label list
+18:27:08 uploaded part 0 (5000 rows): 3db61eab-f306-4c84-a324-35d78797697f
+18:27:16 uploaded part 1 (4968 rows): b7e81c88-063f-4e11-9595-9e4c298da35c
+18:27:18 preflight valid=True estimate=$7.46
+18:27:21 training job e4ade2e3-ab8d-40a9-a1eb-b583a49c5fd4
+18:27:21 training queued
+18:27:52 training booked
+18:30:27 training running
+18:37:37 training completed
+18:37:38 checkpoint step 99 (557da743-a1bd-4366-98bb-0f5cb7606b27)
+18:39:07 deployment 58b851f4-04ec-405b-95c8-ddf6583a4fa9 on RTX_PRO_6000_96GB
+18:45:46 serving as banking-intent-routing-reproduction-61459
+{
+ "task": "banking-intent-routing",
+ "model": "banking-intent-routing-reproduction-61459",
+ "split": "test",
+ "instruction": "list",
+ "answered": 500,
+ "errors": 0,
+ "exact_match": 0.94,
+ "billed_total_usd": 0,
+ "usd_per_1000": 0.0,
+ "seconds": 58.8
+}
+18:46:52 deployment stopped

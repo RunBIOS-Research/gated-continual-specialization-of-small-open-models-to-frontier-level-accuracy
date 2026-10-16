@@ -1,0 +1,30 @@
+{
+ "deployment_id": "4af3762b-df27-446b-bc9c-acdaea20c2e1",
+ "checkpoint": {
+  "id": "864c2543-58f2-4933-bed1-c305cb75f857",
+  "step": 187,
+  "is_best": true,
+  "eval_loss": null,
+  "kind": null,
+  "label": null
+ },
+ "created": {
+  "id": "4af3762b-df27-446b-bc9c-acdaea20c2e1",
+  "name": null,
+  "model": "cs-ledgar-ftq27short-ab3dc8-9615",
+  "gpu_type": null,
+  "gpu_count": null,
+  "price_per_hour_cents": null,
+  "total_price_per_hour_cents": null,
+  "status": "provisioning"
+ },
+ "throughput_measurement": {
+  "hourly_cents": 741,
+  "gpu": "1x H200_141GB",
+  "throughput_rps": 8.242,
+  "wall_seconds": 324.4,
+  "concurrency": 32,
+  "throughput_note": "isolated run: 300 requests, 32 concurrent, 36.4s, 2026-10-15T20:14:05+0400",
+  "latency_p50_isolated": 2.2885730266571045
+ }
+}

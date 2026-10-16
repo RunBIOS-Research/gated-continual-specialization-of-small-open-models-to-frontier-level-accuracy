@@ -1,0 +1,98 @@
+{
+ "checkpoints": [
+  {
+   "base_model_id": "Qwen/Qwen3.5-9B",
+   "base_model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+   "created_at": "2026-10-14T12:25:26.191206Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "9b44985a-5251-48ff-9123-a6c6daa64388",
+   "is_best": true,
+   "is_final": false,
+   "name": "checkpoint-3564",
+   "size_bytes": 138843983,
+   "step": 3564
+  },
+  {
+   "base_model_id": "Qwen/Qwen3.5-9B",
+   "base_model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+   "created_at": "2026-10-14T12:43:26.209245Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "5247a69b-b4c6-4ff8-b48b-50d6fc9c9b00",
+   "is_best": false,
+   "is_final": true,
+   "name": "final",
+   "size_bytes": 125622511,
+   "step": 3858
+  }
+ ],
+ "deleted": [
+  {
+   "deleted_at": "2026-10-14T12:43:33.340589Z",
+   "is_final": false,
+   "step": 1
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:33.09246Z",
+   "is_final": false,
+   "step": 324
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:32.8326Z",
+   "is_final": false,
+   "step": 500
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:32.580608Z",
+   "is_final": false,
+   "step": 972
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:32.300397Z",
+   "is_final": false,
+   "step": 1000
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:32.059512Z",
+   "is_final": false,
+   "step": 1500
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:31.828596Z",
+   "is_final": false,
+   "step": 1944
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:31.540653Z",
+   "is_final": false,
+   "step": 2000
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:31.288807Z",
+   "is_final": false,
+   "step": 2268
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:31.059566Z",
+   "is_final": false,
+   "step": 2500
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:30.836611Z",
+   "is_final": false,
+   "step": 2592
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:30.584595Z",
+   "is_final": false,
+   "step": 3000
+  },
+  {
+   "deleted_at": "2026-10-14T12:43:30.336446Z",
+   "is_final": false,
+   "step": 3500
+  }
+ ],
+ "downloads_enabled": true
+}

@@ -1,0 +1,28 @@
+{
+ "deployment_id": "75b8943b-72ee-4800-96ea-8e143c1c8c9c",
+ "checkpoint": {
+  "id": "4554b81e-5fdf-4da4-ad4c-78009c69952d",
+  "step": 477,
+  "is_best": true,
+  "eval_loss": null,
+  "kind": null,
+  "label": null
+ },
+ "created": {
+  "id": "75b8943b-72ee-4800-96ea-8e143c1c8c9c",
+  "name": null,
+  "model": "cs-finer-ftq27short-526130-6735",
+  "gpu_type": null,
+  "gpu_count": null,
+  "price_per_hour_cents": null,
+  "total_price_per_hour_cents": null,
+  "status": "provisioning"
+ },
+ "throughput_measurement": {
+  "hourly_cents": 1118,
+  "gpu": "2x H100_80GB",
+  "throughput_rps": 1.863,
+  "wall_seconds": 268.3,
+  "concurrency": 8
+ }
+}

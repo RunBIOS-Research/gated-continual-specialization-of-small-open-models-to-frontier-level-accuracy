@@ -1,0 +1,12 @@
+{
+ "task": "banking-intent-routing",
+ "model": "banking-intent-routing-reproduction-61459",
+ "split": "test",
+ "instruction": "list",
+ "answered": 500,
+ "errors": 0,
+ "exact_match": 0.94,
+ "billed_total_usd": 0,
+ "usd_per_1000": 0.0,
+ "seconds": 58.8
+}

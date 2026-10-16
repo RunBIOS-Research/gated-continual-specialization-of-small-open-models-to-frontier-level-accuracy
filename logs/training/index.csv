@@ -1,0 +1,42 @@
+task,run_tag,training_job_id,folder,note
+banking-intent-routing,2,65fab674-7f88-47cd-b8cf-157bd9ffe5e1,training/banking-intent-routing/2_65fab674,
+banking-intent-routing,,ad6b3b4b-48a8-4057-aa78-12d19a3753d6,training/banking-intent-routing/_ad6b3b4b,
+consumer-complaint-triage,2,757f62d7-d2ec-4d61-aa0d-54db2530b55a,training/consumer-complaint-triage/2_757f62d7,
+consumer-complaint-triage,3,cacd5204-1dac-4227-b7be-5d22f11857fb,training/consumer-complaint-triage/3_cacd5204,
+consumer-complaint-triage,,91682383-99dc-4b47-b644-a5662becede1,training/consumer-complaint-triage/_91682383,
+contract-clause-classification,2,fe457926-7efb-4f64-b42e-7ce48837832e,training/contract-clause-classification/2_fe457926,
+contract-clause-classification,,87132c8a-8b63-4786-a893-ad0efd18e855,training/contract-clause-classification/_87132c8a,
+contract-clause-classification,q27,8570ccf5-bc07-42bc-89e6-03c5f4ac5138,training/contract-clause-classification/q27_8570ccf5,
+contract-clause-classification,q27short,ab3dc81f-e316-470e-8ee1-d03bef2ca0ce,training/contract-clause-classification/q27short_ab3dc81f,
+contract-clause-classification,q35,98006ca3-9242-405d-b6b4-3d27cb521612,training/contract-clause-classification/q35_98006ca3,cancelled before training
+contract-clause-classification,q8l,5caa9b57-a82f-415a-b882-05e16ecdfbfc,training/contract-clause-classification/q8l_5caa9b57,
+contract-clause-classification,q9,af431527-b85a-42ff-9028-979b33263be6,training/contract-clause-classification/q9_af431527,
+xbrl-numeric-tagging,2,b03a8b80-1ea3-43d5-9a17-ff35b67675be,training/xbrl-numeric-tagging/2_b03a8b80,
+xbrl-numeric-tagging,3,73300605-962f-493d-bf3a-4ecdb0cfbb5d,training/xbrl-numeric-tagging/3_73300605,
+xbrl-numeric-tagging,,37494321-937c-4a1c-939b-a161ac5a3d19,training/xbrl-numeric-tagging/_37494321,
+xbrl-numeric-tagging,g31x,56837827-0a26-4478-800a-3015af8f8b7c,training/xbrl-numeric-tagging/g31x_56837827,"trained but the adapter could not be served on RunBios, so it was not evaluated"
+xbrl-numeric-tagging,q27,3db3afc6-cc40-497f-9424-8004e53b96c9,training/xbrl-numeric-tagging/q27_3db3afc6,
+xbrl-numeric-tagging,q27short,5261301f-93bd-4531-a22b-7a1f8751fe15,training/xbrl-numeric-tagging/q27short_5261301f,
+xbrl-numeric-tagging,q35,30911540-cf2c-4d89-8c0b-64bb52882100,training/xbrl-numeric-tagging/q35_30911540,cancelled before training
+xbrl-numeric-tagging,q9,2751b01b-37f2-4e13-b12d-d37372337f88,training/xbrl-numeric-tagging/q9_2751b01b,
+xbrl-numeric-tagging,q9all,8cdfab7f-3b44-4b41-9bb6-ede17f9cf237,training/xbrl-numeric-tagging/q9all_8cdfab7f,
+xbrl-numeric-tagging,q9short,93ec534b-ba06-4164-b3e0-a685f25edb8c,training/xbrl-numeric-tagging/q9short_93ec534b,
+xbrl-numeric-tagging,q9x,18521489-5677-4e19-8dab-3a89bde1f7ab,training/xbrl-numeric-tagging/q9x_18521489,
+vulnerability-root-cause-triage,2,fb98a631-3c5f-4f45-9502-a8b6fe6a1a35,training/vulnerability-root-cause-triage/2_fb98a631,
+vulnerability-root-cause-triage,3,1aed625f-ae72-41a2-a2f7-f26a6622e44f,training/vulnerability-root-cause-triage/3_1aed625f,
+vulnerability-root-cause-triage,,03be31ff-4b51-44dd-bc7a-b0377fe47105,training/vulnerability-root-cause-triage/_03be31ff,
+vulnerability-root-cause-triage,g31x,95c73060-72ed-4734-b273-7b9cde2a24d7,training/vulnerability-root-cause-triage/g31x_95c73060,"trained but the adapter could not be served on RunBios, so it was not evaluated"
+vulnerability-root-cause-triage,q27,82aa9ed0-0b18-4696-a115-79d01fa10337,training/vulnerability-root-cause-triage/q27_82aa9ed0,
+vulnerability-root-cause-triage,q27all,02c2a747-c9c0-4986-9575-6beb8381013e,training/vulnerability-root-cause-triage/q27all_02c2a747,
+vulnerability-root-cause-triage,q27full,ab631f76-2d48-4fbc-8c2e-23480c008117,training/vulnerability-root-cause-triage/q27full_ab631f76,
+vulnerability-root-cause-triage,q27hy,442640c5-01ab-4d61-92b3-7fce1fc2b248,training/vulnerability-root-cause-triage/q27hy_442640c5,
+vulnerability-root-cause-triage,q27rec,caf60a4a-c83a-452a-9cb6-1083c3a662d6,training/vulnerability-root-cause-triage/q27rec_caf60a4a,
+vulnerability-root-cause-triage,q27rec,cabdab6a-b1be-4f47-8e3b-0f5e87888eaf,training/vulnerability-root-cause-triage/q27rec_cabdab6a,"stalled during provisioning after a service restart, stopped and re-run as a new job"
+vulnerability-root-cause-triage,q27short,46174866-1ddf-463c-9204-4b3f461ba75d,training/vulnerability-root-cause-triage/q27short_46174866,
+vulnerability-root-cause-triage,q27x,397911cc-5d53-47ba-8037-9923a257d76f,training/vulnerability-root-cause-triage/q27x_397911cc,
+vulnerability-root-cause-triage,q35,d830f026-1bee-486c-ad26-7d5a667d329b,training/vulnerability-root-cause-triage/q35_d830f026,cancelled before training
+vulnerability-root-cause-triage,q35rec,c21975e6-6bdc-41ce-9622-7e66118e92f7,training/vulnerability-root-cause-triage/q35rec_c21975e6,
+vulnerability-root-cause-triage,q35rec,897dd85b-3bac-45b9-a97c-d02d4625b3e7,training/vulnerability-root-cause-triage/q35rec_897dd85b,"stalled during provisioning after a service restart, stopped and re-run as a new job"
+vulnerability-root-cause-triage,q35rec,d8ea8237-9ef1-440d-abaf-138569f8a565,training/vulnerability-root-cause-triage/q35rec_d8ea8237,"stopped by the platform when the workspace balance ran out, re-run as a new job"
+vulnerability-root-cause-triage,q9,d6198b3a-66c8-43ab-90ba-08f2fadfe338,training/vulnerability-root-cause-triage/q9_d6198b3a,
+vulnerability-root-cause-triage,q9x,db2eb516-89ab-4d71-a768-edd0dcdb93ce,training/vulnerability-root-cause-triage/q9x_db2eb516,

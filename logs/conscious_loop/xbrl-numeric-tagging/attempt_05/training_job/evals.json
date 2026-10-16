@@ -1,0 +1,116 @@
+{
+ "evals": [
+  {
+   "created_at": "2026-10-15T08:26:25.441055Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 1.5674031972885132,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 18.707680163790872,
+    "validation_metrics/memory/max_reserved(GiB)": 14.8125,
+    "validation_metrics/throughput(tps)": 14559.095820193537
+   },
+   "step": 1
+  },
+  {
+   "created_at": "2026-10-15T08:28:22.085506Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.10575765371322632,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 26861.630802833435
+   },
+   "step": 18
+  },
+  {
+   "created_at": "2026-10-15T08:30:08.081119Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.09628185629844666,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 27289.6260514663
+   },
+   "step": 36
+  },
+  {
+   "created_at": "2026-10-15T08:31:38.715826Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.08890400826931,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 27307.309754999358
+   },
+   "step": 54
+  },
+  {
+   "created_at": "2026-10-15T08:33:02.513664Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.08495740592479706,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 26977.79695770761
+   },
+   "step": 72
+  },
+  {
+   "created_at": "2026-10-15T08:34:19.249344Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.08402388542890549,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 27342.88550047432
+   },
+   "step": 90
+  },
+  {
+   "created_at": "2026-10-15T08:35:42.357475Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.08558540791273117,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 27252.719500810214
+   },
+   "step": 108
+  },
+  {
+   "created_at": "2026-10-15T08:37:13.186392Z",
+   "eval_dataset": "",
+   "eval_type": "validation",
+   "results": {
+    "validation_metrics/loss": 0.09888963401317596,
+    "validation_metrics/memory/max_active(%)": 12.910314877118305,
+    "validation_metrics/memory/max_active(GiB)": 10.22222089767456,
+    "validation_metrics/memory/max_reserved(%)": 19.72643964528423,
+    "validation_metrics/memory/max_reserved(GiB)": 15.619140625,
+    "validation_metrics/throughput(tps)": 27337.989039588832
+   },
+   "step": 126
+  }
+ ]
+}

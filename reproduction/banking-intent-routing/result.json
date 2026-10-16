@@ -1,0 +1,15 @@
+{
+ "what": "Independent re-run of the selected banking-intent-routing configuration on the public RunBios API, after the study, using only reproduce/train.py and the released training rows",
+ "date": "2026-10-16",
+ "api": "public RunBios API",
+ "training_job_id": "e4ade2e3-ab8d-40a9-a1eb-b583a49c5fd4",
+ "training_billed_usd": 7.02,
+ "test_cases": 500,
+ "exact_match": 0.94,
+ "reported_in_paper": 0.95,
+ "reported_95_interval": [
+  0.927,
+  0.966
+ ],
+ "within_reported_interval": true
+}

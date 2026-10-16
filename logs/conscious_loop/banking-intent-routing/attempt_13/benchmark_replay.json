@@ -1,0 +1,51 @@
+{
+ "benchmark_run": {
+  "id": "c562a13f-2d93-435f-9205-8a707d8701ff",
+  "benchmark_id": "e18b9f0b-6c23-4b8d-8371-9068d2ded2a6",
+  "benchmark_name": "Retail banking: customer-message routing (exact, 200 frozen real records)",
+  "run_id": "f54143a2-8cce-4bfc-b726-325b93b8f56c",
+  "incumbent_ref": {
+   "kind": "deployment",
+   "name": "82bbface-ecfe-41dd-961f-19d5b43d4d2b",
+   "deployment_id": "82bbface-ecfe-41dd-961f-19d5b43d4d2b",
+   "model_version": null
+  },
+  "candidate_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-retail-banking-customer-message-routing-loop-f54143a2",
+   "deployment_id": "53fdfc0d-62c1-45c8-a0a6-8d3f701d7b14",
+   "model_version": "a1e31cab-d0a5-4d2b-9338-e5b2c6652fd7"
+  },
+  "items_digest": "a167f07a739109051427a267fac3c43241993fb2a8a4df588f68c921404e1ef1",
+  "rows_total": 200,
+  "rows_scored": 200,
+  "rows_failed": 0,
+  "candidate_score": 0.885,
+  "incumbent_score": 0.915,
+  "score_delta": -0.030000000000000027,
+  "per_dimension": [
+   {
+    "dimension": "match",
+    "incumbent": 0.915,
+    "candidate": 0.885,
+    "delta": -0.030000000000000027
+   }
+  ],
+  "pass_threshold": 0.7,
+  "incumbent_passed": 183,
+  "candidate_passed": 177,
+  "incumbent_pass_rate": 0.915,
+  "candidate_pass_rate": 0.885,
+  "wins": 3,
+  "losses": 9,
+  "ties": 188,
+  "prompt_tokens": 195424,
+  "completion_tokens": 2071,
+  "spent_cents": 0,
+  "learned_by_version": 0,
+  "status": "done",
+  "status_reason": null,
+  "created_at": "2026-10-15T07:50:39.929563Z",
+  "finished_at": "2026-10-15T07:52:41.274181Z"
+ }
+}

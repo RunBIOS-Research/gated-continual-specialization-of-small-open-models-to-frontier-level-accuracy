@@ -1,0 +1,32 @@
+{
+ "benchmark": {
+  "id": "64df9834-4a43-41fa-9275-b1badf059f19",
+  "name": "Legal: contract clause classification (exact, 200 frozen real records)",
+  "status": "active",
+  "check": "exact",
+  "judge_id": null,
+  "judge_name": "Exact check",
+  "judge_model": "",
+  "judge_dimensions": [
+   {
+    "key": "match",
+    "description": "1 when the answer matches the right answer, 0 when it does not"
+   }
+  ],
+  "decoding": {
+   "temperature": 0,
+   "max_tokens": 1024,
+   "stream": false
+  },
+  "scoring": {
+   "metric": "exact_match",
+   "scale": "0_1",
+   "aggregate": "mean",
+   "require_all_rows": true
+  },
+  "item_count": 200,
+  "items_digest": "f52c5c0f72a28df29b7d28a927e7f6a967d78590077ce5d85bb0188029ed8fe5",
+  "created_at": "2026-10-13T00:02:41.145145Z",
+  "retired_at": null
+ }
+}

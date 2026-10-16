@@ -1,0 +1,30 @@
+{
+ "deployment_id": "030654dd-401c-49a6-aa8d-2f7ef74469a4",
+ "checkpoint": {
+  "id": "3899912c-a70c-49f9-b925-a5edcbc3a1a0",
+  "step": 77,
+  "is_best": true,
+  "eval_loss": null,
+  "kind": null,
+  "label": null
+ },
+ "created": {
+  "id": "030654dd-401c-49a6-aa8d-2f7ef74469a4",
+  "name": null,
+  "model": "cs-cfpb-ft-916823",
+  "gpu_type": null,
+  "gpu_count": null,
+  "price_per_hour_cents": null,
+  "total_price_per_hour_cents": null,
+  "status": "provisioning"
+ },
+ "throughput_measurement": {
+  "hourly_cents": 349,
+  "gpu": "1x RTX_PRO_6000_96GB",
+  "throughput_rps": 13.517,
+  "wall_seconds": 89.3,
+  "concurrency": 32,
+  "throughput_note": "isolated run: 300 requests, 32 concurrent, 22.2s, 2026-10-13T10:48:37+0400",
+  "latency_p50_isolated": 2.110280752182007
+ }
+}

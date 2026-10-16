@@ -1,0 +1,7 @@
+# outputs of reproduce/ runs and local environments
+reproduced/
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store

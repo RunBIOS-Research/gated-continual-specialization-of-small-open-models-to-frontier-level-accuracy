@@ -1,0 +1,500 @@
+{"id": "ledgar-test-5425", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 799, "completion_tokens": 7, "billed_cost_usd": 0.003999}
+{"id": "ledgar-test-7433", "label": "Disclosures", "answer": "Disclosures", "exact": true, "prompt_tokens": 1140, "completion_tokens": 7, "billed_cost_usd": 0.005363}
+{"id": "ledgar-test-8605", "label": "Cooperation", "answer": "Cooperation", "exact": true, "prompt_tokens": 1147, "completion_tokens": 7, "billed_cost_usd": 0.005391}
+{"id": "ledgar-test-5329", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 890, "completion_tokens": 10, "billed_cost_usd": 0.00376}
+{"id": "ledgar-test-6057", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 719, "completion_tokens": 9, "billed_cost_usd": 0.0005366}
+{"id": "ledgar-test-2809", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 750, "completion_tokens": 8, "billed_cost_usd": 0.0006406}
+{"id": "ledgar-test-829", "label": "Disclosures", "answer": "Disclosures", "exact": true, "prompt_tokens": 990, "completion_tokens": 7, "billed_cost_usd": 0.0015806}
+{"id": "ledgar-test-3741", "label": "Enforceability", "answer": "Enforceability", "exact": true, "prompt_tokens": 762, "completion_tokens": 7, "billed_cost_usd": 0.0006686}
+{"id": "ledgar-test-582", "label": "Defined Terms", "answer": "Taxes", "exact": false, "prompt_tokens": 715, "completion_tokens": 109, "billed_cost_usd": 0.0025206}
+{"id": "ledgar-test-5130", "label": "Assignments", "answer": "Binding Effects", "exact": false, "prompt_tokens": 783, "completion_tokens": 245, "billed_cost_usd": 0.008032}
+{"id": "ledgar-test-9138", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 722, "completion_tokens": 5, "billed_cost_usd": 0.0004686}
+{"id": "ledgar-test-2220", "label": "Assignments", "answer": "Successors", "exact": false, "prompt_tokens": 841, "completion_tokens": 174, "billed_cost_usd": 0.0043246}
+{"id": "ledgar-test-7021", "label": "Sales", "answer": "Sales", "exact": true, "prompt_tokens": 757, "completion_tokens": 5, "billed_cost_usd": 0.0006086}
+{"id": "ledgar-test-7179", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 815, "completion_tokens": 8, "billed_cost_usd": 0.0009006}
+{"id": "ledgar-test-368", "label": "Payments", "answer": "Payments", "exact": true, "prompt_tokens": 1336, "completion_tokens": 5, "billed_cost_usd": 0.0029246}
+{"id": "ledgar-test-5294", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 730, "completion_tokens": 5, "billed_cost_usd": 0.0005006}
+{"id": "ledgar-test-6563", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 762, "completion_tokens": 6, "billed_cost_usd": 0.0006486}
+{"id": "ledgar-test-5407", "label": "Erisa", "answer": "Erisa", "exact": true, "prompt_tokens": 1260, "completion_tokens": 6, "billed_cost_usd": 0.0026406}
+{"id": "ledgar-test-2448", "label": "General", "answer": "Confidentiality", "exact": false, "prompt_tokens": 923, "completion_tokens": 8, "billed_cost_usd": 0.0013326}
+{"id": "ledgar-test-8456", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 737, "completion_tokens": 5, "billed_cost_usd": 0.0005286}
+{"id": "ledgar-test-9035", "label": "Specific Performance", "answer": "Remedies", "exact": false, "prompt_tokens": 835, "completion_tokens": 6, "billed_cost_usd": 0.0009406}
+{"id": "ledgar-test-1164", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 770, "completion_tokens": 194, "billed_cost_usd": 0.0044406}
+{"id": "ledgar-test-8526", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 716, "completion_tokens": 8, "billed_cost_usd": 0.0005046}
+{"id": "ledgar-test-4840", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 795, "completion_tokens": 8, "billed_cost_usd": 0.0008206}
+{"id": "ledgar-test-5578", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 703, "completion_tokens": 5, "billed_cost_usd": 0.002912}
+{"id": "ledgar-test-8057", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 865, "completion_tokens": 10, "billed_cost_usd": 0.0011406}
+{"id": "ledgar-test-7214", "label": "Representations", "answer": "Representations", "exact": true, "prompt_tokens": 1074, "completion_tokens": 118, "billed_cost_usd": 0.0041366}
+{"id": "ledgar-test-2328", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 1024, "completion_tokens": 6, "billed_cost_usd": 0.0016966}
+{"id": "ledgar-test-7198", "label": "Construction", "answer": "Construction", "exact": true, "prompt_tokens": 762, "completion_tokens": 5, "billed_cost_usd": 0.0006286}
+{"id": "ledgar-test-6813", "label": "Disclosures", "answer": "Disclosures", "exact": true, "prompt_tokens": 941, "completion_tokens": 7, "billed_cost_usd": 0.0013846}
+{"id": "ledgar-test-6967", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 754, "completion_tokens": 9, "billed_cost_usd": 0.0006766}
+{"id": "ledgar-test-3392", "label": "Enforceability", "answer": "Enforceability", "exact": true, "prompt_tokens": 820, "completion_tokens": 7, "billed_cost_usd": 0.0009006}
+{"id": "ledgar-test-3283", "label": "Taxes", "answer": "Taxes", "exact": true, "prompt_tokens": 835, "completion_tokens": 6, "billed_cost_usd": 0.0009406}
+{"id": "ledgar-test-482", "label": "Vesting", "answer": "Vesting", "exact": true, "prompt_tokens": 705, "completion_tokens": 6, "billed_cost_usd": 0.00294}
+{"id": "ledgar-test-4427", "label": "Definitions", "answer": "Definitions", "exact": true, "prompt_tokens": 746, "completion_tokens": 6, "billed_cost_usd": 0.0005846}
+{"id": "ledgar-test-7558", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 722, "completion_tokens": 8, "billed_cost_usd": 0.0005286}
+{"id": "ledgar-test-5157", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 764, "completion_tokens": 7, "billed_cost_usd": 0.0006766}
+{"id": "ledgar-test-6887", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 816, "completion_tokens": 5, "billed_cost_usd": 0.0008446}
+{"id": "ledgar-test-9837", "label": "Jurisdictions", "answer": "Jurisdictions", "exact": true, "prompt_tokens": 868, "completion_tokens": 9, "billed_cost_usd": 0.0011326}
+{"id": "ledgar-test-1641", "label": "Expenses", "answer": "Fees", "exact": false, "prompt_tokens": 749, "completion_tokens": 130, "billed_cost_usd": 0.0030766}
+{"id": "ledgar-test-576", "label": "Subsidiaries", "answer": "Subsidiaries", "exact": true, "prompt_tokens": 785, "completion_tokens": 9, "billed_cost_usd": 0.0008006}
+{"id": "ledgar-test-2211", "label": "Solvency", "answer": "Solvency", "exact": true, "prompt_tokens": 832, "completion_tokens": 6, "billed_cost_usd": 0.0009286}
+{"id": "ledgar-test-8041", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 751, "completion_tokens": 7, "billed_cost_usd": 0.0006246}
+{"id": "ledgar-test-9953", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 805, "completion_tokens": 5, "billed_cost_usd": 0.0008006}
+{"id": "ledgar-test-3375", "label": "Binding Effects", "answer": "Enforceability", "exact": false, "prompt_tokens": 856, "completion_tokens": 7, "billed_cost_usd": 0.0010446}
+{"id": "ledgar-test-5556", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 908, "completion_tokens": 8, "billed_cost_usd": 0.0012726}
+{"id": "ledgar-test-3435", "label": "Capitalization", "answer": "Capitalization", "exact": true, "prompt_tokens": 1119, "completion_tokens": 7, "billed_cost_usd": 0.0020966}
+{"id": "ledgar-test-9859", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 927, "completion_tokens": 8, "billed_cost_usd": 0.0013486}
+{"id": "ledgar-test-4310", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 781, "completion_tokens": 5, "billed_cost_usd": 0.0007046}
+{"id": "ledgar-test-2855", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 748, "completion_tokens": 8, "billed_cost_usd": 0.0006326}
+{"id": "ledgar-test-2889", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 1021, "completion_tokens": 5, "billed_cost_usd": 0.0016646}
+{"id": "ledgar-test-1798", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 717, "completion_tokens": 254, "billed_cost_usd": 0.0054286}
+{"id": "ledgar-test-5234", "label": "Interpretations", "answer": "Interpretations", "exact": true, "prompt_tokens": 765, "completion_tokens": 101, "billed_cost_usd": 0.0025606}
+{"id": "ledgar-test-1630", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 732, "completion_tokens": 66, "billed_cost_usd": 0.0017286}
+{"id": "ledgar-test-3942", "label": "Intellectual Property", "answer": "Intellectual Property", "exact": true, "prompt_tokens": 909, "completion_tokens": 9, "billed_cost_usd": 0.0012966}
+{"id": "ledgar-test-6754", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 771, "completion_tokens": 80, "billed_cost_usd": 0.0021646}
+{"id": "ledgar-test-7855", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 1041, "completion_tokens": 5, "billed_cost_usd": 0.0017446}
+{"id": "ledgar-test-3860", "label": "Compliance With Laws", "answer": "Applicable Laws", "exact": false, "prompt_tokens": 731, "completion_tokens": 117, "billed_cost_usd": 0.0027446}
+{"id": "ledgar-test-9120", "label": "Integration", "answer": "Integration", "exact": true, "prompt_tokens": 905, "completion_tokens": 5, "billed_cost_usd": 0.0012006}
+{"id": "ledgar-test-6390", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 747, "completion_tokens": 8, "billed_cost_usd": 0.0006286}
+{"id": "ledgar-test-2834", "label": "Tax Withholdings", "answer": "Tax Withholdings", "exact": true, "prompt_tokens": 1150, "completion_tokens": 10, "billed_cost_usd": 0.0022806}
+{"id": "ledgar-test-2964", "label": "Tax Withholdings", "answer": "Taxes", "exact": false, "prompt_tokens": 734, "completion_tokens": 138, "billed_cost_usd": 0.0031766}
+{"id": "ledgar-test-2283", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 739, "completion_tokens": 6, "billed_cost_usd": 0.0005566}
+{"id": "ledgar-test-759", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 825, "completion_tokens": 8, "billed_cost_usd": 0.0009406}
+{"id": "ledgar-test-4688", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 715, "completion_tokens": 6, "billed_cost_usd": 0.0004606}
+{"id": "ledgar-test-5242", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 897, "completion_tokens": 175, "billed_cost_usd": 0.0045686}
+{"id": "ledgar-test-956", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 835, "completion_tokens": 9, "billed_cost_usd": 0.0010006}
+{"id": "ledgar-test-5036", "label": "Vesting", "answer": "Vesting", "exact": true, "prompt_tokens": 784, "completion_tokens": 6, "billed_cost_usd": 0.0007366}
+{"id": "ledgar-test-3019", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 840, "completion_tokens": 8, "billed_cost_usd": 0.0010006}
+{"id": "ledgar-test-5319", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 931, "completion_tokens": 5, "billed_cost_usd": 0.0013046}
+{"id": "ledgar-test-3461", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 977, "completion_tokens": 8, "billed_cost_usd": 0.0015486}
+{"id": "ledgar-test-4896", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 914, "completion_tokens": 8, "billed_cost_usd": 0.0012966}
+{"id": "ledgar-test-6214", "label": "Waivers", "answer": "Waivers", "exact": true, "prompt_tokens": 744, "completion_tokens": 145, "billed_cost_usd": 0.0033566}
+{"id": "ledgar-test-6928", "label": "Arbitration", "answer": "Arbitration", "exact": true, "prompt_tokens": 1045, "completion_tokens": 7, "billed_cost_usd": 0.0018006}
+{"id": "ledgar-test-4078", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 736, "completion_tokens": 7, "billed_cost_usd": 0.0005646}
+{"id": "ledgar-test-8134", "label": "Financial Statements", "answer": "Financial Statements", "exact": true, "prompt_tokens": 780, "completion_tokens": 8, "billed_cost_usd": 0.0007606}
+{"id": "ledgar-test-298", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 760, "completion_tokens": 8, "billed_cost_usd": 0.0006806}
+{"id": "ledgar-test-3604", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 825, "completion_tokens": 9, "billed_cost_usd": 0.0009606}
+{"id": "ledgar-test-3574", "label": "Brokers", "answer": "Brokers", "exact": true, "prompt_tokens": 1004, "completion_tokens": 6, "billed_cost_usd": 0.0016166}
+{"id": "ledgar-test-7423", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 736, "completion_tokens": 8, "billed_cost_usd": 0.0005846}
+{"id": "ledgar-test-8620", "label": "Arbitration", "answer": "Arbitration", "exact": true, "prompt_tokens": 926, "completion_tokens": 7, "billed_cost_usd": 0.0013246}
+{"id": "ledgar-test-7058", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 878, "completion_tokens": 6, "billed_cost_usd": 0.0011126}
+{"id": "ledgar-test-1802", "label": "Death", "answer": "Death", "exact": true, "prompt_tokens": 1271, "completion_tokens": 4, "billed_cost_usd": 0.0026446}
+{"id": "ledgar-test-549", "label": "Releases", "answer": "Releases", "exact": true, "prompt_tokens": 896, "completion_tokens": 5, "billed_cost_usd": 0.0011646}
+{"id": "ledgar-test-2891", "label": "No Defaults", "answer": "No Defaults", "exact": true, "prompt_tokens": 785, "completion_tokens": 7, "billed_cost_usd": 0.0007606}
+{"id": "ledgar-test-5246", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 820, "completion_tokens": 8, "billed_cost_usd": 0.0009206}
+{"id": "ledgar-test-5424", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 1220, "completion_tokens": 79, "billed_cost_usd": 0.0039406}
+{"id": "ledgar-test-7574", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 1183, "completion_tokens": 8, "billed_cost_usd": 0.0023726}
+{"id": "ledgar-test-6666", "label": "Expenses", "answer": "Expenses", "exact": true, "prompt_tokens": 883, "completion_tokens": 6, "billed_cost_usd": 0.0011326}
+{"id": "ledgar-test-8915", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 734, "completion_tokens": 6, "billed_cost_usd": 0.0005366}
+{"id": "ledgar-test-2350", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 753, "completion_tokens": 5, "billed_cost_usd": 0.0005926}
+{"id": "ledgar-test-1358", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 1170, "completion_tokens": 8, "billed_cost_usd": 0.0023206}
+{"id": "ledgar-test-3381", "label": "Participations", "answer": "Participations", "exact": true, "prompt_tokens": 940, "completion_tokens": 5, "billed_cost_usd": 0.0013406}
+{"id": "ledgar-test-3027", "label": "Submission To Jurisdiction", "answer": "Submission To Jurisdiction", "exact": true, "prompt_tokens": 1257, "completion_tokens": 13, "billed_cost_usd": 0.0027686}
+{"id": "ledgar-test-7149", "label": "Amendments", "answer": "Entire Agreements", "exact": false, "prompt_tokens": 739, "completion_tokens": 117, "billed_cost_usd": 0.0027766}
+{"id": "ledgar-test-9422", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 709, "completion_tokens": 5, "billed_cost_usd": 0.002936}
+{"id": "ledgar-test-3339", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 778, "completion_tokens": 6, "billed_cost_usd": 0.0007126}
+{"id": "ledgar-test-7968", "label": "Powers", "answer": "Remedies", "exact": false, "prompt_tokens": 953, "completion_tokens": 6, "billed_cost_usd": 0.0014126}
+{"id": "ledgar-test-4787", "label": "Adjustments", "answer": "Adjustments", "exact": true, "prompt_tokens": 768, "completion_tokens": 7, "billed_cost_usd": 0.0006926}
+{"id": "ledgar-test-3388", "label": "Adjustments", "answer": "Adjustments", "exact": true, "prompt_tokens": 905, "completion_tokens": 7, "billed_cost_usd": 0.0012406}
+{"id": "ledgar-test-8031", "label": "Binding Effects", "answer": "Binding Effects", "exact": true, "prompt_tokens": 763, "completion_tokens": 8, "billed_cost_usd": 0.0006926}
+{"id": "ledgar-test-6742", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 739, "completion_tokens": 5, "billed_cost_usd": 0.0005366}
+{"id": "ledgar-test-8585", "label": "Indemnity", "answer": "Indemnifications", "exact": false, "prompt_tokens": 760, "completion_tokens": 8, "billed_cost_usd": 0.0006806}
+{"id": "ledgar-test-2617", "label": "Existence", "answer": "Existence", "exact": true, "prompt_tokens": 822, "completion_tokens": 5, "billed_cost_usd": 0.0008686}
+{"id": "ledgar-test-7338", "label": "Successors", "answer": "Binding Effects", "exact": false, "prompt_tokens": 716, "completion_tokens": 8, "billed_cost_usd": 0.0005046}
+{"id": "ledgar-test-1424", "label": "Interests", "answer": "Interests", "exact": true, "prompt_tokens": 859, "completion_tokens": 5, "billed_cost_usd": 0.0010166}
+{"id": "ledgar-test-4850", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 881, "completion_tokens": 9, "billed_cost_usd": 0.0011846}
+{"id": "ledgar-test-9945", "label": "Payments", "answer": "Payments", "exact": true, "prompt_tokens": 918, "completion_tokens": 5, "billed_cost_usd": 0.0012526}
+{"id": "ledgar-test-1195", "label": "Financial Statements", "answer": "Financial Statements", "exact": true, "prompt_tokens": 1072, "completion_tokens": 8, "billed_cost_usd": 0.0019286}
+{"id": "ledgar-test-8942", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 1166, "completion_tokens": 5, "billed_cost_usd": 0.0022446}
+{"id": "ledgar-test-6303", "label": "Interpretations", "answer": "Interpretations", "exact": true, "prompt_tokens": 793, "completion_tokens": 160, "billed_cost_usd": 0.0038526}
+{"id": "ledgar-test-5545", "label": "Subsidiaries", "answer": "Subsidiaries", "exact": true, "prompt_tokens": 684, "completion_tokens": 9, "billed_cost_usd": 0.002916}
+{"id": "ledgar-test-773", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 1040, "completion_tokens": 8, "billed_cost_usd": 0.0018006}
+{"id": "ledgar-test-1417", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 1102, "completion_tokens": 6, "billed_cost_usd": 0.0020086}
+{"id": "ledgar-test-1583", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 766, "completion_tokens": 5, "billed_cost_usd": 0.0006446}
+{"id": "ledgar-test-328", "label": "Tax Withholdings", "answer": "Withholdings", "exact": false, "prompt_tokens": 943, "completion_tokens": 7, "billed_cost_usd": 0.0013926}
+{"id": "ledgar-test-2737", "label": "Benefits", "answer": "Benefits", "exact": true, "prompt_tokens": 801, "completion_tokens": 6, "billed_cost_usd": 0.0008046}
+{"id": "ledgar-test-9562", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 728, "completion_tokens": 5, "billed_cost_usd": 0.0004926}
+{"id": "ledgar-test-7614", "label": "Tax Withholdings", "answer": "Tax Withholdings", "exact": true, "prompt_tokens": 760, "completion_tokens": 10, "billed_cost_usd": 0.0007206}
+{"id": "ledgar-test-6108", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 813, "completion_tokens": 5, "billed_cost_usd": 0.0008326}
+{"id": "ledgar-test-7909", "label": "Adjustments", "answer": "Adjustments", "exact": true, "prompt_tokens": 727, "completion_tokens": 7, "billed_cost_usd": 0.0005286}
+{"id": "ledgar-test-584", "label": "Closings", "answer": "Closings", "exact": true, "prompt_tokens": 1184, "completion_tokens": 5, "billed_cost_usd": 0.0023166}
+{"id": "ledgar-test-4330", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 829, "completion_tokens": 8, "billed_cost_usd": 0.0009566}
+{"id": "ledgar-test-5166", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 790, "completion_tokens": 6, "billed_cost_usd": 0.0007606}
+{"id": "ledgar-test-8658", "label": "Fees", "answer": "Fees", "exact": true, "prompt_tokens": 964, "completion_tokens": 5, "billed_cost_usd": 0.0014366}
+{"id": "ledgar-test-7886", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 730, "completion_tokens": 8, "billed_cost_usd": 0.0005606}
+{"id": "ledgar-test-9454", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 728, "completion_tokens": 10, "billed_cost_usd": 0.0005926}
+{"id": "ledgar-test-2597", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 799, "completion_tokens": 5, "billed_cost_usd": 0.0007766}
+{"id": "ledgar-test-9876", "label": "Adjustments", "answer": "Adjustments", "exact": true, "prompt_tokens": 954, "completion_tokens": 7, "billed_cost_usd": 0.0014366}
+{"id": "ledgar-test-6264", "label": "Base Salary", "answer": "Vesting", "exact": false, "prompt_tokens": 1011, "completion_tokens": 70, "billed_cost_usd": 0.0029246}
+{"id": "ledgar-test-5404", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 775, "completion_tokens": 8, "billed_cost_usd": 0.0007406}
+{"id": "ledgar-test-6388", "label": "Indemnity", "answer": "Indemnifications", "exact": false, "prompt_tokens": 907, "completion_tokens": 8, "billed_cost_usd": 0.0012686}
+{"id": "ledgar-test-1242", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 711, "completion_tokens": 7, "billed_cost_usd": 0.0004646}
+{"id": "ledgar-test-8334", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 804, "completion_tokens": 9, "billed_cost_usd": 0.0008766}
+{"id": "ledgar-test-3748", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 712, "completion_tokens": 5, "billed_cost_usd": 0.0004286}
+{"id": "ledgar-test-8060", "label": "No Waivers", "answer": "No Waivers", "exact": true, "prompt_tokens": 766, "completion_tokens": 7, "billed_cost_usd": 0.0006846}
+{"id": "ledgar-test-5761", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 755, "completion_tokens": 6, "billed_cost_usd": 0.0006206}
+{"id": "ledgar-test-4745", "label": "Amendments", "answer": "Effectiveness", "exact": false, "prompt_tokens": 832, "completion_tokens": 189, "billed_cost_usd": 0.0045886}
+{"id": "ledgar-test-857", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 719, "completion_tokens": 7, "billed_cost_usd": 0.0004966}
+{"id": "ledgar-test-3147", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 758, "completion_tokens": 5, "billed_cost_usd": 0.0006126}
+{"id": "ledgar-test-5241", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 836, "completion_tokens": 10, "billed_cost_usd": 0.0010246}
+{"id": "ledgar-test-2915", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 711, "completion_tokens": 5, "billed_cost_usd": 0.0004246}
+{"id": "ledgar-test-9300", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 774, "completion_tokens": 5, "billed_cost_usd": 0.0006766}
+{"id": "ledgar-test-2268", "label": "Change In Control", "answer": "Payments", "exact": false, "prompt_tokens": 909, "completion_tokens": 96, "billed_cost_usd": 0.0030366}
+{"id": "ledgar-test-8316", "label": "Erisa", "answer": "Erisa", "exact": true, "prompt_tokens": 818, "completion_tokens": 6, "billed_cost_usd": 0.0008726}
+{"id": "ledgar-test-8364", "label": "Successors", "answer": "Assignments", "exact": false, "prompt_tokens": 760, "completion_tokens": 6, "billed_cost_usd": 0.0006406}
+{"id": "ledgar-test-4018", "label": "Subsidiaries", "answer": "Subsidiaries", "exact": true, "prompt_tokens": 999, "completion_tokens": 112, "billed_cost_usd": 0.0037166}
+{"id": "ledgar-test-7110", "label": "Enforceability", "answer": "Severability", "exact": false, "prompt_tokens": 804, "completion_tokens": 5, "billed_cost_usd": 0.0007966}
+{"id": "ledgar-test-1329", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 1054, "completion_tokens": 8, "billed_cost_usd": 0.0018566}
+{"id": "ledgar-test-4202", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 781, "completion_tokens": 8, "billed_cost_usd": 0.0007646}
+{"id": "ledgar-test-2410", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 768, "completion_tokens": 7, "billed_cost_usd": 0.0006926}
+{"id": "ledgar-test-8770", "label": "No Defaults", "answer": "No Defaults", "exact": true, "prompt_tokens": 707, "completion_tokens": 7, "billed_cost_usd": 0.002968}
+{"id": "ledgar-test-1455", "label": "Indemnity", "answer": "Indemnifications", "exact": false, "prompt_tokens": 767, "completion_tokens": 117, "billed_cost_usd": 0.0028886}
+{"id": "ledgar-test-9406", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 800, "completion_tokens": 7, "billed_cost_usd": 0.0008206}
+{"id": "ledgar-test-5054", "label": "No Waivers", "answer": "No Waivers", "exact": true, "prompt_tokens": 967, "completion_tokens": 7, "billed_cost_usd": 0.0014886}
+{"id": "ledgar-test-7980", "label": "Binding Effects", "answer": "Binding Effects", "exact": true, "prompt_tokens": 736, "completion_tokens": 147, "billed_cost_usd": 0.0033646}
+{"id": "ledgar-test-563", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 812, "completion_tokens": 6, "billed_cost_usd": 0.0008486}
+{"id": "ledgar-test-9661", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 752, "completion_tokens": 5, "billed_cost_usd": 0.0005886}
+{"id": "ledgar-test-4094", "label": "Brokers", "answer": "Brokers", "exact": true, "prompt_tokens": 734, "completion_tokens": 6, "billed_cost_usd": 0.0005366}
+{"id": "ledgar-test-726", "label": "Cooperation", "answer": "Cooperation", "exact": true, "prompt_tokens": 1287, "completion_tokens": 7, "billed_cost_usd": 0.0027686}
+{"id": "ledgar-test-6758", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 746, "completion_tokens": 6, "billed_cost_usd": 0.0005846}
+{"id": "ledgar-test-4744", "label": "Interpretations", "answer": "Interpretations", "exact": true, "prompt_tokens": 936, "completion_tokens": 7, "billed_cost_usd": 0.0013646}
+{"id": "ledgar-test-6465", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 747, "completion_tokens": 8, "billed_cost_usd": 0.0006286}
+{"id": "ledgar-test-4205", "label": "Vacations", "answer": "Vacations", "exact": true, "prompt_tokens": 806, "completion_tokens": 6, "billed_cost_usd": 0.0008246}
+{"id": "ledgar-test-6872", "label": "Warranties", "answer": "Survival", "exact": false, "prompt_tokens": 930, "completion_tokens": 5, "billed_cost_usd": 0.0013006}
+{"id": "ledgar-test-6709", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 757, "completion_tokens": 8, "billed_cost_usd": 0.0006686}
+{"id": "ledgar-test-8648", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 789, "completion_tokens": 7, "billed_cost_usd": 0.0007766}
+{"id": "ledgar-test-5413", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 864, "completion_tokens": 8, "billed_cost_usd": 0.0010966}
+{"id": "ledgar-test-4516", "label": "Terminations", "answer": "Terminations", "exact": true, "prompt_tokens": 770, "completion_tokens": 6, "billed_cost_usd": 0.0006806}
+{"id": "ledgar-test-8777", "label": "Taxes", "answer": "Taxes", "exact": true, "prompt_tokens": 869, "completion_tokens": 6, "billed_cost_usd": 0.0010766}
+{"id": "ledgar-test-372", "label": "Assignments", "answer": "Assignments", "exact": true, "prompt_tokens": 766, "completion_tokens": 6, "billed_cost_usd": 0.0006646}
+{"id": "ledgar-test-5803", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 1092, "completion_tokens": 9, "billed_cost_usd": 0.0020286}
+{"id": "ledgar-test-157", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 717, "completion_tokens": 8, "billed_cost_usd": 0.0005086}
+{"id": "ledgar-test-3444", "label": "Authorizations", "answer": "Authorizations", "exact": true, "prompt_tokens": 764, "completion_tokens": 7, "billed_cost_usd": 0.0006766}
+{"id": "ledgar-test-3934", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 823, "completion_tokens": 7, "billed_cost_usd": 0.0009126}
+{"id": "ledgar-test-6098", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 714, "completion_tokens": 7, "billed_cost_usd": 0.0004766}
+{"id": "ledgar-test-9874", "label": "Taxes", "answer": "Tax Withholdings", "exact": false, "prompt_tokens": 775, "completion_tokens": 10, "billed_cost_usd": 0.0007806}
+{"id": "ledgar-test-8693", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 1082, "completion_tokens": 5, "billed_cost_usd": 0.0019086}
+{"id": "ledgar-test-6996", "label": "Organizations", "answer": "Organizations", "exact": true, "prompt_tokens": 732, "completion_tokens": 126, "billed_cost_usd": 0.0029286}
+{"id": "ledgar-test-3415", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 708, "completion_tokens": 156, "billed_cost_usd": 0.005952}
+{"id": "ledgar-test-5072", "label": "Financial Statements", "answer": "Financial Statements", "exact": true, "prompt_tokens": 707, "completion_tokens": 8, "billed_cost_usd": 0.0004686}
+{"id": "ledgar-test-8965", "label": "Terminations", "answer": "Terminations", "exact": true, "prompt_tokens": 730, "completion_tokens": 6, "billed_cost_usd": 0.0005206}
+{"id": "ledgar-test-5855", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 958, "completion_tokens": 6, "billed_cost_usd": 0.0014326}
+{"id": "ledgar-test-2575", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 909, "completion_tokens": 5, "billed_cost_usd": 0.0012166}
+{"id": "ledgar-test-297", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 779, "completion_tokens": 8, "billed_cost_usd": 0.0007566}
+{"id": "ledgar-test-1996", "label": "Applicable Laws", "answer": "Governing Laws", "exact": false, "prompt_tokens": 986, "completion_tokens": 8, "billed_cost_usd": 0.0015846}
+{"id": "ledgar-test-386", "label": "Expenses", "answer": "Expenses", "exact": true, "prompt_tokens": 1124, "completion_tokens": 6, "billed_cost_usd": 0.0020966}
+{"id": "ledgar-test-4907", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 936, "completion_tokens": 5, "billed_cost_usd": 0.0013246}
+{"id": "ledgar-test-8331", "label": "Closings", "answer": "Closings", "exact": true, "prompt_tokens": 904, "completion_tokens": 5, "billed_cost_usd": 0.0011966}
+{"id": "ledgar-test-8731", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 920, "completion_tokens": 5, "billed_cost_usd": 0.0012606}
+{"id": "ledgar-test-6234", "label": "Amendments", "answer": "Construction", "exact": false, "prompt_tokens": 714, "completion_tokens": 214, "billed_cost_usd": 0.0046166}
+{"id": "ledgar-test-3397", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 753, "completion_tokens": 9, "billed_cost_usd": 0.0006726}
+{"id": "ledgar-test-2030", "label": "Organizations", "answer": "Organizations", "exact": true, "prompt_tokens": 703, "completion_tokens": 140, "billed_cost_usd": 0.005612}
+{"id": "ledgar-test-1448", "label": "Waivers", "answer": "Waivers", "exact": true, "prompt_tokens": 727, "completion_tokens": 155, "billed_cost_usd": 0.0034886}
+{"id": "ledgar-test-1485", "label": "Withholdings", "answer": "Withholdings", "exact": true, "prompt_tokens": 772, "completion_tokens": 221, "billed_cost_usd": 0.0049886}
+{"id": "ledgar-test-3570", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 1359, "completion_tokens": 167, "billed_cost_usd": 0.0062566}
+{"id": "ledgar-test-4993", "label": "Definitions", "answer": "Defined Terms", "exact": false, "prompt_tokens": 705, "completion_tokens": 122, "billed_cost_usd": 0.00526}
+{"id": "ledgar-test-7355", "label": "Assignments", "answer": "Assignments", "exact": true, "prompt_tokens": 818, "completion_tokens": 6, "billed_cost_usd": 0.0008726}
+{"id": "ledgar-test-4252", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 997, "completion_tokens": 6, "billed_cost_usd": 0.0015886}
+{"id": "ledgar-test-5293", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 996, "completion_tokens": 8, "billed_cost_usd": 0.0016246}
+{"id": "ledgar-test-389", "label": "Fees", "answer": "Payments", "exact": false, "prompt_tokens": 943, "completion_tokens": 5, "billed_cost_usd": 0.0013526}
+{"id": "ledgar-test-2917", "label": "Anti-Corruption Laws", "answer": "Anti-Corruption Laws", "exact": true, "prompt_tokens": 836, "completion_tokens": 13, "billed_cost_usd": 0.0010846}
+{"id": "ledgar-test-6086", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 1004, "completion_tokens": 8, "billed_cost_usd": 0.0016566}
+{"id": "ledgar-test-4134", "label": "Payments", "answer": "Payments", "exact": true, "prompt_tokens": 777, "completion_tokens": 60, "billed_cost_usd": 0.0017886}
+{"id": "ledgar-test-4429", "label": "Enforcements", "answer": "Severability", "exact": false, "prompt_tokens": 924, "completion_tokens": 5, "billed_cost_usd": 0.0012766}
+{"id": "ledgar-test-3525", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 714, "completion_tokens": 5, "billed_cost_usd": 0.0004366}
+{"id": "ledgar-test-1466", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 761, "completion_tokens": 8, "billed_cost_usd": 0.0006846}
+{"id": "ledgar-test-4947", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 802, "completion_tokens": 7, "billed_cost_usd": 0.0008286}
+{"id": "ledgar-test-8362", "label": "Change In Control", "answer": "Change In Control", "exact": true, "prompt_tokens": 824, "completion_tokens": 7, "billed_cost_usd": 0.0009166}
+{"id": "ledgar-test-5349", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 726, "completion_tokens": 8, "billed_cost_usd": 0.0005446}
+{"id": "ledgar-test-798", "label": "Positions", "answer": "Positions", "exact": true, "prompt_tokens": 837, "completion_tokens": 88, "billed_cost_usd": 0.0025886}
+{"id": "ledgar-test-4801", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 715, "completion_tokens": 8, "billed_cost_usd": 0.0005006}
+{"id": "ledgar-test-3111", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 897, "completion_tokens": 5, "billed_cost_usd": 0.0011686}
+{"id": "ledgar-test-5498", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 715, "completion_tokens": 5, "billed_cost_usd": 0.0004406}
+{"id": "ledgar-test-2994", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 783, "completion_tokens": 59, "billed_cost_usd": 0.0017926}
+{"id": "ledgar-test-2145", "label": "Base Salary", "answer": "Base Salary", "exact": true, "prompt_tokens": 792, "completion_tokens": 7, "billed_cost_usd": 0.0007886}
+{"id": "ledgar-test-4064", "label": "Organizations", "answer": "Organizations", "exact": true, "prompt_tokens": 901, "completion_tokens": 58, "billed_cost_usd": 0.0022446}
+{"id": "ledgar-test-5920", "label": "Waiver Of Jury Trials", "answer": "Waiver Of Jury Trials", "exact": true, "prompt_tokens": 1183, "completion_tokens": 14, "billed_cost_usd": 0.0024926}
+{"id": "ledgar-test-8574", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 736, "completion_tokens": 5, "billed_cost_usd": 0.0005246}
+{"id": "ledgar-test-4629", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 717, "completion_tokens": 7, "billed_cost_usd": 0.0004886}
+{"id": "ledgar-test-7730", "label": "Construction", "answer": "Construction", "exact": true, "prompt_tokens": 776, "completion_tokens": 105, "billed_cost_usd": 0.0026846}
+{"id": "ledgar-test-9181", "label": "Expenses", "answer": "Expenses", "exact": true, "prompt_tokens": 889, "completion_tokens": 6, "billed_cost_usd": 0.0011566}
+{"id": "ledgar-test-2325", "label": "Agreements", "answer": "Definitions", "exact": false, "prompt_tokens": 682, "completion_tokens": 6, "billed_cost_usd": 0.002848}
+{"id": "ledgar-test-680", "label": "Organizations", "answer": "Organizations", "exact": true, "prompt_tokens": 764, "completion_tokens": 187, "billed_cost_usd": 0.0042766}
+{"id": "ledgar-test-9068", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 728, "completion_tokens": 9, "billed_cost_usd": 0.0005726}
+{"id": "ledgar-test-7476", "label": "Authorizations", "answer": "Authorizations", "exact": true, "prompt_tokens": 902, "completion_tokens": 177, "billed_cost_usd": 0.0046286}
+{"id": "ledgar-test-6831", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 918, "completion_tokens": 10, "billed_cost_usd": 0.0013526}
+{"id": "ledgar-test-2563", "label": "Solvency", "answer": "Solvency", "exact": true, "prompt_tokens": 722, "completion_tokens": 6, "billed_cost_usd": 0.0004886}
+{"id": "ledgar-test-4724", "label": "Subsidiaries", "answer": "Subsidiaries", "exact": true, "prompt_tokens": 881, "completion_tokens": 108, "billed_cost_usd": 0.0031646}
+{"id": "ledgar-test-4964", "label": "Waiver Of Jury Trials", "answer": "Waiver Of Jury Trials", "exact": true, "prompt_tokens": 974, "completion_tokens": 14, "billed_cost_usd": 0.0016566}
+{"id": "ledgar-test-8922", "label": "Subsidiaries", "answer": "Subsidiaries", "exact": true, "prompt_tokens": 786, "completion_tokens": 9, "billed_cost_usd": 0.0008046}
+{"id": "ledgar-test-7875", "label": "Change In Control", "answer": "Change In Control", "exact": true, "prompt_tokens": 940, "completion_tokens": 7, "billed_cost_usd": 0.0013806}
+{"id": "ledgar-test-5742", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 826, "completion_tokens": 7, "billed_cost_usd": 0.0009246}
+{"id": "ledgar-test-8610", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 906, "completion_tokens": 8, "billed_cost_usd": 0.0012646}
+{"id": "ledgar-test-7106", "label": "Agreements", "answer": "Agreements", "exact": true, "prompt_tokens": 864, "completion_tokens": 195, "billed_cost_usd": 0.0048366}
+{"id": "ledgar-test-5709", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 740, "completion_tokens": 5, "billed_cost_usd": 0.0005406}
+{"id": "ledgar-test-8515", "label": "Waivers", "answer": "Waivers", "exact": true, "prompt_tokens": 800, "completion_tokens": 6, "billed_cost_usd": 0.0008006}
+{"id": "ledgar-test-2019", "label": "Waivers", "answer": "Waivers", "exact": true, "prompt_tokens": 796, "completion_tokens": 6, "billed_cost_usd": 0.0007846}
+{"id": "ledgar-test-4072", "label": "Modifications", "answer": "Entire Agreements", "exact": false, "prompt_tokens": 819, "completion_tokens": 128, "billed_cost_usd": 0.0033166}
+{"id": "ledgar-test-7720", "label": "Assignments", "answer": "Assignments", "exact": true, "prompt_tokens": 740, "completion_tokens": 6, "billed_cost_usd": 0.0005606}
+{"id": "ledgar-test-3013", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 713, "completion_tokens": 8, "billed_cost_usd": 0.0004926}
+{"id": "ledgar-test-3043", "label": "Non-Disparagement", "answer": "Non-Disparagement", "exact": true, "prompt_tokens": 845, "completion_tokens": 10, "billed_cost_usd": 0.0010606}
+{"id": "ledgar-test-3458", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 902, "completion_tokens": 9, "billed_cost_usd": 0.0012686}
+{"id": "ledgar-test-7384", "label": "General", "answer": "Notices", "exact": false, "prompt_tokens": 903, "completion_tokens": 91, "billed_cost_usd": 0.0029126}
+{"id": "ledgar-test-2257", "label": "Miscellaneous", "answer": "Entire Agreements", "exact": false, "prompt_tokens": 822, "completion_tokens": 219, "billed_cost_usd": 0.0051486}
+{"id": "ledgar-test-7751", "label": "Binding Effects", "answer": "Binding Effects", "exact": true, "prompt_tokens": 762, "completion_tokens": 8, "billed_cost_usd": 0.0006886}
+{"id": "ledgar-test-7701", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 890, "completion_tokens": 5, "billed_cost_usd": 0.0011406}
+{"id": "ledgar-test-3800", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 932, "completion_tokens": 9, "billed_cost_usd": 0.0013886}
+{"id": "ledgar-test-6501", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 833, "completion_tokens": 10, "billed_cost_usd": 0.0010126}
+{"id": "ledgar-test-760", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 698, "completion_tokens": 5, "billed_cost_usd": 0.002892}
+{"id": "ledgar-test-2941", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 1160, "completion_tokens": 5, "billed_cost_usd": 0.0022206}
+{"id": "ledgar-test-6960", "label": "Positions", "answer": "Employment", "exact": false, "prompt_tokens": 804, "completion_tokens": 5, "billed_cost_usd": 0.0007966}
+{"id": "ledgar-test-5715", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 827, "completion_tokens": 7, "billed_cost_usd": 0.0009286}
+{"id": "ledgar-test-1675", "label": "Representations", "answer": "Representations", "exact": true, "prompt_tokens": 961, "completion_tokens": 5, "billed_cost_usd": 0.0014246}
+{"id": "ledgar-test-911", "label": "Terminations", "answer": "Terms", "exact": false, "prompt_tokens": 887, "completion_tokens": 150, "billed_cost_usd": 0.0040286}
+{"id": "ledgar-test-5110", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 784, "completion_tokens": 5, "billed_cost_usd": 0.0007166}
+{"id": "ledgar-test-756", "label": "Sales", "answer": "Sales", "exact": true, "prompt_tokens": 746, "completion_tokens": 95, "billed_cost_usd": 0.0023646}
+{"id": "ledgar-test-9585", "label": "Liens", "answer": "Titles", "exact": false, "prompt_tokens": 1263, "completion_tokens": 111, "billed_cost_usd": 0.0047526}
+{"id": "ledgar-test-3764", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 714, "completion_tokens": 5, "billed_cost_usd": 0.0004366}
+{"id": "ledgar-test-2990", "label": "Integration", "answer": "Entire Agreements", "exact": false, "prompt_tokens": 1037, "completion_tokens": 9, "billed_cost_usd": 0.0018086}
+{"id": "ledgar-test-3650", "label": "Forfeitures", "answer": "Forfeitures", "exact": true, "prompt_tokens": 883, "completion_tokens": 8, "billed_cost_usd": 0.0011726}
+{"id": "ledgar-test-8446", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 736, "completion_tokens": 5, "billed_cost_usd": 0.0005246}
+{"id": "ledgar-test-7815", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 824, "completion_tokens": 5, "billed_cost_usd": 0.0008766}
+{"id": "ledgar-test-6794", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 1394, "completion_tokens": 8, "billed_cost_usd": 0.0032166}
+{"id": "ledgar-test-8204", "label": "Further Assurances", "answer": "Consents", "exact": false, "prompt_tokens": 980, "completion_tokens": 77, "billed_cost_usd": 0.0029406}
+{"id": "ledgar-test-2478", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 760, "completion_tokens": 5, "billed_cost_usd": 0.0006206}
+{"id": "ledgar-test-6913", "label": "Miscellaneous", "answer": "Effectiveness", "exact": false, "prompt_tokens": 747, "completion_tokens": 114, "billed_cost_usd": 0.0027486}
+{"id": "ledgar-test-4487", "label": "Payments", "answer": "Payments", "exact": true, "prompt_tokens": 744, "completion_tokens": 82, "billed_cost_usd": 0.0020966}
+{"id": "ledgar-test-8247", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 936, "completion_tokens": 6, "billed_cost_usd": 0.0013446}
+{"id": "ledgar-test-4716", "label": "Waiver Of Jury Trials", "answer": "Waiver Of Jury Trials", "exact": true, "prompt_tokens": 923, "completion_tokens": 14, "billed_cost_usd": 0.0014526}
+{"id": "ledgar-test-991", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 875, "completion_tokens": 6, "billed_cost_usd": 0.0011006}
+{"id": "ledgar-test-9948", "label": "Fees", "answer": "Fees", "exact": true, "prompt_tokens": 844, "completion_tokens": 5, "billed_cost_usd": 0.0009566}
+{"id": "ledgar-test-5660", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 733, "completion_tokens": 8, "billed_cost_usd": 0.0005726}
+{"id": "ledgar-test-5247", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 934, "completion_tokens": 5, "billed_cost_usd": 0.0013166}
+{"id": "ledgar-test-661", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 761, "completion_tokens": 5, "billed_cost_usd": 0.0006246}
+{"id": "ledgar-test-9989", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 735, "completion_tokens": 9, "billed_cost_usd": 0.0006006}
+{"id": "ledgar-test-7814", "label": "Terms", "answer": "Terminations", "exact": false, "prompt_tokens": 716, "completion_tokens": 6, "billed_cost_usd": 0.0004646}
+{"id": "ledgar-test-8137", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 811, "completion_tokens": 5, "billed_cost_usd": 0.0008246}
+{"id": "ledgar-test-6796", "label": "Sales", "answer": "Sales", "exact": true, "prompt_tokens": 987, "completion_tokens": 5, "billed_cost_usd": 0.0015286}
+{"id": "ledgar-test-1863", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 712, "completion_tokens": 5, "billed_cost_usd": 0.0004286}
+{"id": "ledgar-test-6144", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 729, "completion_tokens": 5, "billed_cost_usd": 0.0004966}
+{"id": "ledgar-test-7469", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 1100, "completion_tokens": 5, "billed_cost_usd": 0.0019806}
+{"id": "ledgar-test-7581", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 787, "completion_tokens": 7, "billed_cost_usd": 0.0007686}
+{"id": "ledgar-test-6314", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 1210, "completion_tokens": 5, "billed_cost_usd": 0.0024206}
+{"id": "ledgar-test-854", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 1257, "completion_tokens": 8, "billed_cost_usd": 0.0026686}
+{"id": "ledgar-test-5940", "label": "Financial Statements", "answer": "Financial Statements", "exact": true, "prompt_tokens": 1295, "completion_tokens": 8, "billed_cost_usd": 0.0028206}
+{"id": "ledgar-test-6292", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 716, "completion_tokens": 6, "billed_cost_usd": 0.0004646}
+{"id": "ledgar-test-6772", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 771, "completion_tokens": 5, "billed_cost_usd": 0.0006646}
+{"id": "ledgar-test-7732", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 840, "completion_tokens": 92, "billed_cost_usd": 0.0026806}
+{"id": "ledgar-test-6647", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 1009, "completion_tokens": 6, "billed_cost_usd": 0.0016366}
+{"id": "ledgar-test-7906", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 1121, "completion_tokens": 342, "billed_cost_usd": 0.0088046}
+{"id": "ledgar-test-3987", "label": "Agreements", "answer": "Warranties", "exact": false, "prompt_tokens": 1440, "completion_tokens": 6, "billed_cost_usd": 0.0033606}
+{"id": "ledgar-test-7563", "label": "Enforcements", "answer": "Remedies", "exact": false, "prompt_tokens": 969, "completion_tokens": 150, "billed_cost_usd": 0.0043566}
+{"id": "ledgar-test-7045", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 731, "completion_tokens": 8, "billed_cost_usd": 0.0005646}
+{"id": "ledgar-test-2614", "label": "Erisa", "answer": "Erisa", "exact": true, "prompt_tokens": 1270, "completion_tokens": 6, "billed_cost_usd": 0.0026806}
+{"id": "ledgar-test-7903", "label": "Construction", "answer": "Interpretations", "exact": false, "prompt_tokens": 706, "completion_tokens": 7, "billed_cost_usd": 0.0004446}
+{"id": "ledgar-test-3105", "label": "Organizations", "answer": "Organizations", "exact": true, "prompt_tokens": 779, "completion_tokens": 122, "billed_cost_usd": 0.0030366}
+{"id": "ledgar-test-6745", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 743, "completion_tokens": 8, "billed_cost_usd": 0.0006126}
+{"id": "ledgar-test-5253", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 726, "completion_tokens": 5, "billed_cost_usd": 0.0004846}
+{"id": "ledgar-test-2895", "label": "No Conflicts", "answer": "No Conflicts", "exact": true, "prompt_tokens": 1051, "completion_tokens": 8, "billed_cost_usd": 0.0018446}
+{"id": "ledgar-test-1028", "label": "Brokers", "answer": "Brokers", "exact": true, "prompt_tokens": 998, "completion_tokens": 6, "billed_cost_usd": 0.0015926}
+{"id": "ledgar-test-6004", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 983, "completion_tokens": 5, "billed_cost_usd": 0.0015126}
+{"id": "ledgar-test-558", "label": "Records", "answer": "Records", "exact": true, "prompt_tokens": 1052, "completion_tokens": 4, "billed_cost_usd": 0.0017686}
+{"id": "ledgar-test-1678", "label": "Terminations", "answer": "Terminations", "exact": true, "prompt_tokens": 888, "completion_tokens": 6, "billed_cost_usd": 0.0011526}
+{"id": "ledgar-test-2040", "label": "General", "answer": "Authority", "exact": false, "prompt_tokens": 1031, "completion_tokens": 188, "billed_cost_usd": 0.0053646}
+{"id": "ledgar-test-8045", "label": "Subsidiaries", "answer": "Capitalization", "exact": false, "prompt_tokens": 816, "completion_tokens": 190, "billed_cost_usd": 0.0045446}
+{"id": "ledgar-test-5635", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 770, "completion_tokens": 5, "billed_cost_usd": 0.0006606}
+{"id": "ledgar-test-5318", "label": "Non-Disparagement", "answer": "Non-Disparagement", "exact": true, "prompt_tokens": 824, "completion_tokens": 10, "billed_cost_usd": 0.0009766}
+{"id": "ledgar-test-5832", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 708, "completion_tokens": 5, "billed_cost_usd": 0.0004126}
+{"id": "ledgar-test-223", "label": "Brokers", "answer": "Brokers", "exact": true, "prompt_tokens": 760, "completion_tokens": 6, "billed_cost_usd": 0.0006406}
+{"id": "ledgar-test-7836", "label": "Waiver Of Jury Trials", "answer": "Waiver Of Jury Trials", "exact": true, "prompt_tokens": 1165, "completion_tokens": 14, "billed_cost_usd": 0.0024206}
+{"id": "ledgar-test-4938", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 859, "completion_tokens": 5, "billed_cost_usd": 0.0010166}
+{"id": "ledgar-test-7635", "label": "Adjustments", "answer": "Taxes", "exact": false, "prompt_tokens": 1067, "completion_tokens": 71, "billed_cost_usd": 0.0031686}
+{"id": "ledgar-test-6744", "label": "Forfeitures", "answer": "Forfeitures", "exact": true, "prompt_tokens": 1007, "completion_tokens": 8, "billed_cost_usd": 0.0016686}
+{"id": "ledgar-test-4319", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 803, "completion_tokens": 5, "billed_cost_usd": 0.0007926}
+{"id": "ledgar-test-5575", "label": "Successors", "answer": "Binding Effects", "exact": false, "prompt_tokens": 727, "completion_tokens": 141, "billed_cost_usd": 0.0032086}
+{"id": "ledgar-test-9689", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 845, "completion_tokens": 6, "billed_cost_usd": 0.0009806}
+{"id": "ledgar-test-7034", "label": "Agreements", "answer": "Agreements", "exact": true, "prompt_tokens": 718, "completion_tokens": 128, "billed_cost_usd": 0.0029126}
+{"id": "ledgar-test-5963", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 870, "completion_tokens": 5, "billed_cost_usd": 0.0010606}
+{"id": "ledgar-test-7189", "label": "Indemnity", "answer": "Remedies", "exact": false, "prompt_tokens": 1008, "completion_tokens": 241, "billed_cost_usd": 0.0063326}
+{"id": "ledgar-test-7676", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 885, "completion_tokens": 9, "billed_cost_usd": 0.0012006}
+{"id": "ledgar-test-5998", "label": "Authorizations", "answer": "Authority", "exact": false, "prompt_tokens": 805, "completion_tokens": 96, "billed_cost_usd": 0.0026206}
+{"id": "ledgar-test-1027", "label": "Expenses", "answer": "Expenses", "exact": true, "prompt_tokens": 719, "completion_tokens": 6, "billed_cost_usd": 0.0004766}
+{"id": "ledgar-test-8946", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 777, "completion_tokens": 7, "billed_cost_usd": 0.0007286}
+{"id": "ledgar-test-214", "label": "Fees", "answer": "Fees", "exact": true, "prompt_tokens": 716, "completion_tokens": 5, "billed_cost_usd": 0.0004446}
+{"id": "ledgar-test-9793", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 716, "completion_tokens": 8, "billed_cost_usd": 0.0005046}
+{"id": "ledgar-test-3191", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 789, "completion_tokens": 5, "billed_cost_usd": 0.0007366}
+{"id": "ledgar-test-1235", "label": "Transactions With Affiliates", "answer": "Transactions With Affiliates", "exact": true, "prompt_tokens": 795, "completion_tokens": 12, "billed_cost_usd": 0.0009006}
+{"id": "ledgar-test-5129", "label": "General", "answer": "Notices", "exact": false, "prompt_tokens": 930, "completion_tokens": 5, "billed_cost_usd": 0.0013006}
+{"id": "ledgar-test-4655", "label": "Base Salary", "answer": "Base Salary", "exact": true, "prompt_tokens": 861, "completion_tokens": 7, "billed_cost_usd": 0.0010646}
+{"id": "ledgar-test-8183", "label": "Taxes", "answer": "Taxes", "exact": true, "prompt_tokens": 821, "completion_tokens": 6, "billed_cost_usd": 0.0008846}
+{"id": "ledgar-test-1702", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 818, "completion_tokens": 5, "billed_cost_usd": 0.0008526}
+{"id": "ledgar-test-1383", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 798, "completion_tokens": 5, "billed_cost_usd": 0.0007726}
+{"id": "ledgar-test-2458", "label": "Enforceability", "answer": "Enforceability", "exact": true, "prompt_tokens": 759, "completion_tokens": 7, "billed_cost_usd": 0.0006566}
+{"id": "ledgar-test-7619", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 878, "completion_tokens": 8, "billed_cost_usd": 0.0011526}
+{"id": "ledgar-test-4921", "label": "Intellectual Property", "answer": "Intellectual Property", "exact": true, "prompt_tokens": 891, "completion_tokens": 9, "billed_cost_usd": 0.0012246}
+{"id": "ledgar-test-8604", "label": "Modifications", "answer": "Amendments", "exact": false, "prompt_tokens": 796, "completion_tokens": 129, "billed_cost_usd": 0.0032446}
+{"id": "ledgar-test-5267", "label": "Use Of Proceeds", "answer": "Use Of Proceeds", "exact": true, "prompt_tokens": 957, "completion_tokens": 11, "billed_cost_usd": 0.0015286}
+{"id": "ledgar-test-4312", "label": "Arbitration", "answer": "Arbitration", "exact": true, "prompt_tokens": 1272, "completion_tokens": 7, "billed_cost_usd": 0.0027086}
+{"id": "ledgar-test-7989", "label": "Assignments", "answer": "Intellectual Property", "exact": false, "prompt_tokens": 983, "completion_tokens": 9, "billed_cost_usd": 0.0015926}
+{"id": "ledgar-test-4589", "label": "Waivers", "answer": "Modifications", "exact": false, "prompt_tokens": 806, "completion_tokens": 279, "billed_cost_usd": 0.0062846}
+{"id": "ledgar-test-6158", "label": "Assignments", "answer": "Assignments", "exact": true, "prompt_tokens": 909, "completion_tokens": 6, "billed_cost_usd": 0.0012366}
+{"id": "ledgar-test-5929", "label": "Integration", "answer": "Entire Agreements", "exact": false, "prompt_tokens": 725, "completion_tokens": 9, "billed_cost_usd": 0.0005606}
+{"id": "ledgar-test-2510", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 1008, "completion_tokens": 99, "billed_cost_usd": 0.0034926}
+{"id": "ledgar-test-7882", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 755, "completion_tokens": 6, "billed_cost_usd": 0.0006206}
+{"id": "ledgar-test-4328", "label": "Waivers", "answer": "No Waivers", "exact": false, "prompt_tokens": 1045, "completion_tokens": 7, "billed_cost_usd": 0.0018006}
+{"id": "ledgar-test-4930", "label": "Taxes", "answer": "Taxes", "exact": true, "prompt_tokens": 1049, "completion_tokens": 6, "billed_cost_usd": 0.0017966}
+{"id": "ledgar-test-1862", "label": "Withholdings", "answer": "Tax Withholdings", "exact": false, "prompt_tokens": 760, "completion_tokens": 10, "billed_cost_usd": 0.0007206}
+{"id": "ledgar-test-7385", "label": "Withholdings", "answer": "Tax Withholdings", "exact": false, "prompt_tokens": 826, "completion_tokens": 10, "billed_cost_usd": 0.0009846}
+{"id": "ledgar-test-182", "label": "Vacations", "answer": "Vacations", "exact": true, "prompt_tokens": 739, "completion_tokens": 6, "billed_cost_usd": 0.0005566}
+{"id": "ledgar-test-3627", "label": "General", "answer": "Taxes", "exact": false, "prompt_tokens": 813, "completion_tokens": 127, "billed_cost_usd": 0.0032726}
+{"id": "ledgar-test-6421", "label": "Base Salary", "answer": "Base Salary", "exact": true, "prompt_tokens": 848, "completion_tokens": 7, "billed_cost_usd": 0.0010126}
+{"id": "ledgar-test-4680", "label": "Tax Withholdings", "answer": "Tax Withholdings", "exact": true, "prompt_tokens": 987, "completion_tokens": 10, "billed_cost_usd": 0.0016286}
+{"id": "ledgar-test-4805", "label": "Titles", "answer": "Titles", "exact": true, "prompt_tokens": 708, "completion_tokens": 170, "billed_cost_usd": 0.0037126}
+{"id": "ledgar-test-5159", "label": "Survival", "answer": "Survival", "exact": true, "prompt_tokens": 766, "completion_tokens": 5, "billed_cost_usd": 0.0006446}
+{"id": "ledgar-test-5124", "label": "Employment", "answer": "Employment", "exact": true, "prompt_tokens": 791, "completion_tokens": 5, "billed_cost_usd": 0.0007446}
+{"id": "ledgar-test-2786", "label": "Non-Disparagement", "answer": "Non-Disparagement", "exact": true, "prompt_tokens": 790, "completion_tokens": 10, "billed_cost_usd": 0.0008406}
+{"id": "ledgar-test-261", "label": "Disclosures", "answer": "Disclosures", "exact": true, "prompt_tokens": 780, "completion_tokens": 52, "billed_cost_usd": 0.0016406}
+{"id": "ledgar-test-2930", "label": "Payments", "answer": "Taxes", "exact": false, "prompt_tokens": 998, "completion_tokens": 6, "billed_cost_usd": 0.0015926}
+{"id": "ledgar-test-2876", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 855, "completion_tokens": 10, "billed_cost_usd": 0.0011006}
+{"id": "ledgar-test-9720", "label": "Enforceability", "answer": "Arbitration", "exact": false, "prompt_tokens": 705, "completion_tokens": 7, "billed_cost_usd": 0.00296}
+{"id": "ledgar-test-6304", "label": "Waivers", "answer": "No Waivers", "exact": false, "prompt_tokens": 819, "completion_tokens": 128, "billed_cost_usd": 0.0033166}
+{"id": "ledgar-test-1836", "label": "No Waivers", "answer": "No Waivers", "exact": true, "prompt_tokens": 1079, "completion_tokens": 7, "billed_cost_usd": 0.0019366}
+{"id": "ledgar-test-8799", "label": "Interests", "answer": "Payments", "exact": false, "prompt_tokens": 733, "completion_tokens": 166, "billed_cost_usd": 0.0037326}
+{"id": "ledgar-test-8233", "label": "Releases", "answer": "Releases", "exact": true, "prompt_tokens": 1150, "completion_tokens": 5, "billed_cost_usd": 0.0021806}
+{"id": "ledgar-test-2821", "label": "Positions", "answer": "Positions", "exact": true, "prompt_tokens": 907, "completion_tokens": 94, "billed_cost_usd": 0.0029886}
+{"id": "ledgar-test-1256", "label": "Authorizations", "answer": "Authority", "exact": false, "prompt_tokens": 743, "completion_tokens": 5, "billed_cost_usd": 0.0005526}
+{"id": "ledgar-test-8835", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 765, "completion_tokens": 8, "billed_cost_usd": 0.0007006}
+{"id": "ledgar-test-4485", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 784, "completion_tokens": 9, "billed_cost_usd": 0.0007966}
+{"id": "ledgar-test-7665", "label": "Insurances", "answer": "Insurances", "exact": true, "prompt_tokens": 841, "completion_tokens": 6, "billed_cost_usd": 0.0009646}
+{"id": "ledgar-test-3502", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 816, "completion_tokens": 5, "billed_cost_usd": 0.0008446}
+{"id": "ledgar-test-884", "label": "Death", "answer": "Death", "exact": true, "prompt_tokens": 730, "completion_tokens": 79, "billed_cost_usd": 0.0019806}
+{"id": "ledgar-test-5892", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 890, "completion_tokens": 5, "billed_cost_usd": 0.0011406}
+{"id": "ledgar-test-7057", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 849, "completion_tokens": 6, "billed_cost_usd": 0.0009966}
+{"id": "ledgar-test-860", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 1296, "completion_tokens": 5, "billed_cost_usd": 0.0027646}
+{"id": "ledgar-test-3822", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 714, "completion_tokens": 5, "billed_cost_usd": 0.0004366}
+{"id": "ledgar-test-2173", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 748, "completion_tokens": 5, "billed_cost_usd": 0.0005726}
+{"id": "ledgar-test-7426", "label": "Intellectual Property", "answer": "Intellectual Property", "exact": true, "prompt_tokens": 865, "completion_tokens": 9, "billed_cost_usd": 0.0011206}
+{"id": "ledgar-test-3495", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 1457, "completion_tokens": 8, "billed_cost_usd": 0.0034686}
+{"id": "ledgar-test-2485", "label": "Indemnity", "answer": "Indemnity", "exact": true, "prompt_tokens": 1430, "completion_tokens": 184, "billed_cost_usd": 0.0068806}
+{"id": "ledgar-test-7737", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 935, "completion_tokens": 6, "billed_cost_usd": 0.0013406}
+{"id": "ledgar-test-4528", "label": "Erisa", "answer": "Erisa", "exact": true, "prompt_tokens": 926, "completion_tokens": 6, "billed_cost_usd": 0.0013046}
+{"id": "ledgar-test-1617", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 706, "completion_tokens": 7, "billed_cost_usd": 0.0004446}
+{"id": "ledgar-test-6846", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 806, "completion_tokens": 94, "billed_cost_usd": 0.0025846}
+{"id": "ledgar-test-6874", "label": "Capitalization", "answer": "Capitalization", "exact": true, "prompt_tokens": 1135, "completion_tokens": 7, "billed_cost_usd": 0.0021606}
+{"id": "ledgar-test-7027", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 783, "completion_tokens": 5, "billed_cost_usd": 0.0007126}
+{"id": "ledgar-test-4142", "label": "Effectiveness", "answer": "Effectiveness", "exact": true, "prompt_tokens": 717, "completion_tokens": 173, "billed_cost_usd": 0.0038086}
+{"id": "ledgar-test-3680", "label": "Defined Terms", "answer": "Defined Terms", "exact": true, "prompt_tokens": 711, "completion_tokens": 111, "billed_cost_usd": 0.005064}
+{"id": "ledgar-test-5033", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 726, "completion_tokens": 5, "billed_cost_usd": 0.0004846}
+{"id": "ledgar-test-4647", "label": "Litigations", "answer": "Litigations", "exact": true, "prompt_tokens": 1087, "completion_tokens": 6, "billed_cost_usd": 0.0019486}
+{"id": "ledgar-test-3971", "label": "Warranties", "answer": "Representations", "exact": false, "prompt_tokens": 1114, "completion_tokens": 5, "billed_cost_usd": 0.0020366}
+{"id": "ledgar-test-1246", "label": "Arbitration", "answer": "Arbitration", "exact": true, "prompt_tokens": 995, "completion_tokens": 7, "billed_cost_usd": 0.0016006}
+{"id": "ledgar-test-8827", "label": "Anti-Corruption Laws", "answer": "Anti-Corruption Laws", "exact": true, "prompt_tokens": 967, "completion_tokens": 13, "billed_cost_usd": 0.0016086}
+{"id": "ledgar-test-6982", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 847, "completion_tokens": 249, "billed_cost_usd": 0.0058486}
+{"id": "ledgar-test-3456", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 787, "completion_tokens": 7, "billed_cost_usd": 0.0007686}
+{"id": "ledgar-test-3952", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 849, "completion_tokens": 5, "billed_cost_usd": 0.0009766}
+{"id": "ledgar-test-4565", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 851, "completion_tokens": 9, "billed_cost_usd": 0.0010646}
+{"id": "ledgar-test-7096", "label": "Non-Disparagement", "answer": "Non-Disparagement", "exact": true, "prompt_tokens": 796, "completion_tokens": 10, "billed_cost_usd": 0.0008646}
+{"id": "ledgar-test-7249", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 870, "completion_tokens": 9, "billed_cost_usd": 0.0011406}
+{"id": "ledgar-test-3697", "label": "General", "answer": "Payments", "exact": false, "prompt_tokens": 829, "completion_tokens": 5, "billed_cost_usd": 0.0008966}
+{"id": "ledgar-test-6211", "label": "Interpretations", "answer": "Construction", "exact": false, "prompt_tokens": 723, "completion_tokens": 96, "billed_cost_usd": 0.0022926}
+{"id": "ledgar-test-7723", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 745, "completion_tokens": 5, "billed_cost_usd": 0.0005606}
+{"id": "ledgar-test-4866", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 859, "completion_tokens": 8, "billed_cost_usd": 0.0010766}
+{"id": "ledgar-test-8418", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 1084, "completion_tokens": 163, "billed_cost_usd": 0.0050766}
+{"id": "ledgar-test-330", "label": "Vesting", "answer": "Vesting", "exact": true, "prompt_tokens": 737, "completion_tokens": 6, "billed_cost_usd": 0.0005486}
+{"id": "ledgar-test-990", "label": "Enforcements", "answer": "Enforcements", "exact": true, "prompt_tokens": 774, "completion_tokens": 332, "billed_cost_usd": 0.0072166}
+{"id": "ledgar-test-6701", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 716, "completion_tokens": 5, "billed_cost_usd": 0.0004446}
+{"id": "ledgar-test-8512", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 900, "completion_tokens": 7, "billed_cost_usd": 0.0012206}
+{"id": "ledgar-test-6608", "label": "Consent To Jurisdiction", "answer": "Consent To Jurisdiction", "exact": true, "prompt_tokens": 844, "completion_tokens": 13, "billed_cost_usd": 0.0011166}
+{"id": "ledgar-test-7718", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 913, "completion_tokens": 8, "billed_cost_usd": 0.0012926}
+{"id": "ledgar-test-7615", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 766, "completion_tokens": 7, "billed_cost_usd": 0.0006846}
+{"id": "ledgar-test-1430", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 840, "completion_tokens": 5, "billed_cost_usd": 0.0009406}
+{"id": "ledgar-test-6022", "label": "Adjustments", "answer": "Adjustments", "exact": true, "prompt_tokens": 755, "completion_tokens": 7, "billed_cost_usd": 0.0006406}
+{"id": "ledgar-test-4730", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 737, "completion_tokens": 5, "billed_cost_usd": 0.0005286}
+{"id": "ledgar-test-979", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 732, "completion_tokens": 9, "billed_cost_usd": 0.0005886}
+{"id": "ledgar-test-2910", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 1070, "completion_tokens": 150, "billed_cost_usd": 0.0047606}
+{"id": "ledgar-test-9410", "label": "Existence", "answer": "Existence", "exact": true, "prompt_tokens": 954, "completion_tokens": 5, "billed_cost_usd": 0.0013966}
+{"id": "ledgar-test-669", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 707, "completion_tokens": 8, "billed_cost_usd": 0.002988}
+{"id": "ledgar-test-5079", "label": "No Defaults", "answer": "No Defaults", "exact": true, "prompt_tokens": 1081, "completion_tokens": 7, "billed_cost_usd": 0.0019446}
+{"id": "ledgar-test-1387", "label": "Records", "answer": "Records", "exact": true, "prompt_tokens": 855, "completion_tokens": 160, "billed_cost_usd": 0.0041006}
+{"id": "ledgar-test-1740", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 950, "completion_tokens": 5, "billed_cost_usd": 0.0013806}
+{"id": "ledgar-test-7361", "label": "Withholdings", "answer": "Tax Withholdings", "exact": false, "prompt_tokens": 785, "completion_tokens": 10, "billed_cost_usd": 0.0008206}
+{"id": "ledgar-test-8397", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 827, "completion_tokens": 10, "billed_cost_usd": 0.0009886}
+{"id": "ledgar-test-380", "label": "General", "answer": "Agreements", "exact": false, "prompt_tokens": 786, "completion_tokens": 107, "billed_cost_usd": 0.0027646}
+{"id": "ledgar-test-8224", "label": "Headings", "answer": "Headings", "exact": true, "prompt_tokens": 718, "completion_tokens": 5, "billed_cost_usd": 0.0004526}
+{"id": "ledgar-test-7432", "label": "Fees", "answer": "Brokers", "exact": false, "prompt_tokens": 770, "completion_tokens": 6, "billed_cost_usd": 0.0006806}
+{"id": "ledgar-test-989", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 1044, "completion_tokens": 8, "billed_cost_usd": 0.0018166}
+{"id": "ledgar-test-7380", "label": "Change In Control", "answer": "Change In Control", "exact": true, "prompt_tokens": 734, "completion_tokens": 7, "billed_cost_usd": 0.0005566}
+{"id": "ledgar-test-1973", "label": "Vacations", "answer": "Vacations", "exact": true, "prompt_tokens": 766, "completion_tokens": 6, "billed_cost_usd": 0.0006646}
+{"id": "ledgar-test-9186", "label": "Intellectual Property", "answer": "Intellectual Property", "exact": true, "prompt_tokens": 1199, "completion_tokens": 9, "billed_cost_usd": 0.0024566}
+{"id": "ledgar-test-571", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 862, "completion_tokens": 201, "billed_cost_usd": 0.0049486}
+{"id": "ledgar-test-1653", "label": "Anti-Corruption Laws", "answer": "Anti-Corruption Laws", "exact": true, "prompt_tokens": 757, "completion_tokens": 188, "billed_cost_usd": 0.0042686}
+{"id": "ledgar-test-8413", "label": "Indemnifications", "answer": "Indemnifications", "exact": true, "prompt_tokens": 814, "completion_tokens": 106, "billed_cost_usd": 0.0028566}
+{"id": "ledgar-test-55", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 755, "completion_tokens": 6, "billed_cost_usd": 0.0006206}
+{"id": "ledgar-test-6019", "label": "Use Of Proceeds", "answer": "Use Of Proceeds", "exact": true, "prompt_tokens": 741, "completion_tokens": 11, "billed_cost_usd": 0.0006646}
+{"id": "ledgar-test-6696", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 765, "completion_tokens": 10, "billed_cost_usd": 0.0007406}
+{"id": "ledgar-test-8682", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 854, "completion_tokens": 5, "billed_cost_usd": 0.0009966}
+{"id": "ledgar-test-2112", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 855, "completion_tokens": 10, "billed_cost_usd": 0.0011006}
+{"id": "ledgar-test-1941", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 885, "completion_tokens": 5, "billed_cost_usd": 0.0011206}
+{"id": "ledgar-test-6009", "label": "Remedies", "answer": "Specific Performance", "exact": false, "prompt_tokens": 825, "completion_tokens": 8, "billed_cost_usd": 0.0009406}
+{"id": "ledgar-test-6864", "label": "Solvency", "answer": "Solvency", "exact": true, "prompt_tokens": 881, "completion_tokens": 6, "billed_cost_usd": 0.0011246}
+{"id": "ledgar-test-8546", "label": "Miscellaneous", "answer": "Construction", "exact": false, "prompt_tokens": 754, "completion_tokens": 139, "billed_cost_usd": 0.0032766}
+{"id": "ledgar-test-2833", "label": "Binding Effects", "answer": "Entire Agreements", "exact": false, "prompt_tokens": 840, "completion_tokens": 9, "billed_cost_usd": 0.0010206}
+{"id": "ledgar-test-2709", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 738, "completion_tokens": 7, "billed_cost_usd": 0.0005726}
+{"id": "ledgar-test-673", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 832, "completion_tokens": 5, "billed_cost_usd": 0.0009086}
+{"id": "ledgar-test-7557", "label": "Construction", "answer": "Construction", "exact": true, "prompt_tokens": 704, "completion_tokens": 5, "billed_cost_usd": 0.002916}
+{"id": "ledgar-test-7293", "label": "Solvency", "answer": "Solvency", "exact": true, "prompt_tokens": 739, "completion_tokens": 6, "billed_cost_usd": 0.0005566}
+{"id": "ledgar-test-5800", "label": "Remedies", "answer": "Remedies", "exact": true, "prompt_tokens": 845, "completion_tokens": 6, "billed_cost_usd": 0.0009806}
+{"id": "ledgar-test-9391", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 721, "completion_tokens": 8, "billed_cost_usd": 0.0005246}
+{"id": "ledgar-test-7704", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 798, "completion_tokens": 5, "billed_cost_usd": 0.0007726}
+{"id": "ledgar-test-6131", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 805, "completion_tokens": 5, "billed_cost_usd": 0.0008006}
+{"id": "ledgar-test-8929", "label": "Compliance With Laws", "answer": "Compliance With Laws", "exact": true, "prompt_tokens": 742, "completion_tokens": 10, "billed_cost_usd": 0.0006486}
+{"id": "ledgar-test-1781", "label": "Benefits", "answer": "Benefits", "exact": true, "prompt_tokens": 956, "completion_tokens": 6, "billed_cost_usd": 0.0014246}
+{"id": "ledgar-test-8297", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 699, "completion_tokens": 6, "billed_cost_usd": 0.002916}
+{"id": "ledgar-test-6521", "label": "Binding Effects", "answer": "Arbitration", "exact": false, "prompt_tokens": 907, "completion_tokens": 7, "billed_cost_usd": 0.0012486}
+{"id": "ledgar-test-9411", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 1035, "completion_tokens": 8, "billed_cost_usd": 0.0017806}
+{"id": "ledgar-test-207", "label": "Compliance With Laws", "answer": "Releases", "exact": false, "prompt_tokens": 842, "completion_tokens": 216, "billed_cost_usd": 0.0051686}
+{"id": "ledgar-test-4965", "label": "Assignments", "answer": "Assignments", "exact": true, "prompt_tokens": 1054, "completion_tokens": 6, "billed_cost_usd": 0.0018166}
+{"id": "ledgar-test-9159", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 772, "completion_tokens": 8, "billed_cost_usd": 0.0007286}
+{"id": "ledgar-test-1345", "label": "Withholdings", "answer": "Tax Withholdings", "exact": false, "prompt_tokens": 746, "completion_tokens": 164, "billed_cost_usd": 0.0037446}
+{"id": "ledgar-test-8934", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 794, "completion_tokens": 5, "billed_cost_usd": 0.0007566}
+{"id": "ledgar-test-5611", "label": "Remedies", "answer": "Remedies", "exact": true, "prompt_tokens": 816, "completion_tokens": 6, "billed_cost_usd": 0.0008646}
+{"id": "ledgar-test-6360", "label": "Capitalization", "answer": "Capitalization", "exact": true, "prompt_tokens": 816, "completion_tokens": 7, "billed_cost_usd": 0.0008846}
+{"id": "ledgar-test-7713", "label": "Authority", "answer": "Representations", "exact": false, "prompt_tokens": 1071, "completion_tokens": 126, "billed_cost_usd": 0.0042846}
+{"id": "ledgar-test-4862", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 931, "completion_tokens": 8, "billed_cost_usd": 0.0013646}
+{"id": "ledgar-test-8638", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 858, "completion_tokens": 9, "billed_cost_usd": 0.0010926}
+{"id": "ledgar-test-7729", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 755, "completion_tokens": 5, "billed_cost_usd": 0.0006006}
+{"id": "ledgar-test-4331", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 755, "completion_tokens": 6, "billed_cost_usd": 0.0006206}
+{"id": "ledgar-test-6128", "label": "Amendments", "answer": "Amendments", "exact": true, "prompt_tokens": 710, "completion_tokens": 6, "billed_cost_usd": 0.0004406}
+{"id": "ledgar-test-7389", "label": "Further Assurances", "answer": "Further Assurances", "exact": true, "prompt_tokens": 767, "completion_tokens": 8, "billed_cost_usd": 0.0007086}
+{"id": "ledgar-test-1785", "label": "Counterparts", "answer": "Counterparts", "exact": true, "prompt_tokens": 946, "completion_tokens": 7, "billed_cost_usd": 0.0014046}
+{"id": "ledgar-test-875", "label": "Releases", "answer": "Releases", "exact": true, "prompt_tokens": 791, "completion_tokens": 5, "billed_cost_usd": 0.0007446}
+{"id": "ledgar-test-4880", "label": "Terms", "answer": "Terms", "exact": true, "prompt_tokens": 1057, "completion_tokens": 5, "billed_cost_usd": 0.0018086}
+{"id": "ledgar-test-4225", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 945, "completion_tokens": 5, "billed_cost_usd": 0.0013606}
+{"id": "ledgar-test-1053", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 737, "completion_tokens": 9, "billed_cost_usd": 0.0006086}
+{"id": "ledgar-test-61", "label": "Confidentiality", "answer": "Confidentiality", "exact": true, "prompt_tokens": 1440, "completion_tokens": 75, "billed_cost_usd": 0.0047406}
+{"id": "ledgar-test-2904", "label": "Base Salary", "answer": "Base Salary", "exact": true, "prompt_tokens": 768, "completion_tokens": 7, "billed_cost_usd": 0.0006926}
+{"id": "ledgar-test-8908", "label": "Waivers", "answer": "Waivers", "exact": true, "prompt_tokens": 745, "completion_tokens": 133, "billed_cost_usd": 0.0031206}
+{"id": "ledgar-test-3141", "label": "Vacations", "answer": "Vacations", "exact": true, "prompt_tokens": 795, "completion_tokens": 6, "billed_cost_usd": 0.0007806}
+{"id": "ledgar-test-5245", "label": "Fees", "answer": "Expenses", "exact": false, "prompt_tokens": 720, "completion_tokens": 93, "billed_cost_usd": 0.0022206}
+{"id": "ledgar-test-8504", "label": "Cooperation", "answer": "Cooperation", "exact": true, "prompt_tokens": 729, "completion_tokens": 7, "billed_cost_usd": 0.0005366}
+{"id": "ledgar-test-3602", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 774, "completion_tokens": 9, "billed_cost_usd": 0.0007566}
+{"id": "ledgar-test-2773", "label": "No Defaults", "answer": "No Defaults", "exact": true, "prompt_tokens": 781, "completion_tokens": 40, "billed_cost_usd": 0.0014046}
+{"id": "ledgar-test-6000", "label": "Representations", "answer": "Representations", "exact": true, "prompt_tokens": 721, "completion_tokens": 63, "billed_cost_usd": 0.0016246}
+{"id": "ledgar-test-9834", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 1087, "completion_tokens": 5, "billed_cost_usd": 0.0019286}
+{"id": "ledgar-test-2411", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 726, "completion_tokens": 8, "billed_cost_usd": 0.0005446}
+{"id": "ledgar-test-152", "label": "Entire Agreements", "answer": "Entire Agreements", "exact": true, "prompt_tokens": 776, "completion_tokens": 9, "billed_cost_usd": 0.0007646}
+{"id": "ledgar-test-527", "label": "Releases", "answer": "Releases", "exact": true, "prompt_tokens": 871, "completion_tokens": 5, "billed_cost_usd": 0.0010646}
+{"id": "ledgar-test-8421", "label": "General", "answer": "General", "exact": true, "prompt_tokens": 963, "completion_tokens": 91, "billed_cost_usd": 0.0031526}
+{"id": "ledgar-test-4700", "label": "Successors", "answer": "Successors", "exact": true, "prompt_tokens": 733, "completion_tokens": 231, "billed_cost_usd": 0.0050326}
+{"id": "ledgar-test-2086", "label": "Cooperation", "answer": "Cooperation", "exact": true, "prompt_tokens": 753, "completion_tokens": 7, "billed_cost_usd": 0.0006326}
+{"id": "ledgar-test-405", "label": "Brokers", "answer": "Brokers", "exact": true, "prompt_tokens": 747, "completion_tokens": 6, "billed_cost_usd": 0.0005886}
+{"id": "ledgar-test-6348", "label": "Terminations", "answer": "Terminations", "exact": true, "prompt_tokens": 798, "completion_tokens": 6, "billed_cost_usd": 0.0007926}
+{"id": "ledgar-test-892", "label": "Venues", "answer": "Venues", "exact": true, "prompt_tokens": 920, "completion_tokens": 5, "billed_cost_usd": 0.0012606}
+{"id": "ledgar-test-890", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 1002, "completion_tokens": 5, "billed_cost_usd": 0.0015886}
+{"id": "ledgar-test-8369", "label": "Governing Laws", "answer": "Governing Laws", "exact": true, "prompt_tokens": 726, "completion_tokens": 8, "billed_cost_usd": 0.0005446}
+{"id": "ledgar-test-7049", "label": "Severability", "answer": "Severability", "exact": true, "prompt_tokens": 1004, "completion_tokens": 5, "billed_cost_usd": 0.0015966}
+{"id": "ledgar-test-4636", "label": "Tax Withholdings", "answer": "Tax Withholdings", "exact": true, "prompt_tokens": 706, "completion_tokens": 94, "billed_cost_usd": 0.004704}
+{"id": "ledgar-test-3242", "label": "Notices", "answer": "Notices", "exact": true, "prompt_tokens": 746, "completion_tokens": 5, "billed_cost_usd": 0.0005646}
+{"id": "ledgar-test-3006", "label": "Representations", "answer": "Representations", "exact": true, "prompt_tokens": 737, "completion_tokens": 78, "billed_cost_usd": 0.0019886}

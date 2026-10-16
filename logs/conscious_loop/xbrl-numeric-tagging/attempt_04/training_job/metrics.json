@@ -1,0 +1,2147 @@
+{
+ "graph_configs": [
+  {
+   "color": "#3B82F6",
+   "goal": "minimize",
+   "key": "loss",
+   "label": "Training Loss",
+   "unit": "scalar"
+  },
+  {
+   "color": "#06B6D4",
+   "goal": "minimize",
+   "key": "eval_loss",
+   "label": "Eval Loss",
+   "unit": "scalar"
+  },
+  {
+   "color": "#10B981",
+   "goal": "schedule",
+   "key": "learning_rate",
+   "label": "Learning Rate",
+   "unit": "scalar"
+  },
+  {
+   "color": "#F59E0B",
+   "goal": "observe",
+   "key": "grad_norm",
+   "label": "Gradient Norm",
+   "unit": "scalar"
+  },
+  {
+   "color": "#8B5CF6",
+   "goal": "maximize",
+   "key": "token_acc",
+   "label": "Token Accuracy",
+   "unit": "fraction"
+  },
+  {
+   "color": "#6B7280",
+   "goal": "progress",
+   "key": "epoch",
+   "label": "Epoch",
+   "unit": "epochs"
+  },
+  {
+   "color": "#13775B",
+   "goal": "observe",
+   "key": "loss_metrics/global_max_loss",
+   "label": "Loss Metrics Global Max Loss",
+   "unit": "scalar"
+  },
+  {
+   "color": "#13775B",
+   "goal": "observe",
+   "key": "lr/AdamW",
+   "label": "Lr AdamW",
+   "unit": "scalar"
+  },
+  {
+   "color": "#13775B",
+   "goal": "minimize",
+   "key": "perplexity",
+   "label": "Perplexity",
+   "unit": "scalar"
+  },
+  {
+   "color": "#13775B",
+   "goal": "observe",
+   "key": "processed_tokens",
+   "label": "Processed Tokens",
+   "unit": "scalar"
+  },
+  {
+   "color": "#13775B",
+   "goal": "observe",
+   "key": "supervised_tokens",
+   "label": "Supervised Tokens",
+   "unit": "scalar"
+  },
+  {
+   "color": "#13775B",
+   "goal": "observe",
+   "key": "total_steps",
+   "label": "Total Steps",
+   "unit": "scalar"
+  },
+  {
+   "color": "#13775B",
+   "goal": "observe",
+   "key": "validation_metrics/loss",
+   "label": "Validation Metrics Loss",
+   "unit": "scalar"
+  }
+ ],
+ "metric_summaries": [
+  {
+   "average": 0.09955415517876023,
+   "best": 0.02629610151052475,
+   "best_step": 88,
+   "change": -1.3699475154280663,
+   "change_percent": -97.4866187570388,
+   "first": 1.4052672386169434,
+   "first_step": 1,
+   "goal": "minimize",
+   "key": "loss",
+   "label": "Training Loss",
+   "last_step": 95,
+   "latest": 0.035319723188877106,
+   "maximum": 1.4052672386169434,
+   "minimum": 0.02629610151052475,
+   "points": 95,
+   "unit": "scalar"
+  },
+  {
+   "average": 0.31207218890388805,
+   "best": 0.06460645794868469,
+   "best_step": 38,
+   "change": -1.4513764828443527,
+   "change_percent": -95.64379376528038,
+   "first": 1.5174810886383057,
+   "first_step": 1,
+   "goal": "minimize",
+   "key": "eval_loss",
+   "label": "Eval Loss",
+   "last_step": 95,
+   "latest": 0.06610460579395294,
+   "maximum": 1.5174810886383057,
+   "minimum": 0.06460645794868469,
+   "points": 6,
+   "unit": "scalar"
+  },
+  {
+   "average": 0.00017377507919440023,
+   "change": 0.00011071607910914301,
+   "change_percent": 387.5062768820006,
+   "first": 2.857142857142857e-05,
+   "first_step": 1,
+   "goal": "schedule",
+   "key": "learning_rate",
+   "label": "Learning Rate",
+   "last_step": 94,
+   "latest": 0.00013928750768057158,
+   "maximum": 0.0002,
+   "minimum": 2.857142857142857e-05,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 0.7491584940159575,
+   "change": -11.599609375,
+   "change_percent": -98.19775132275133,
+   "first": 11.8125,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "grad_norm",
+   "label": "Gradient Norm",
+   "last_step": 94,
+   "latest": 0.212890625,
+   "maximum": 11.875,
+   "minimum": 0.1455078125,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 0.9744623936170215,
+   "best": 0.991513,
+   "best_step": 72,
+   "change": 0.08284599999999998,
+   "change_percent": 9.240512541380754,
+   "first": 0.896552,
+   "first_step": 1,
+   "goal": "maximize",
+   "key": "token_acc",
+   "label": "Token Accuracy",
+   "last_step": 94,
+   "latest": 0.979398,
+   "maximum": 0.991513,
+   "minimum": 0.87695,
+   "points": 94,
+   "unit": "fraction"
+  },
+  {
+   "average": 0.8776610526315789,
+   "change": 3.9822,
+   "change_percent": 22371.910112359554,
+   "first": 0.0178,
+   "first_step": 1,
+   "goal": "progress",
+   "key": "epoch",
+   "label": "Epoch",
+   "last_step": 95,
+   "latest": 4,
+   "maximum": 4,
+   "minimum": 0.0178,
+   "points": 95,
+   "unit": "epochs"
+  },
+  {
+   "average": 0.142292094555624,
+   "change": -1.560195915400982,
+   "change_percent": -95.89616337955806,
+   "first": 1.6269638538360596,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "loss_metrics/global_max_loss",
+   "label": "Loss Metrics Global Max Loss",
+   "last_step": 94,
+   "latest": 0.06676793843507767,
+   "maximum": 1.6269638538360596,
+   "minimum": 0.04036974534392357,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 0.00017377507919440023,
+   "change": 0.00011071607910914301,
+   "change_percent": 387.5062768820006,
+   "first": 2.857142857142857e-05,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "lr/AdamW",
+   "label": "Lr AdamW",
+   "last_step": 94,
+   "latest": 0.00013928750768057158,
+   "maximum": 0.0002,
+   "minimum": 2.857142857142857e-05,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 1.140727659574468,
+   "best": 1.0266,
+   "best_step": 88,
+   "change": -3.0234,
+   "change_percent": -74.16474513074621,
+   "first": 4.0766,
+   "first_step": 1,
+   "goal": "minimize",
+   "key": "perplexity",
+   "label": "Perplexity",
+   "last_step": 94,
+   "latest": 1.0532,
+   "maximum": 4.0766,
+   "minimum": 1.0266,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 4743303.319148936,
+   "change": 9286920,
+   "change_percent": 9300.219313618474,
+   "first": 99857,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "processed_tokens",
+   "label": "Processed Tokens",
+   "last_step": 94,
+   "latest": 9386777,
+   "maximum": 9386777,
+   "minimum": 99857,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 654.6063829787234,
+   "change": -65,
+   "change_percent": -9.339080459770114,
+   "first": 696,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "supervised_tokens",
+   "label": "Supervised Tokens",
+   "last_step": 94,
+   "latest": 631,
+   "maximum": 784,
+   "minimum": 543,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 225,
+   "change": 0,
+   "change_percent": 0,
+   "first": 225,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "total_steps",
+   "label": "Total Steps",
+   "last_step": 94,
+   "latest": 225,
+   "maximum": 225,
+   "minimum": 225,
+   "points": 94,
+   "unit": "scalar"
+  },
+  {
+   "average": 0.3612657055258751,
+   "change": -1.4524503350257874,
+   "change_percent": -95.71455920608058,
+   "first": 1.5174810886383057,
+   "first_step": 1,
+   "goal": "observe",
+   "key": "validation_metrics/loss",
+   "label": "Validation Metrics Loss",
+   "last_step": 76,
+   "latest": 0.06503075361251831,
+   "maximum": 1.5174810886383057,
+   "minimum": 0.06460645794868469,
+   "points": 5,
+   "unit": "scalar"
+  }
+ ],
+ "metrics": [
+  {
+   "epoch": 0.0178,
+   "eval_loss": 1.5174810886383057,
+   "extra_metrics": {
+    "eval_loss": 1.5174810886383057,
+    "loss_metrics/global_max_loss": 1.6269638538360596,
+    "lr/AdamW": 2.857142857142857e-05,
+    "perplexity": 4.0766,
+    "processed_tokens": 99857,
+    "supervised_tokens": 696,
+    "token_acc": 0.896552,
+    "total_steps": 225,
+    "validation_metrics/loss": 1.5174810886383057
+   },
+   "grad_norm": 11.8125,
+   "learning_rate": 2.857142857142857e-05,
+   "loss": 1.4052672386169434,
+   "reward": null,
+   "step": 1,
+   "timestamp": "2026-10-15T06:27:46.156589Z"
+  },
+  {
+   "epoch": 0.0356,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 1.516666054725647,
+    "lr/AdamW": 5.714285714285714e-05,
+    "perplexity": 3.9608,
+    "processed_tokens": 199569,
+    "supervised_tokens": 677,
+    "token_acc": 0.880355,
+    "total_steps": 225
+   },
+   "grad_norm": 11.875,
+   "learning_rate": 5.714285714285714e-05,
+   "loss": 1.3764532804489136,
+   "reward": null,
+   "step": 2,
+   "timestamp": "2026-10-15T06:28:02.422554Z"
+  },
+  {
+   "epoch": 0.0533,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.7649317383766174,
+    "lr/AdamW": 8.571428571428571e-05,
+    "perplexity": 2.0133,
+    "processed_tokens": 299115,
+    "supervised_tokens": 577,
+    "token_acc": 0.87695,
+    "total_steps": 225
+   },
+   "grad_norm": 7.4375,
+   "learning_rate": 8.571428571428571e-05,
+   "loss": 0.6997745037078857,
+   "reward": null,
+   "step": 3,
+   "timestamp": "2026-10-15T06:28:03.536591Z"
+  },
+  {
+   "epoch": 0.0711,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.3468068540096283,
+    "lr/AdamW": 0.00011428571428571428,
+    "perplexity": 1.2549,
+    "processed_tokens": 399056,
+    "supervised_tokens": 653,
+    "token_acc": 0.909648,
+    "total_steps": 225
+   },
+   "grad_norm": 1.8671875,
+   "learning_rate": 0.00011428571428571428,
+   "loss": 0.2270403653383255,
+   "reward": null,
+   "step": 4,
+   "timestamp": "2026-10-15T06:28:10.345544Z"
+  },
+  {
+   "epoch": 0.0889,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1577441245317459,
+    "lr/AdamW": 0.00014285714285714287,
+    "perplexity": 1.1249,
+    "processed_tokens": 498589,
+    "supervised_tokens": 609,
+    "token_acc": 0.965517,
+    "total_steps": 225
+   },
+   "grad_norm": 7.03125,
+   "learning_rate": 0.00014285714285714287,
+   "loss": 0.1177089512348175,
+   "reward": null,
+   "step": 5,
+   "timestamp": "2026-10-15T06:28:12.489395Z"
+  },
+  {
+   "epoch": 0.1067,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1681024134159088,
+    "lr/AdamW": 0.00017142857142857143,
+    "perplexity": 1.1413,
+    "processed_tokens": 598902,
+    "supervised_tokens": 669,
+    "token_acc": 0.96861,
+    "total_steps": 225
+   },
+   "grad_norm": 0.6171875,
+   "learning_rate": 0.00017142857142857143,
+   "loss": 0.13217295706272125,
+   "reward": null,
+   "step": 6,
+   "timestamp": "2026-10-15T06:28:16.376265Z"
+  },
+  {
+   "epoch": 0.1244,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.11298320442438126,
+    "lr/AdamW": 0.0002,
+    "perplexity": 1.093,
+    "processed_tokens": 698469,
+    "supervised_tokens": 601,
+    "token_acc": 0.965058,
+    "total_steps": 225
+   },
+   "grad_norm": 0.6328125,
+   "learning_rate": 0.0002,
+   "loss": 0.08888973295688629,
+   "reward": null,
+   "step": 7,
+   "timestamp": "2026-10-15T06:28:26.585155Z"
+  },
+  {
+   "epoch": 0.1422,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.14234855771064758,
+    "lr/AdamW": 0.0002,
+    "perplexity": 1.1154,
+    "processed_tokens": 798242,
+    "supervised_tokens": 713,
+    "token_acc": 0.963534,
+    "total_steps": 225
+   },
+   "grad_norm": 0.49609375,
+   "learning_rate": 0.0002,
+   "loss": 0.1091867983341217,
+   "reward": null,
+   "step": 8,
+   "timestamp": "2026-10-15T06:28:22.369822Z"
+  },
+  {
+   "epoch": 0.16,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.17419058084487915,
+    "lr/AdamW": 0.0001999906547320976,
+    "perplexity": 1.1088,
+    "processed_tokens": 898345,
+    "supervised_tokens": 668,
+    "token_acc": 0.971557,
+    "total_steps": 225
+   },
+   "grad_norm": 0.5625,
+   "learning_rate": 0.0001999906547320976,
+   "loss": 0.10331012308597565,
+   "reward": null,
+   "step": 9,
+   "timestamp": "2026-10-15T06:28:31.743161Z"
+  },
+  {
+   "epoch": 0.1778,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.12391865998506546,
+    "lr/AdamW": 0.0001999626208691466,
+    "perplexity": 1.0958,
+    "processed_tokens": 998012,
+    "supervised_tokens": 663,
+    "token_acc": 0.980392,
+    "total_steps": 225
+   },
+   "grad_norm": 0.5234375,
+   "learning_rate": 0.0001999626208691466,
+   "loss": 0.09148114919662476,
+   "reward": null,
+   "step": 10,
+   "timestamp": "2026-10-15T06:28:32.449265Z"
+  },
+  {
+   "epoch": 0.1956,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1322939097881317,
+    "lr/AdamW": 0.00019991590423301282,
+    "perplexity": 1.0834,
+    "processed_tokens": 1097933,
+    "supervised_tokens": 687,
+    "token_acc": 0.972344,
+    "total_steps": 225
+   },
+   "grad_norm": 0.3984375,
+   "learning_rate": 0.00019991590423301282,
+   "loss": 0.08006558567285538,
+   "reward": null,
+   "step": 11,
+   "timestamp": "2026-10-15T06:28:33.204599Z"
+  },
+  {
+   "epoch": 0.2133,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.186578631401062,
+    "lr/AdamW": 0.0001998505145254625,
+    "perplexity": 1.1013,
+    "processed_tokens": 1198110,
+    "supervised_tokens": 666,
+    "token_acc": 0.968468,
+    "total_steps": 225
+   },
+   "grad_norm": 0.5625,
+   "learning_rate": 0.0001998505145254625,
+   "loss": 0.09649385511875153,
+   "reward": null,
+   "step": 12,
+   "timestamp": "2026-10-15T06:29:03.213741Z"
+  },
+  {
+   "epoch": 0.2311,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.12912854552268982,
+    "lr/AdamW": 0.0001997664653261475,
+    "perplexity": 1.087,
+    "processed_tokens": 1297978,
+    "supervised_tokens": 577,
+    "token_acc": 0.980936,
+    "total_steps": 225
+   },
+   "grad_norm": 0.4765625,
+   "learning_rate": 0.0001997664653261475,
+   "loss": 0.08344419300556183,
+   "reward": null,
+   "step": 13,
+   "timestamp": "2026-10-15T06:28:42.430908Z"
+  },
+  {
+   "epoch": 0.2489,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1457708477973938,
+    "lr/AdamW": 0.00019966377408978523,
+    "perplexity": 1.0929,
+    "processed_tokens": 1397841,
+    "supervised_tokens": 661,
+    "token_acc": 0.975794,
+    "total_steps": 225
+   },
+   "grad_norm": 0.6328125,
+   "learning_rate": 0.00019966377408978523,
+   "loss": 0.08884163945913315,
+   "reward": null,
+   "step": 14,
+   "timestamp": "2026-10-15T06:28:50.585249Z"
+  },
+  {
+   "epoch": 0.2667,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.13910219073295593,
+    "lr/AdamW": 0.00019954246214253386,
+    "perplexity": 1.0814,
+    "processed_tokens": 1497702,
+    "supervised_tokens": 641,
+    "token_acc": 0.981279,
+    "total_steps": 225
+   },
+   "grad_norm": 0.48046875,
+   "learning_rate": 0.00019954246214253386,
+   "loss": 0.07822879403829575,
+   "reward": null,
+   "step": 15,
+   "timestamp": "2026-10-15T06:29:03.244587Z"
+  },
+  {
+   "epoch": 0.2844,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.12211018800735474,
+    "lr/AdamW": 0.00019940255467756327,
+    "perplexity": 1.0629,
+    "processed_tokens": 1597763,
+    "supervised_tokens": 743,
+    "token_acc": 0.973082,
+    "total_steps": 225
+   },
+   "grad_norm": 0.458984375,
+   "learning_rate": 0.00019940255467756327,
+   "loss": 0.060978349298238754,
+   "reward": null,
+   "step": 16,
+   "timestamp": "2026-10-15T06:28:52.434001Z"
+  },
+  {
+   "epoch": 0.3022,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1370365470647812,
+    "lr/AdamW": 0.00019924408074982328,
+    "perplexity": 1.0918,
+    "processed_tokens": 1697783,
+    "supervised_tokens": 609,
+    "token_acc": 0.973727,
+    "total_steps": 225
+   },
+   "grad_norm": 0.46484375,
+   "learning_rate": 0.00019924408074982328,
+   "loss": 0.08786831796169281,
+   "reward": null,
+   "step": 17,
+   "timestamp": "2026-10-15T06:29:00.312594Z"
+  },
+  {
+   "epoch": 0.32,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.11017683148384094,
+    "lr/AdamW": 0.00019906707327000973,
+    "perplexity": 1.0693,
+    "processed_tokens": 1797399,
+    "supervised_tokens": 666,
+    "token_acc": 0.977478,
+    "total_steps": 225
+   },
+   "grad_norm": 0.4453125,
+   "learning_rate": 0.00019906707327000973,
+   "loss": 0.06697457283735275,
+   "reward": null,
+   "step": 18,
+   "timestamp": "2026-10-15T06:29:02.435915Z"
+  },
+  {
+   "epoch": 0.3378,
+   "eval_loss": 0.08298785239458084,
+   "extra_metrics": {
+    "eval_loss": 0.08298785239458084,
+    "loss_metrics/global_max_loss": 0.13015341758728027,
+    "lr/AdamW": 0.00019887156899772964,
+    "perplexity": 1.0588,
+    "processed_tokens": 1897340,
+    "supervised_tokens": 628,
+    "token_acc": 0.984076,
+    "total_steps": 225,
+    "validation_metrics/loss": 0.08298785239458084
+   },
+   "grad_norm": 0.51171875,
+   "learning_rate": 0.00019887156899772964,
+   "loss": 0.05711279809474945,
+   "reward": null,
+   "step": 19,
+   "timestamp": "2026-10-15T06:29:03.276589Z"
+  },
+  {
+   "epoch": 0.3556,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1715271919965744,
+    "lr/AdamW": 0.00019865760853386754,
+    "perplexity": 1.1261,
+    "processed_tokens": 1996755,
+    "supervised_tokens": 664,
+    "token_acc": 0.957831,
+    "total_steps": 225
+   },
+   "grad_norm": 0.6015625,
+   "learning_rate": 0.00019865760853386754,
+   "loss": 0.11875713616609573,
+   "reward": null,
+   "step": 20,
+   "timestamp": "2026-10-15T06:29:15.824584Z"
+  },
+  {
+   "epoch": 0.3733,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1426641047000885,
+    "lr/AdamW": 0.00019842523631215353,
+    "perplexity": 1.1082,
+    "processed_tokens": 2096576,
+    "supervised_tokens": 632,
+    "token_acc": 0.958861,
+    "total_steps": 225
+   },
+   "grad_norm": 0.439453125,
+   "learning_rate": 0.00019842523631215353,
+   "loss": 0.1027563139796257,
+   "reward": null,
+   "step": 21,
+   "timestamp": "2026-10-15T06:29:20.992589Z"
+  },
+  {
+   "epoch": 0.3911,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08940444141626358,
+    "lr/AdamW": 0.00019817450058993568,
+    "perplexity": 1.057,
+    "processed_tokens": 2196649,
+    "supervised_tokens": 653,
+    "token_acc": 0.981623,
+    "total_steps": 225
+   },
+   "grad_norm": 0.376953125,
+   "learning_rate": 0.00019817450058993568,
+   "loss": 0.05543660372495651,
+   "reward": null,
+   "step": 22,
+   "timestamp": "2026-10-15T06:29:22.429443Z"
+  },
+  {
+   "epoch": 0.4089,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.13502416014671326,
+    "lr/AdamW": 0.0001979054534381584,
+    "perplexity": 1.1004,
+    "processed_tokens": 2296969,
+    "supervised_tokens": 611,
+    "token_acc": 0.967267,
+    "total_steps": 225
+   },
+   "grad_norm": 0.5625,
+   "learning_rate": 0.0001979054534381584,
+   "loss": 0.09567511081695557,
+   "reward": null,
+   "step": 23,
+   "timestamp": "2026-10-15T06:29:33.17259Z"
+  },
+  {
+   "epoch": 0.4267,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08719097822904587,
+    "lr/AdamW": 0.0001976181507305486,
+    "perplexity": 1.0778,
+    "processed_tokens": 2396812,
+    "supervised_tokens": 616,
+    "token_acc": 0.974026,
+    "total_steps": 225
+   },
+   "grad_norm": 0.37109375,
+   "learning_rate": 0.0001976181507305486,
+   "loss": 0.07490554451942444,
+   "reward": null,
+   "step": 24,
+   "timestamp": "2026-10-15T06:29:30.424721Z"
+  },
+  {
+   "epoch": 0.4444,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08963026106357574,
+    "lr/AdamW": 0.00019731265213201234,
+    "perplexity": 1.0706,
+    "processed_tokens": 2496666,
+    "supervised_tokens": 665,
+    "token_acc": 0.972932,
+    "total_steps": 225
+   },
+   "grad_norm": 0.25390625,
+   "learning_rate": 0.00019731265213201234,
+   "loss": 0.06825520098209381,
+   "reward": null,
+   "step": 25,
+   "timestamp": "2026-10-15T06:29:32.376103Z"
+  },
+  {
+   "epoch": 0.4622,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1425655335187912,
+    "lr/AdamW": 0.00019698902108624398,
+    "perplexity": 1.0751,
+    "processed_tokens": 2596794,
+    "supervised_tokens": 686,
+    "token_acc": 0.975219,
+    "total_steps": 225
+   },
+   "grad_norm": 0.359375,
+   "learning_rate": 0.00019698902108624398,
+   "loss": 0.07237385958433151,
+   "reward": null,
+   "step": 26,
+   "timestamp": "2026-10-15T06:30:03.704607Z"
+  },
+  {
+   "epoch": 0.48,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09735259413719177,
+    "lr/AdamW": 0.00019664732480255076,
+    "perplexity": 1.0666,
+    "processed_tokens": 2696546,
+    "supervised_tokens": 668,
+    "token_acc": 0.976048,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2470703125,
+   "learning_rate": 0.00019664732480255076,
+   "loss": 0.06449414789676666,
+   "reward": null,
+   "step": 27,
+   "timestamp": "2026-10-15T06:29:42.46585Z"
+  },
+  {
+   "epoch": 0.4978,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09997249394655228,
+    "lr/AdamW": 0.0001962876342418951,
+    "perplexity": 1.0837,
+    "processed_tokens": 2796245,
+    "supervised_tokens": 577,
+    "token_acc": 0.97227,
+    "total_steps": 225
+   },
+   "grad_norm": 0.5,
+   "learning_rate": 0.0001962876342418951,
+   "loss": 0.08033712953329086,
+   "reward": null,
+   "step": 28,
+   "timestamp": "2026-10-15T06:29:51.580591Z"
+  },
+  {
+   "epoch": 0.5156,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.14051802456378937,
+    "lr/AdamW": 0.00019591002410215822,
+    "perplexity": 1.0897,
+    "processed_tokens": 2895985,
+    "supervised_tokens": 619,
+    "token_acc": 0.969305,
+    "total_steps": 225
+   },
+   "grad_norm": 0.53515625,
+   "learning_rate": 0.00019591002410215822,
+   "loss": 0.08587039262056351,
+   "reward": null,
+   "step": 29,
+   "timestamp": "2026-10-15T06:30:03.732471Z"
+  },
+  {
+   "epoch": 0.5333,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07248812168836594,
+    "lr/AdamW": 0.00019551457280262717,
+    "perplexity": 1.0517,
+    "processed_tokens": 2995806,
+    "supervised_tokens": 691,
+    "token_acc": 0.979739,
+    "total_steps": 225
+   },
+   "grad_norm": 0.271484375,
+   "learning_rate": 0.00019551457280262717,
+   "loss": 0.050454333424568176,
+   "reward": null,
+   "step": 30,
+   "timestamp": "2026-10-15T06:29:52.431469Z"
+  },
+  {
+   "epoch": 0.5511,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.13356581330299377,
+    "lr/AdamW": 0.00019510136246770943,
+    "perplexity": 1.0819,
+    "processed_tokens": 3095522,
+    "supervised_tokens": 699,
+    "token_acc": 0.965665,
+    "total_steps": 225
+   },
+   "grad_norm": 0.31640625,
+   "learning_rate": 0.00019510136246770943,
+   "loss": 0.07867748290300369,
+   "reward": null,
+   "step": 31,
+   "timestamp": "2026-10-15T06:30:03.739153Z"
+  },
+  {
+   "epoch": 0.5689,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.10459309071302414,
+    "lr/AdamW": 0.00019467047890987785,
+    "perplexity": 1.0841,
+    "processed_tokens": 3195488,
+    "supervised_tokens": 771,
+    "token_acc": 0.979248,
+    "total_steps": 225
+   },
+   "grad_norm": 0.4375,
+   "learning_rate": 0.00019467047890987785,
+   "loss": 0.08073779940605164,
+   "reward": null,
+   "step": 32,
+   "timestamp": "2026-10-15T06:30:03.744625Z"
+  },
+  {
+   "epoch": 0.5867,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09664199501276016,
+    "lr/AdamW": 0.0001942220116118499,
+    "perplexity": 1.0579,
+    "processed_tokens": 3295498,
+    "supervised_tokens": 679,
+    "token_acc": 0.980854,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2421875,
+   "learning_rate": 0.0001942220116118499,
+   "loss": 0.05630320683121681,
+   "reward": null,
+   "step": 33,
+   "timestamp": "2026-10-15T06:30:02.536175Z"
+  },
+  {
+   "epoch": 0.6044,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07743590325117111,
+    "lr/AdamW": 0.0001937560537080043,
+    "perplexity": 1.06,
+    "processed_tokens": 3395060,
+    "supervised_tokens": 631,
+    "token_acc": 0.977813,
+    "total_steps": 225
+   },
+   "grad_norm": 0.28125,
+   "learning_rate": 0.0001937560537080043,
+   "loss": 0.05825335532426834,
+   "reward": null,
+   "step": 34,
+   "timestamp": "2026-10-15T06:30:12.836595Z"
+  },
+  {
+   "epoch": 0.6222,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.0994841605424881,
+    "lr/AdamW": 0.00019327270196503978,
+    "perplexity": 1.0612,
+    "processed_tokens": 3494744,
+    "supervised_tokens": 618,
+    "token_acc": 0.978964,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2890625,
+   "learning_rate": 0.00019327270196503978,
+   "loss": 0.0593954436480999,
+   "reward": null,
+   "step": 35,
+   "timestamp": "2026-10-15T06:30:33.236603Z"
+  },
+  {
+   "epoch": 0.64,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.11935196071863174,
+    "lr/AdamW": 0.00019277205676187926,
+    "perplexity": 1.0792,
+    "processed_tokens": 3594717,
+    "supervised_tokens": 675,
+    "token_acc": 0.964444,
+    "total_steps": 225
+   },
+   "grad_norm": 0.353515625,
+   "learning_rate": 0.00019277205676187926,
+   "loss": 0.07619098573923111,
+   "reward": null,
+   "step": 36,
+   "timestamp": "2026-10-15T06:30:12.367528Z"
+  },
+  {
+   "epoch": 0.6578,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08076760917901993,
+    "lr/AdamW": 0.00019225422206882374,
+    "perplexity": 1.0475,
+    "processed_tokens": 3694425,
+    "supervised_tokens": 682,
+    "token_acc": 0.982405,
+    "total_steps": 225
+   },
+   "grad_norm": 0.26171875,
+   "learning_rate": 0.00019225422206882374,
+   "loss": 0.046431686729192734,
+   "reward": null,
+   "step": 37,
+   "timestamp": "2026-10-15T06:30:26.866264Z"
+  },
+  {
+   "epoch": 0.6756,
+   "eval_loss": 0.06460645794868469,
+   "extra_metrics": {
+    "eval_loss": 0.06460645794868469,
+    "loss_metrics/global_max_loss": 0.1649032086133957,
+    "lr/AdamW": 0.00019171930542596075,
+    "perplexity": 1.1045,
+    "processed_tokens": 3794368,
+    "supervised_tokens": 627,
+    "token_acc": 0.968102,
+    "total_steps": 225,
+    "validation_metrics/loss": 0.06460645794868469
+   },
+   "grad_norm": 0.392578125,
+   "learning_rate": 0.00019171930542596075,
+   "loss": 0.09937708079814911,
+   "reward": null,
+   "step": 38,
+   "timestamp": "2026-10-15T06:30:22.430536Z"
+  },
+  {
+   "epoch": 0.6933,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09620598703622818,
+    "lr/AdamW": 0.00019116741792083095,
+    "perplexity": 1.0486,
+    "processed_tokens": 3894200,
+    "supervised_tokens": 720,
+    "token_acc": 0.986111,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2421875,
+   "learning_rate": 0.00019116741792083095,
+   "loss": 0.04741278290748596,
+   "reward": null,
+   "step": 39,
+   "timestamp": "2026-10-15T06:30:33.296679Z"
+  },
+  {
+   "epoch": 0.7111,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.12689673900604248,
+    "lr/AdamW": 0.00019059867416535854,
+    "perplexity": 1.0872,
+    "processed_tokens": 3994144,
+    "supervised_tokens": 620,
+    "token_acc": 0.966129,
+    "total_steps": 225
+   },
+   "grad_norm": 0.369140625,
+   "learning_rate": 0.00019059867416535854,
+   "loss": 0.08356885612010956,
+   "reward": null,
+   "step": 40,
+   "timestamp": "2026-10-15T06:31:03.100607Z"
+  },
+  {
+   "epoch": 0.7289,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09162097424268723,
+    "lr/AdamW": 0.00019001319227204935,
+    "perplexity": 1.0577,
+    "processed_tokens": 4093899,
+    "supervised_tokens": 680,
+    "token_acc": 0.973529,
+    "total_steps": 225
+   },
+   "grad_norm": 0.271484375,
+   "learning_rate": 0.00019001319227204935,
+   "loss": 0.05609399825334549,
+   "reward": null,
+   "step": 41,
+   "timestamp": "2026-10-15T06:30:42.367223Z"
+  },
+  {
+   "epoch": 0.7467,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09463495016098022,
+    "lr/AdamW": 0.0001894110938294622,
+    "perplexity": 1.0448,
+    "processed_tokens": 4194009,
+    "supervised_tokens": 676,
+    "token_acc": 0.983728,
+    "total_steps": 225
+   },
+   "grad_norm": 0.177734375,
+   "learning_rate": 0.0001894110938294622,
+   "loss": 0.04385288804769516,
+   "reward": null,
+   "step": 42,
+   "timestamp": "2026-10-15T06:30:52.900082Z"
+  },
+  {
+   "epoch": 0.7644,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08377101272344589,
+    "lr/AdamW": 0.00018879250387695813,
+    "perplexity": 1.0607,
+    "processed_tokens": 4293940,
+    "supervised_tokens": 644,
+    "token_acc": 0.976708,
+    "total_steps": 225
+   },
+   "grad_norm": 0.298828125,
+   "learning_rate": 0.00018879250387695813,
+   "loss": 0.05893764644861221,
+   "reward": null,
+   "step": 43,
+   "timestamp": "2026-10-15T06:31:03.132599Z"
+  },
+  {
+   "epoch": 0.7822,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1292005181312561,
+    "lr/AdamW": 0.00018815755087873333,
+    "perplexity": 1.0899,
+    "processed_tokens": 4393998,
+    "supervised_tokens": 711,
+    "token_acc": 0.971871,
+    "total_steps": 225
+   },
+   "grad_norm": 0.71484375,
+   "learning_rate": 0.00018815755087873333,
+   "loss": 0.08613128960132599,
+   "reward": null,
+   "step": 44,
+   "timestamp": "2026-10-15T06:30:52.437765Z"
+  },
+  {
+   "epoch": 0.8,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1337195634841919,
+    "lr/AdamW": 0.00018750636669714058,
+    "perplexity": 1.0737,
+    "processed_tokens": 4493582,
+    "supervised_tokens": 599,
+    "token_acc": 0.971619,
+    "total_steps": 225
+   },
+   "grad_norm": 0.27734375,
+   "learning_rate": 0.00018750636669714058,
+   "loss": 0.07109370827674866,
+   "reward": null,
+   "step": 45,
+   "timestamp": "2026-10-15T06:31:03.164599Z"
+  },
+  {
+   "epoch": 0.8178,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.13415096700191498,
+    "lr/AdamW": 0.00018683908656530498,
+    "perplexity": 1.0748,
+    "processed_tokens": 4593742,
+    "supervised_tokens": 669,
+    "token_acc": 0.971599,
+    "total_steps": 225
+   },
+   "grad_norm": 0.326171875,
+   "learning_rate": 0.00018683908656530498,
+   "loss": 0.07211985439062119,
+   "reward": null,
+   "step": 46,
+   "timestamp": "2026-10-15T06:31:03.18059Z"
+  },
+  {
+   "epoch": 0.8356,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08502723276615143,
+    "lr/AdamW": 0.00018615584905903981,
+    "perplexity": 1.0476,
+    "processed_tokens": 4693476,
+    "supervised_tokens": 631,
+    "token_acc": 0.985737,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2421875,
+   "learning_rate": 0.00018615584905903981,
+   "loss": 0.0465366467833519,
+   "reward": null,
+   "step": 47,
+   "timestamp": "2026-10-15T06:31:02.435766Z"
+  },
+  {
+   "epoch": 0.8533,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08321486413478851,
+    "lr/AdamW": 0.0001854567960680682,
+    "perplexity": 1.076,
+    "processed_tokens": 4793373,
+    "supervised_tokens": 664,
+    "token_acc": 0.972891,
+    "total_steps": 225
+   },
+   "grad_norm": 0.375,
+   "learning_rate": 0.0001854567960680682,
+   "loss": 0.07323315739631653,
+   "reward": null,
+   "step": 48,
+   "timestamp": "2026-10-15T06:31:23.012592Z"
+  },
+  {
+   "epoch": 0.8711,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08104995638132095,
+    "lr/AdamW": 0.00018474207276655624,
+    "perplexity": 1.045,
+    "processed_tokens": 4893038,
+    "supervised_tokens": 613,
+    "token_acc": 0.986949,
+    "total_steps": 225
+   },
+   "grad_norm": 0.291015625,
+   "learning_rate": 0.00018474207276655624,
+   "loss": 0.04399675503373146,
+   "reward": null,
+   "step": 49,
+   "timestamp": "2026-10-15T06:31:12.434524Z"
+  },
+  {
+   "epoch": 0.8889,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.12550702691078186,
+    "lr/AdamW": 0.00018401182758296457,
+    "perplexity": 1.0743,
+    "processed_tokens": 4992417,
+    "supervised_tokens": 616,
+    "token_acc": 0.983766,
+    "total_steps": 225
+   },
+   "grad_norm": 0.3203125,
+   "learning_rate": 0.00018401182758296457,
+   "loss": 0.07167317718267441,
+   "reward": null,
+   "step": 50,
+   "timestamp": "2026-10-15T06:31:33.320595Z"
+  },
+  {
+   "epoch": 0.9067,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08334744721651077,
+    "lr/AdamW": 0.00018326621216922383,
+    "perplexity": 1.0562,
+    "processed_tokens": 5092264,
+    "supervised_tokens": 711,
+    "token_acc": 0.980309,
+    "total_steps": 225
+   },
+   "grad_norm": 0.51953125,
+   "learning_rate": 0.00018326621216922383,
+   "loss": 0.054714858531951904,
+   "reward": null,
+   "step": 51,
+   "timestamp": "2026-10-15T06:31:33.325471Z"
+  },
+  {
+   "epoch": 0.9244,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07883903384208679,
+    "lr/AdamW": 0.00018250538136924048,
+    "perplexity": 1.0558,
+    "processed_tokens": 5192451,
+    "supervised_tokens": 689,
+    "token_acc": 0.979681,
+    "total_steps": 225
+   },
+   "grad_norm": 0.3203125,
+   "learning_rate": 0.00018250538136924048,
+   "loss": 0.054309070110321045,
+   "reward": null,
+   "step": 52,
+   "timestamp": "2026-10-15T06:31:22.484522Z"
+  },
+  {
+   "epoch": 0.9422,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08220002800226212,
+    "lr/AdamW": 0.00018172949318674017,
+    "perplexity": 1.065,
+    "processed_tokens": 5292620,
+    "supervised_tokens": 662,
+    "token_acc": 0.977341,
+    "total_steps": 225
+   },
+   "grad_norm": 0.236328125,
+   "learning_rate": 0.00018172949318674017,
+   "loss": 0.06297159940004349,
+   "reward": null,
+   "step": 53,
+   "timestamp": "2026-10-15T06:31:33.336587Z"
+  },
+  {
+   "epoch": 0.96,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.0797397568821907,
+    "lr/AdamW": 0.00018093870875245466,
+    "perplexity": 1.058,
+    "processed_tokens": 5392278,
+    "supervised_tokens": 633,
+    "token_acc": 0.977883,
+    "total_steps": 225
+   },
+   "grad_norm": 0.33203125,
+   "learning_rate": 0.00018093870875245466,
+   "loss": 0.05633649230003357,
+   "reward": null,
+   "step": 54,
+   "timestamp": "2026-10-15T06:31:33.345426Z"
+  },
+  {
+   "epoch": 0.9778,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.17613881826400757,
+    "lr/AdamW": 0.00018013319229065935,
+    "perplexity": 1.0918,
+    "processed_tokens": 5492322,
+    "supervised_tokens": 588,
+    "token_acc": 0.969388,
+    "total_steps": 225
+   },
+   "grad_norm": 0.3359375,
+   "learning_rate": 0.00018013319229065935,
+   "loss": 0.08779788017272949,
+   "reward": null,
+   "step": 55,
+   "timestamp": "2026-10-15T06:31:32.437167Z"
+  },
+  {
+   "epoch": 0.9956,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.05997954308986664,
+    "lr/AdamW": 0.00017931311108506824,
+    "perplexity": 1.0519,
+    "processed_tokens": 5592542,
+    "supervised_tokens": 651,
+    "token_acc": 0.978495,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2109375,
+   "learning_rate": 0.00017931311108506824,
+   "loss": 0.05063235014677048,
+   "reward": null,
+   "step": 56,
+   "timestamp": "2026-10-15T06:32:03.1406Z"
+  },
+  {
+   "epoch": 1.0133,
+   "eval_loss": 0.07622237503528595,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08652503043413162,
+    "lr/AdamW": 0.00017847863544409405,
+    "perplexity": 1.0498,
+    "processed_tokens": 5692197,
+    "supervised_tokens": 629,
+    "token_acc": 0.979332,
+    "total_steps": 225,
+    "validation_metrics/loss": 0.07622237503528595
+   },
+   "grad_norm": 0.361328125,
+   "learning_rate": 0.00017847863544409405,
+   "loss": 0.04863870143890381,
+   "reward": null,
+   "step": 57,
+   "timestamp": "2026-10-15T06:31:42.382386Z"
+  },
+  {
+   "epoch": 1.0311,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.05807243287563324,
+    "lr/AdamW": 0.00017762993866547947,
+    "perplexity": 1.0475,
+    "processed_tokens": 5792237,
+    "supervised_tokens": 784,
+    "token_acc": 0.984694,
+    "total_steps": 225
+   },
+   "grad_norm": 0.275390625,
+   "learning_rate": 0.00017762993866547947,
+   "loss": 0.046377889811992645,
+   "reward": null,
+   "step": 58,
+   "timestamp": "2026-10-15T06:32:03.168592Z"
+  },
+  {
+   "epoch": 1.0489,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07186917215585709,
+    "lr/AdamW": 0.0001767671970003082,
+    "perplexity": 1.0677,
+    "processed_tokens": 5891610,
+    "supervised_tokens": 543,
+    "token_acc": 0.970534,
+    "total_steps": 225
+   },
+   "grad_norm": 0.43359375,
+   "learning_rate": 0.0001767671970003082,
+   "loss": 0.0655493289232254,
+   "reward": null,
+   "step": 59,
+   "timestamp": "2026-10-15T06:31:57.235449Z"
+  },
+  {
+   "epoch": 1.0667,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.0743991807103157,
+    "lr/AdamW": 0.0001758905896164022,
+    "perplexity": 1.0395,
+    "processed_tokens": 5991526,
+    "supervised_tokens": 644,
+    "token_acc": 0.98913,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2177734375,
+   "learning_rate": 0.0001758905896164022,
+   "loss": 0.038699131458997726,
+   "reward": null,
+   "step": 60,
+   "timestamp": "2026-10-15T06:31:52.529455Z"
+  },
+  {
+   "epoch": 1.0844,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.11513163149356842,
+    "lr/AdamW": 0.00017500029856111366,
+    "perplexity": 1.0637,
+    "processed_tokens": 6091080,
+    "supervised_tokens": 661,
+    "token_acc": 0.984871,
+    "total_steps": 225
+   },
+   "grad_norm": 0.423828125,
+   "learning_rate": 0.00017500029856111366,
+   "loss": 0.061794131994247437,
+   "reward": null,
+   "step": 61,
+   "timestamp": "2026-10-15T06:32:03.197121Z"
+  },
+  {
+   "epoch": 1.1022,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.13644318282604218,
+    "lr/AdamW": 0.00017409650872351868,
+    "perplexity": 1.0748,
+    "processed_tokens": 6191034,
+    "supervised_tokens": 568,
+    "token_acc": 0.978873,
+    "total_steps": 225
+   },
+   "grad_norm": 0.33984375,
+   "learning_rate": 0.00017409650872351868,
+   "loss": 0.07214175164699554,
+   "reward": null,
+   "step": 62,
+   "timestamp": "2026-10-15T06:32:02.496007Z"
+  },
+  {
+   "epoch": 1.12,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07165846973657608,
+    "lr/AdamW": 0.0001731794077960208,
+    "perplexity": 1.0454,
+    "processed_tokens": 6290956,
+    "supervised_tokens": 681,
+    "token_acc": 0.98091,
+    "total_steps": 225
+   },
+   "grad_norm": 0.234375,
+   "learning_rate": 0.0001731794077960208,
+   "loss": 0.04439288750290871,
+   "reward": null,
+   "step": 63,
+   "timestamp": "2026-10-15T06:32:03.202248Z"
+  },
+  {
+   "epoch": 1.1378,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07860121130943298,
+    "lr/AdamW": 0.00017224918623537247,
+    "perplexity": 1.0414,
+    "processed_tokens": 6390611,
+    "supervised_tokens": 632,
+    "token_acc": 0.982595,
+    "total_steps": 225
+   },
+   "grad_norm": 0.361328125,
+   "learning_rate": 0.00017224918623537247,
+   "loss": 0.04061009734869003,
+   "reward": null,
+   "step": 64,
+   "timestamp": "2026-10-15T06:32:33.100597Z"
+  },
+  {
+   "epoch": 1.1556,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08738727867603302,
+    "lr/AdamW": 0.00017130603722312243,
+    "perplexity": 1.0632,
+    "processed_tokens": 6490923,
+    "supervised_tokens": 702,
+    "token_acc": 0.974359,
+    "total_steps": 225
+   },
+   "grad_norm": 0.298828125,
+   "learning_rate": 0.00017130603722312243,
+   "loss": 0.06132384017109871,
+   "reward": null,
+   "step": 65,
+   "timestamp": "2026-10-15T06:32:12.489137Z"
+  },
+  {
+   "epoch": 1.1733,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08250792324542999,
+    "lr/AdamW": 0.00017035015662549718,
+    "perplexity": 1.0438,
+    "processed_tokens": 6590351,
+    "supervised_tokens": 672,
+    "token_acc": 0.986607,
+    "total_steps": 225
+   },
+   "grad_norm": 0.30859375,
+   "learning_rate": 0.00017035015662549718,
+   "loss": 0.04288814216852188,
+   "reward": null,
+   "step": 66,
+   "timestamp": "2026-10-15T06:32:33.116592Z"
+  },
+  {
+   "epoch": 1.1911,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.09105195850133896,
+    "lr/AdamW": 0.00016938174295272484,
+    "perplexity": 1.0573,
+    "processed_tokens": 6690248,
+    "supervised_tokens": 710,
+    "token_acc": 0.977465,
+    "total_steps": 225
+   },
+   "grad_norm": 0.314453125,
+   "learning_rate": 0.00016938174295272484,
+   "loss": 0.055683329701423645,
+   "reward": null,
+   "step": 67,
+   "timestamp": "2026-10-15T06:32:33.124598Z"
+  },
+  {
+   "epoch": 1.2089,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.10924079269170761,
+    "lr/AdamW": 0.00016840099731781015,
+    "perplexity": 1.0651,
+    "processed_tokens": 6790522,
+    "supervised_tokens": 660,
+    "token_acc": 0.984848,
+    "total_steps": 225
+   },
+   "grad_norm": 0.244140625,
+   "learning_rate": 0.00016840099731781015,
+   "loss": 0.06309286504983902,
+   "reward": null,
+   "step": 68,
+   "timestamp": "2026-10-15T06:32:22.363307Z"
+  },
+  {
+   "epoch": 1.2267,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07215183973312378,
+    "lr/AdamW": 0.00016740812339476873,
+    "perplexity": 1.0467,
+    "processed_tokens": 6890252,
+    "supervised_tokens": 571,
+    "token_acc": 0.989492,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2490234375,
+   "learning_rate": 0.00016740812339476873,
+   "loss": 0.045618169009685516,
+   "reward": null,
+   "step": 69,
+   "timestamp": "2026-10-15T06:32:33.140594Z"
+  },
+  {
+   "epoch": 1.2444,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.05374741181731224,
+    "lr/AdamW": 0.00016640332737632952,
+    "perplexity": 1.0423,
+    "processed_tokens": 6990288,
+    "supervised_tokens": 669,
+    "token_acc": 0.986547,
+    "total_steps": 225
+   },
+   "grad_norm": 0.25,
+   "learning_rate": 0.00016640332737632952,
+   "loss": 0.04145238921046257,
+   "reward": null,
+   "step": 70,
+   "timestamp": "2026-10-15T06:32:33.148596Z"
+  },
+  {
+   "epoch": 1.2622,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.11868028342723846,
+    "lr/AdamW": 0.00016538681793111436,
+    "perplexity": 1.06,
+    "processed_tokens": 7090142,
+    "supervised_tokens": 642,
+    "token_acc": 0.978193,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2431640625,
+   "learning_rate": 0.00016538681793111436,
+   "loss": 0.05827604979276657,
+   "reward": null,
+   "step": 71,
+   "timestamp": "2026-10-15T06:32:32.437999Z"
+  },
+  {
+   "epoch": 1.28,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.05032544210553169,
+    "lr/AdamW": 0.00016435880616030298,
+    "perplexity": 1.0316,
+    "processed_tokens": 7190037,
+    "supervised_tokens": 707,
+    "token_acc": 0.991513,
+    "total_steps": 225
+   },
+   "grad_norm": 0.171875,
+   "learning_rate": 0.00016435880616030298,
+   "loss": 0.03108304738998413,
+   "reward": null,
+   "step": 72,
+   "timestamp": "2026-10-15T06:32:46.588604Z"
+  },
+  {
+   "epoch": 1.2978,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.0888824313879013,
+    "lr/AdamW": 0.00016331950555379334,
+    "perplexity": 1.0523,
+    "processed_tokens": 7290139,
+    "supervised_tokens": 636,
+    "token_acc": 0.97956,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2119140625,
+   "learning_rate": 0.00016331950555379334,
+   "loss": 0.05095527693629265,
+   "reward": null,
+   "step": 73,
+   "timestamp": "2026-10-15T06:32:42.428139Z"
+  },
+  {
+   "epoch": 1.3156,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08178801834583282,
+    "lr/AdamW": 0.00016226913194586535,
+    "perplexity": 1.0436,
+    "processed_tokens": 7390124,
+    "supervised_tokens": 662,
+    "token_acc": 0.981873,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2021484375,
+   "learning_rate": 0.00016226913194586535,
+   "loss": 0.0426519550383091,
+   "reward": null,
+   "step": 74,
+   "timestamp": "2026-10-15T06:33:01.832607Z"
+  },
+  {
+   "epoch": 1.3333,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.045729804784059525,
+    "lr/AdamW": 0.00016120790347035822,
+    "perplexity": 1.0268,
+    "processed_tokens": 7489815,
+    "supervised_tokens": 648,
+    "token_acc": 0.989198,
+    "total_steps": 225
+   },
+   "grad_norm": 0.31640625,
+   "learning_rate": 0.00016120790347035822,
+   "loss": 0.02647428587079048,
+   "reward": null,
+   "step": 75,
+   "timestamp": "2026-10-15T06:33:03.244591Z"
+  },
+  {
+   "epoch": 1.3511,
+   "eval_loss": 0.06503075361251831,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.051628872752189636,
+    "lr/AdamW": 0.00016013604051536993,
+    "perplexity": 1.0411,
+    "processed_tokens": 7589489,
+    "supervised_tokens": 624,
+    "token_acc": 0.988782,
+    "total_steps": 225,
+    "validation_metrics/loss": 0.06503075361251831
+   },
+   "grad_norm": 0.197265625,
+   "learning_rate": 0.00016013604051536993,
+   "loss": 0.04027070105075836,
+   "reward": null,
+   "step": 76,
+   "timestamp": "2026-10-15T06:32:52.43286Z"
+  },
+  {
+   "epoch": 1.3689,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.1402638703584671,
+    "lr/AdamW": 0.00015905376567748873,
+    "perplexity": 1.0816,
+    "processed_tokens": 7689003,
+    "supervised_tokens": 678,
+    "token_acc": 0.971976,
+    "total_steps": 225
+   },
+   "grad_norm": 0.408203125,
+   "learning_rate": 0.00015905376567748873,
+   "loss": 0.07847780734300613,
+   "reward": null,
+   "step": 77,
+   "timestamp": "2026-10-15T06:33:02.44791Z"
+  },
+  {
+   "epoch": 1.3867,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.045591067522764206,
+    "lr/AdamW": 0.00015796130371556577,
+    "perplexity": 1.0328,
+    "processed_tokens": 7789115,
+    "supervised_tokens": 628,
+    "token_acc": 0.988854,
+    "total_steps": 225
+   },
+   "grad_norm": 0.1728515625,
+   "learning_rate": 0.00015796130371556577,
+   "loss": 0.03226596117019653,
+   "reward": null,
+   "step": 78,
+   "timestamp": "2026-10-15T06:33:03.276599Z"
+  },
+  {
+   "epoch": 1.4044,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.11385202407836914,
+    "lr/AdamW": 0.00015685888150403902,
+    "perplexity": 1.0492,
+    "processed_tokens": 7889381,
+    "supervised_tokens": 646,
+    "token_acc": 0.98452,
+    "total_steps": 225
+   },
+   "grad_norm": 0.279296875,
+   "learning_rate": 0.00015685888150403902,
+   "loss": 0.047993648797273636,
+   "reward": null,
+   "step": 79,
+   "timestamp": "2026-10-15T06:33:33.180591Z"
+  },
+  {
+   "epoch": 1.4222,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.06308005005121231,
+    "lr/AdamW": 0.00015574672798581753,
+    "perplexity": 1.0384,
+    "processed_tokens": 7989176,
+    "supervised_tokens": 575,
+    "token_acc": 0.987826,
+    "total_steps": 225
+   },
+   "grad_norm": 0.251953125,
+   "learning_rate": 0.00015574672798581753,
+   "loss": 0.03771309182047844,
+   "reward": null,
+   "step": 80,
+   "timestamp": "2026-10-15T06:33:12.368201Z"
+  },
+  {
+   "epoch": 1.44,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08659467101097107,
+    "lr/AdamW": 0.00015462507412473636,
+    "perplexity": 1.0542,
+    "processed_tokens": 8089101,
+    "supervised_tokens": 701,
+    "token_acc": 0.977175,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2734375,
+   "learning_rate": 0.00015462507412473636,
+   "loss": 0.052789218723773956,
+   "reward": null,
+   "step": 81,
+   "timestamp": "2026-10-15T06:33:33.204595Z"
+  },
+  {
+   "epoch": 1.4578,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.08047137409448624,
+    "lr/AdamW": 0.00015349415285759158,
+    "perplexity": 1.0527,
+    "processed_tokens": 8189215,
+    "supervised_tokens": 648,
+    "token_acc": 0.979938,
+    "total_steps": 225
+   },
+   "grad_norm": 0.25390625,
+   "learning_rate": 0.00015349415285759158,
+   "loss": 0.05134692043066025,
+   "reward": null,
+   "step": 82,
+   "timestamp": "2026-10-15T06:33:32.786395Z"
+  },
+  {
+   "epoch": 1.4756,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.15387724339962006,
+    "lr/AdamW": 0.00015235419904576587,
+    "perplexity": 1.0843,
+    "processed_tokens": 8288911,
+    "supervised_tokens": 646,
+    "token_acc": 0.979876,
+    "total_steps": 225
+   },
+   "grad_norm": 0.419921875,
+   "learning_rate": 0.00015235419904576587,
+   "loss": 0.08091001212596893,
+   "reward": null,
+   "step": 83,
+   "timestamp": "2026-10-15T06:33:22.435074Z"
+  },
+  {
+   "epoch": 1.4933,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.049874186515808105,
+    "lr/AdamW": 0.00015120544942645402,
+    "perplexity": 1.0349,
+    "processed_tokens": 8388587,
+    "supervised_tokens": 643,
+    "token_acc": 0.987558,
+    "total_steps": 225
+   },
+   "grad_norm": 0.1748046875,
+   "learning_rate": 0.00015120544942645402,
+   "loss": 0.0342622846364975,
+   "reward": null,
+   "step": 84,
+   "timestamp": "2026-10-15T06:33:33.232593Z"
+  },
+  {
+   "epoch": 1.5111,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.0548083521425724,
+    "lr/AdamW": 0.00015004814256349935,
+    "perplexity": 1.0401,
+    "processed_tokens": 8488365,
+    "supervised_tokens": 572,
+    "token_acc": 0.984266,
+    "total_steps": 225
+   },
+   "grad_norm": 0.244140625,
+   "learning_rate": 0.00015004814256349935,
+   "loss": 0.03931467980146408,
+   "reward": null,
+   "step": 85,
+   "timestamp": "2026-10-15T06:33:33.244595Z"
+  },
+  {
+   "epoch": 1.5289,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07313797622919083,
+    "lr/AdamW": 0.00014888251879785017,
+    "perplexity": 1.0369,
+    "processed_tokens": 8588401,
+    "supervised_tokens": 679,
+    "token_acc": 0.986745,
+    "total_steps": 225
+   },
+   "grad_norm": 0.1884765625,
+   "learning_rate": 0.00014888251879785017,
+   "loss": 0.03622822463512421,
+   "reward": null,
+   "step": 86,
+   "timestamp": "2026-10-15T06:33:32.437962Z"
+  },
+  {
+   "epoch": 1.5467,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07875511795282364,
+    "lr/AdamW": 0.000147708820197648,
+    "perplexity": 1.057,
+    "processed_tokens": 8688005,
+    "supervised_tokens": 693,
+    "token_acc": 0.981241,
+    "total_steps": 225
+   },
+   "grad_norm": 0.1943359375,
+   "learning_rate": 0.000147708820197648,
+   "loss": 0.05542009323835373,
+   "reward": null,
+   "step": 87,
+   "timestamp": "2026-10-15T06:34:03.249905Z"
+  },
+  {
+   "epoch": 1.5644,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.04036974534392357,
+    "lr/AdamW": 0.0001465272905079562,
+    "perplexity": 1.0266,
+    "processed_tokens": 8787912,
+    "supervised_tokens": 781,
+    "token_acc": 0.989757,
+    "total_steps": 225
+   },
+   "grad_norm": 0.1455078125,
+   "learning_rate": 0.0001465272905079562,
+   "loss": 0.02629610151052475,
+   "reward": null,
+   "step": 88,
+   "timestamp": "2026-10-15T06:33:42.431874Z"
+  },
+  {
+   "epoch": 1.5822,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.0836830884218216,
+    "lr/AdamW": 0.0001453381751001412,
+    "perplexity": 1.0544,
+    "processed_tokens": 8887840,
+    "supervised_tokens": 700,
+    "token_acc": 0.98,
+    "total_steps": 225
+   },
+   "grad_norm": 0.21875,
+   "learning_rate": 0.0001453381751001412,
+   "loss": 0.052997931838035583,
+   "reward": null,
+   "step": 89,
+   "timestamp": "2026-10-15T06:34:03.268614Z"
+  },
+  {
+   "epoch": 1.6,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.062205154448747635,
+    "lr/AdamW": 0.00014414172092091522,
+    "perplexity": 1.0391,
+    "processed_tokens": 8987530,
+    "supervised_tokens": 644,
+    "token_acc": 0.987578,
+    "total_steps": 225
+   },
+   "grad_norm": 0.1845703125,
+   "learning_rate": 0.00014414172092091522,
+   "loss": 0.03836454078555107,
+   "reward": null,
+   "step": 90,
+   "timestamp": "2026-10-15T06:34:03.27359Z"
+  },
+  {
+   "epoch": 1.6178,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.06592491269111633,
+    "lr/AdamW": 0.00014293817644105245,
+    "perplexity": 1.0492,
+    "processed_tokens": 9087465,
+    "supervised_tokens": 615,
+    "token_acc": 0.98374,
+    "total_steps": 225
+   },
+   "grad_norm": 0.2138671875,
+   "learning_rate": 0.00014293817644105245,
+   "loss": 0.04801530763506889,
+   "reward": null,
+   "step": 91,
+   "timestamp": "2026-10-15T06:33:52.439108Z"
+  },
+  {
+   "epoch": 1.6356,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07576387375593185,
+    "lr/AdamW": 0.00014172779160378834,
+    "perplexity": 1.0445,
+    "processed_tokens": 9187154,
+    "supervised_tokens": 647,
+    "token_acc": 0.98609,
+    "total_steps": 225
+   },
+   "grad_norm": 0.41015625,
+   "learning_rate": 0.00014172779160378834,
+   "loss": 0.04357002675533295,
+   "reward": null,
+   "step": 92,
+   "timestamp": "2026-10-15T06:34:03.288599Z"
+  },
+  {
+   "epoch": 1.6533,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.07728065550327301,
+    "lr/AdamW": 0.00014051081777291343,
+    "perplexity": 1.0399,
+    "processed_tokens": 9287068,
+    "supervised_tokens": 716,
+    "token_acc": 0.981844,
+    "total_steps": 225
+   },
+   "grad_norm": 0.27734375,
+   "learning_rate": 0.00014051081777291343,
+   "loss": 0.03913678973913193,
+   "reward": null,
+   "step": 93,
+   "timestamp": "2026-10-15T06:34:03.296595Z"
+  },
+  {
+   "epoch": 1.6711,
+   "eval_loss": null,
+   "extra_metrics": {
+    "loss_metrics/global_max_loss": 0.06676793843507767,
+    "lr/AdamW": 0.00013928750768057158,
+    "perplexity": 1.0532,
+    "processed_tokens": 9386777,
+    "supervised_tokens": 631,
+    "token_acc": 0.979398,
+    "total_steps": 225
+   },
+   "grad_norm": 0.212890625,
+   "learning_rate": 0.00013928750768057158,
+   "loss": 0.05185937508940697,
+   "reward": null,
+   "step": 94,
+   "timestamp": "2026-10-15T06:34:02.451153Z"
+  },
+  {
+   "epoch": 4,
+   "eval_loss": 0.06610460579395294,
+   "grad_norm": null,
+   "learning_rate": null,
+   "loss": 0.035319723188877106,
+   "reward": null,
+   "step": 95,
+   "timestamp": "2026-10-15T06:34:12.434928Z"
+  }
+ ],
+ "rlhf_type": null,
+ "run_context": {
+  "current_step": 95,
+  "model_id": "Qwen/Qwen3.5-9B",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "omitted_parameter_keys": [],
+  "parameters": {
+   "early_stopping_patience": 3,
+   "eval_steps": 19,
+   "eval_strategy": "steps",
+   "learning_rate": 0.0002,
+   "lora_alpha": 32,
+   "lora_rank": 16,
+   "lr_scheduler_type": "cosine",
+   "max_length": 2048,
+   "num_train_epochs": 4,
+   "optim": "adamw_torch_fused",
+   "precision": "bf16",
+   "split_dataset_samples": 190
+  },
+  "rlhf_type": null,
+  "status": "completed",
+  "total_steps": 95,
+  "train_type": "lora",
+  "training_method": "sft"
+ },
+ "series_meta": {},
+ "training_method": "sft"
+}

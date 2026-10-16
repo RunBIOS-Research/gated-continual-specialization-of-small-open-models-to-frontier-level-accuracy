@@ -1,0 +1,51 @@
+{
+ "benchmark_run": {
+  "id": "6d340ecb-6b60-4537-ae7e-c14c312cbeec",
+  "benchmark_id": "a5e261d0-c5a7-47b8-92c5-dc247f5c2594",
+  "benchmark_name": "Financial reporting: XBRL tagging of SEC filings (exact, 200 frozen real records)",
+  "run_id": "27ebfda2-634a-4873-9f71-cba7941eec3f",
+  "incumbent_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-financial-reporting-xbrl-tagging-of-sec-filings",
+   "deployment_id": "2b0b00b9-06c5-455f-a724-bfd31c772f2d",
+   "model_version": null
+  },
+  "candidate_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-financial-reporting-xbrl-tagging-of-sec-filings-loop-27ebfda2",
+   "deployment_id": "a0a33633-ec69-46c7-8d48-a60d9c60cfb0",
+   "model_version": "8cf14f9e-125c-4832-84b2-ae04e2fe2991"
+  },
+  "items_digest": "bb01574c9f58832de8c466b90850e9f9b47b7b4fae4cd816ed5118e8df53731b",
+  "rows_total": 200,
+  "rows_scored": 200,
+  "rows_failed": 0,
+  "candidate_score": 0.79,
+  "incumbent_score": 0.755,
+  "score_delta": 0.03500000000000003,
+  "per_dimension": [
+   {
+    "dimension": "match",
+    "incumbent": 0.755,
+    "candidate": 0.79,
+    "delta": 0.03500000000000003
+   }
+  ],
+  "pass_threshold": 0.7,
+  "incumbent_passed": 151,
+  "candidate_passed": 158,
+  "incumbent_pass_rate": 0.755,
+  "candidate_pass_rate": 0.79,
+  "wins": 14,
+  "losses": 7,
+  "ties": 179,
+  "prompt_tokens": 621670,
+  "completion_tokens": 4058,
+  "spent_cents": 0,
+  "learned_by_version": 0,
+  "status": "done",
+  "status_reason": null,
+  "created_at": "2026-10-15T09:07:17.849519Z",
+  "finished_at": "2026-10-15T09:13:18.400016Z"
+ }
+}

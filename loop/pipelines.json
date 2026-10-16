@@ -1,0 +1,168 @@
+[
+ {
+  "task": "banking-intent-routing",
+  "pipeline_id": "f30e21bb-5e25-4658-a961-8688c522dc2f",
+  "benchmark_id": "e18b9f0b-6c23-4b8d-8371-9068d2ded2a6",
+  "benchmark_cases": 200,
+  "attempts": [
+   {
+    "attempt": 11,
+    "training_run_id": "abd447e2-11d4-48b8-8d3d-27a9b9a0dfb2",
+    "training_rows": 3800,
+    "new_version_benchmark": 0.9,
+    "live_version_benchmark": 0.485,
+    "held_back_verdict": "better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 12,
+    "training_run_id": "8993eb52-5d26-4ef1-876d-8b3129fdb77d",
+    "training_rows": 3340,
+    "new_version_benchmark": 0.915,
+    "live_version_benchmark": 0.895,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 13,
+    "training_run_id": "f54143a2-8cce-4bfc-b726-325b93b8f56c",
+    "training_rows": 7998,
+    "new_version_benchmark": 0.885,
+    "live_version_benchmark": 0.915,
+    "held_back_verdict": "not_better",
+    "outcome": "rejected"
+   }
+  ]
+ },
+ {
+  "task": "consumer-complaint-triage",
+  "pipeline_id": "7daee5f9-d8d5-4526-9ba5-f9f4a10f8a06",
+  "benchmark_id": "703c58e9-6809-4447-b555-131d192e84da",
+  "benchmark_cases": 200,
+  "attempts": [
+   {
+    "attempt": 5,
+    "training_run_id": "fbf3a1cd-0c71-4535-bfc1-8f888b408534",
+    "training_rows": 3800,
+    "new_version_benchmark": 0.56,
+    "live_version_benchmark": 0.24,
+    "held_back_verdict": "better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 6,
+    "training_run_id": "443fff5c-1dda-4d8e-9c25-3d86925accbd",
+    "training_rows": 4560,
+    "new_version_benchmark": 0.61,
+    "live_version_benchmark": 0.56,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   }
+  ]
+ },
+ {
+  "task": "contract-clause-classification",
+  "pipeline_id": "b3330f78-191e-4d0c-a887-75f0c37ade54",
+  "benchmark_id": "64df9834-4a43-41fa-9275-b1badf059f19",
+  "benchmark_cases": 200,
+  "attempts": [
+   {
+    "attempt": 8,
+    "training_run_id": "1f39f30d-a4c6-4da5-96e5-10aedee1b3d6",
+    "training_rows": 3800,
+    "new_version_benchmark": 0.855,
+    "live_version_benchmark": 0.84,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 9,
+    "training_run_id": "1058f168-9dbb-41f6-a9d5-92ad862ea317",
+    "training_rows": 4940,
+    "new_version_benchmark": 0.85,
+    "live_version_benchmark": 0.85,
+    "held_back_verdict": "not_better",
+    "outcome": "rejected"
+   },
+   {
+    "attempt": 10,
+    "training_run_id": "ab9fa474-e0a0-41cc-ace5-de1c4ffa7f82",
+    "training_rows": 17100,
+    "new_version_benchmark": 0.85,
+    "live_version_benchmark": 0.85,
+    "held_back_verdict": "not_better",
+    "outcome": "rejected"
+   },
+   {
+    "attempt": 11,
+    "training_run_id": "50195d9b-ad38-41f3-bd0a-ec824a3934c9",
+    "training_rows": 18820,
+    "new_version_benchmark": 0.87,
+    "live_version_benchmark": 0.85,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   }
+  ]
+ },
+ {
+  "task": "xbrl-numeric-tagging",
+  "pipeline_id": "ca430a27-758a-4717-a9c7-61aec8727a57",
+  "benchmark_id": "a5e261d0-c5a7-47b8-92c5-dc247f5c2594",
+  "benchmark_cases": 200,
+  "attempts": [
+   {
+    "attempt": 4,
+    "training_run_id": "6cf842d5-84d4-452a-97df-810ad016692e",
+    "training_rows": 3800,
+    "new_version_benchmark": 0.75,
+    "live_version_benchmark": 0.7,
+    "held_back_verdict": "better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 5,
+    "training_run_id": "27ebfda2-634a-4873-9f71-cba7941eec3f",
+    "training_rows": 6643,
+    "new_version_benchmark": 0.79,
+    "live_version_benchmark": 0.755,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   }
+  ]
+ },
+ {
+  "task": "vulnerability-root-cause-triage",
+  "pipeline_id": "f0685159-8d00-44a7-b0a7-85507fce487d",
+  "benchmark_id": "518eb78d-6c6b-40ff-8c77-e1eb635ea043",
+  "benchmark_cases": 200,
+  "attempts": [
+   {
+    "attempt": 7,
+    "training_run_id": "4aa4635e-e3d8-4ba1-b55d-181591d4cd96",
+    "training_rows": 3800,
+    "new_version_benchmark": 0.685,
+    "live_version_benchmark": 0.64,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 8,
+    "training_run_id": "d2cea0e0-bb37-4c2b-8ab2-12db58ddda17",
+    "training_rows": 8787,
+    "new_version_benchmark": 0.69,
+    "live_version_benchmark": 0.68,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   },
+   {
+    "attempt": 9,
+    "training_run_id": "acb16e04-5e1e-4b1a-b349-93e641321973",
+    "training_rows": 17098,
+    "new_version_benchmark": 0.695,
+    "live_version_benchmark": 0.69,
+    "held_back_verdict": "not_better",
+    "outcome": "promoted"
+   }
+  ]
+ }
+]

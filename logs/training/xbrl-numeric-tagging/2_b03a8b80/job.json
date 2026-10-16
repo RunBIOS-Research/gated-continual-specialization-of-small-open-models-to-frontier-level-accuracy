@@ -1,0 +1,353 @@
+{
+ "allocation_attempt_count": 6,
+ "attempt_count": 6,
+ "attempts": [
+  {
+   "attempt_number": 1,
+   "created_at": "2026-10-13T06:13:21.260659Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T06:26:11.509787Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 2,
+   "created_at": "2026-10-13T06:27:10.455804Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T06:27:11.538093Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 3,
+   "created_at": "2026-10-13T06:37:33.15338Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T06:37:33.368406Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 4,
+   "created_at": "2026-10-13T06:48:03.717897Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T06:48:03.800285Z",
+   "status": "abandoned"
+  },
+  {
+   "activated_at": "2026-10-13T06:58:35.499883Z",
+   "attempt_number": 5,
+   "created_at": "2026-10-13T06:58:34.243978Z",
+   "ending": "We lost contact with its training resources, so we restarted your run on fresh ones.",
+   "finished_at": "2026-10-13T07:12:41.763735Z",
+   "status": "superseded"
+  },
+  {
+   "activated_at": "2026-10-13T07:12:53.408907Z",
+   "attempt_number": 6,
+   "created_at": "2026-10-13T07:12:52.256599Z",
+   "ending": "Finished",
+   "finished_at": "2026-10-13T07:38:34.912603Z",
+   "status": "completed"
+  }
+ ],
+ "best_loss": 0.015123129822313786,
+ "billable_seconds": 0,
+ "billed_cents": 2050,
+ "billing_mode": "tokens",
+ "can_resume": false,
+ "completed_at": "2026-10-13T07:38:31.265316Z",
+ "config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 37,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 500
+ },
+ "created_at": "2026-10-13T06:03:15.338313Z",
+ "current_loss": 0.027685923501849174,
+ "current_step": 407,
+ "dataset_ids": [
+  "731d48e0-5faf-405e-8723-8fa93b3da32a",
+  "8ffe1a4b-e64c-4b41-a8d0-eb0e96f6d0f5"
+ ],
+ "desired_state": "running",
+ "error_code": null,
+ "error_message": null,
+ "eval_dataset_ids": [],
+ "execution_attempt_count": 2,
+ "final_artifact_deleted_at": null,
+ "final_artifact_state": "verified",
+ "final_artifact_verified": true,
+ "has_cached_dataset": false,
+ "id": "b03a8b80-1ea3-43d5-9a17-ff35b67675be",
+ "last_callback_at": "2026-10-13T07:37:40.645214Z",
+ "last_phase_update_at": "2026-10-13T07:38:14.777082Z",
+ "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+ "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+ "name": "Case study - XBRL tagging v2 (Llama-3.1-8B)",
+ "phases": [
+  {
+   "done_bytes": 70491631,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:15:23.830794Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "dataset_download",
+   "rate": 9648182,
+   "state": "done",
+   "total_bytes": 70491631,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:37:43.347225Z"
+  },
+  {
+   "done_bytes": 14819365691,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:17:13.985358Z",
+   "eta_seconds": 6,
+   "pct": 92.20999908447266,
+   "phase": "model_download",
+   "rate": 209982544,
+   "started_at": "2026-10-13T07:15:50.240585Z",
+   "state": "done",
+   "total_bytes": 16071906651,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:37:43.348657Z"
+  },
+  {
+   "done_bytes": 16071907714,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:18:04.367463Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "model_load",
+   "started_at": "2026-10-13T07:18:04.367463Z",
+   "state": "done",
+   "total_bytes": 16071907714,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:37:43.356872Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 28500,
+   "ended_at": "2026-10-13T07:18:04.356162Z",
+   "eta_seconds": 1,
+   "pct": 100,
+   "phase": "preprocessing",
+   "rate": 1424.699951171875,
+   "started_at": "2026-10-13T07:17:43.702276Z",
+   "state": "done",
+   "total_units": 28500,
+   "units": "samples",
+   "updated_at": "2026-10-13T07:37:43.353568Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 382,
+   "eta_seconds": 192,
+   "pct": 85.84269714355469,
+   "phase": "training",
+   "rate": 10662.900390625,
+   "started_at": "2026-10-13T07:18:20.090526Z",
+   "state": "active",
+   "total_units": 445,
+   "units": "steps",
+   "updated_at": "2026-10-13T07:37:43.365732Z"
+  },
+  {
+   "done_bytes": 166802658,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:33:49.568587Z",
+   "pct": 100,
+   "phase": "checkpoint_upload",
+   "started_at": "2026-10-13T07:33:49.287637Z",
+   "state": "done",
+   "total_bytes": 166802658,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:38:14.777082Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:17:38.499034Z",
+   "pct": 0,
+   "phase": "model_build",
+   "started_at": "2026-10-13T07:17:30.272591Z",
+   "state": "done",
+   "updated_at": "2026-10-13T07:37:43.350257Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:17:43.699896Z",
+   "pct": 0,
+   "phase": "dataset_load",
+   "started_at": "2026-10-13T07:17:38.501623Z",
+   "state": "done",
+   "updated_at": "2026-10-13T07:37:43.351633Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 10,
+   "ended_at": "2026-10-13T07:18:04.364083Z",
+   "pct": 100,
+   "phase": "validation_prep",
+   "started_at": "2026-10-13T07:18:04.364083Z",
+   "state": "done",
+   "total_units": 10,
+   "units": "batches",
+   "updated_at": "2026-10-13T07:37:43.355137Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:18:25.580778Z",
+   "pct": 0,
+   "phase": "first_step",
+   "started_at": "2026-10-13T07:18:04.369383Z",
+   "state": "done",
+   "updated_at": "2026-10-13T07:37:43.358947Z"
+  }
+ ],
+ "preserve_on_stop": true,
+ "progress": {
+  "eta_confidence": "measured",
+  "eta_scope": "run",
+  "eta_seconds": 192,
+  "phases": [
+   {
+    "done_bytes": 70491631,
+    "pct": 100,
+    "phase": "dataset_download",
+    "rate": 9648182.1,
+    "state": "done",
+    "total_bytes": 70491631,
+    "units": "bytes"
+   },
+   {
+    "phase": "model_download",
+    "state": "done"
+   },
+   {
+    "phase": "model_build",
+    "state": "done"
+   },
+   {
+    "phase": "dataset_load",
+    "state": "done"
+   },
+   {
+    "done_units": 28500,
+    "pct": 100,
+    "phase": "preprocessing",
+    "state": "done",
+    "total_units": 28500,
+    "units": "samples"
+   },
+   {
+    "done_units": 10,
+    "pct": 100,
+    "phase": "validation_prep",
+    "state": "done",
+    "total_units": 10,
+    "units": "batches"
+   },
+   {
+    "done_bytes": 16071907714,
+    "eta_seconds": 0,
+    "pct": 100,
+    "phase": "model_load",
+    "state": "done",
+    "total_bytes": 16071907714,
+    "units": "bytes"
+   },
+   {
+    "phase": "first_step",
+    "state": "done"
+   }
+  ],
+  "schema_version": 2,
+  "ts": "2026-10-13T07:36:57.777037+00:00"
+ },
+ "queue": {
+  "admission_state": "terminal",
+  "created_at": "2026-10-13T06:03:15.348602Z",
+  "deadline_at": "2026-10-20T06:02:15.344212Z",
+  "eligible_choices": [
+   {
+    "eligible": true,
+    "id": 4198,
+    "price_per_gpu_hour_cents": 559,
+    "rank": 1,
+    "selected": true,
+    "tier": "secure",
+    "total_price_hour_cents": 2236
+   }
+  ],
+  "enqueue_sequence": 599,
+  "job_id": "b03a8b80-1ea3-43d5-9a17-ff35b67675be",
+  "position": null,
+  "position_estimated": false,
+  "position_scope": "",
+  "position_truncated": false,
+  "priority": 0,
+  "selected_choice": {
+   "eligible": true,
+   "id": 4198,
+   "price_per_gpu_hour_cents": 559,
+   "rank": 1,
+   "selected": true,
+   "tier": "secure",
+   "total_price_hour_cents": 2236
+  },
+  "selected_price_hour_cents": 2236,
+  "state": "promoted",
+  "updated_at": "2026-10-13T06:58:35.502166Z"
+ },
+ "queue_deadline": "2026-10-20T06:02:15.344212Z",
+ "queue_if_unavailable": true,
+ "queue_position": null,
+ "restart_child_job_id": null,
+ "restarted_from_job_id": null,
+ "resume_count": 0,
+ "resume_from_job_id": null,
+ "rlhf_type": null,
+ "stage": "completed",
+ "stage_detail": "",
+ "started_at": "2026-10-13T07:15:12.188491Z",
+ "status": "completed",
+ "stop_bios_accepted_at": null,
+ "stop_origin": "",
+ "stop_requested_at": null,
+ "stop_state": "idle",
+ "submitted_config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 37,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 500
+ },
+ "token_charge": {
+  "band_max_params_b": 16,
+  "band_min_params_b": 0,
+  "cents_per_million_tokens": 50,
+  "cost_cents": 2050,
+  "final": true,
+  "method": "lora",
+  "minimum_applied": false,
+  "minimum_charge_cents": 100,
+  "no_output_refunded": false,
+  "params_b": 8.03,
+  "token_cost_cents": 2049.57445,
+  "tokens": 40991489
+ },
+ "total_steps": 407,
+ "train_type": "lora",
+ "training_method": "sft"
+}

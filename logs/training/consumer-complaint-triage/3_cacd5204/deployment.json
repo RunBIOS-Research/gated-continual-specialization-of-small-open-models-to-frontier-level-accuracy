@@ -1,0 +1,30 @@
+{
+ "deployment_id": "4838569d-c4e5-44ae-b7bd-ff7a963b76c7",
+ "checkpoint": {
+  "id": "319d39dd-af14-4411-98e3-5575c630cf7c",
+  "step": 238,
+  "is_best": true,
+  "eval_loss": null,
+  "kind": null,
+  "label": null
+ },
+ "created": {
+  "id": "4838569d-c4e5-44ae-b7bd-ff7a963b76c7",
+  "name": null,
+  "model": "cs-cfpb-ft3-cacd52",
+  "gpu_type": null,
+  "gpu_count": null,
+  "price_per_hour_cents": null,
+  "total_price_per_hour_cents": null,
+  "status": "provisioning"
+ },
+ "throughput_measurement": {
+  "hourly_cents": 447,
+  "gpu": "1x H100_NVL_94GB",
+  "throughput_rps": 2.464,
+  "wall_seconds": 218.3,
+  "concurrency": 32,
+  "throughput_note": "isolated run: 300 requests, 32 concurrent, 121.8s, 2026-10-13T21:34:33+0400",
+  "latency_p50_isolated": 10.45186996459961
+ }
+}

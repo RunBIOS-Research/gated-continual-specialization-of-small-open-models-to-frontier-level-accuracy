@@ -1,0 +1,51 @@
+{
+ "benchmark_run": {
+  "id": "bfe78533-7f0b-4f80-85bb-8d4f7789dbbe",
+  "benchmark_id": "703c58e9-6809-4447-b555-131d192e84da",
+  "benchmark_name": "Consumer finance: regulatory complaint triage (exact, 200 frozen real records, 2026-10-14)",
+  "run_id": "fbf3a1cd-0c71-4535-bfc1-8f888b408534",
+  "incumbent_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-consumer-finance-regulatory-complaint-triage-loop-fbf3a1cd:base",
+   "deployment_id": "674e5cba-3d96-4df8-942e-2cdf9fbc638c",
+   "model_version": "0e9e39f249a16976918f6564b8830bc894c89659"
+  },
+  "candidate_ref": {
+   "kind": "deployment",
+   "name": "loop-case-study-consumer-finance-regulatory-complaint-triage-loop-fbf3a1cd",
+   "deployment_id": "674e5cba-3d96-4df8-942e-2cdf9fbc638c",
+   "model_version": "303dc5c4-ddda-431c-8928-093d026857b3"
+  },
+  "items_digest": "ab5f88f10e7b2393078e6af78a7cf5eabcad6f7d7858407d1f3a1ec7f81ff0d3",
+  "rows_total": 200,
+  "rows_scored": 200,
+  "rows_failed": 0,
+  "candidate_score": 0.56,
+  "incumbent_score": 0.24,
+  "score_delta": 0.32000000000000006,
+  "per_dimension": [
+   {
+    "dimension": "match",
+    "incumbent": 0.24,
+    "candidate": 0.56,
+    "delta": 0.32000000000000006
+   }
+  ],
+  "pass_threshold": 0.7,
+  "incumbent_passed": 48,
+  "candidate_passed": 112,
+  "incumbent_pass_rate": 0.24,
+  "candidate_pass_rate": 0.56,
+  "wins": 79,
+  "losses": 15,
+  "ties": 106,
+  "prompt_tokens": 339420,
+  "completion_tokens": 5724,
+  "spent_cents": 0,
+  "learned_by_version": 0,
+  "status": "done",
+  "status_reason": null,
+  "created_at": "2026-10-14T16:21:02.637575Z",
+  "finished_at": "2026-10-14T16:25:50.677677Z"
+ }
+}

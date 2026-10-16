@@ -1,0 +1,335 @@
+{
+ "allocation_attempt_count": 3,
+ "attempt_count": 3,
+ "attempts": [
+  {
+   "attempt_number": 1,
+   "created_at": "2026-10-13T06:13:20.666666Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T06:26:11.825847Z",
+   "status": "abandoned"
+  },
+  {
+   "activated_at": "2026-10-13T06:27:11.568591Z",
+   "attempt_number": 2,
+   "created_at": "2026-10-13T06:27:10.162235Z",
+   "ending": "We lost contact with its training resources, so we restarted your run on fresh ones.",
+   "finished_at": "2026-10-13T06:31:05.825013Z",
+   "status": "superseded"
+  },
+  {
+   "activated_at": "2026-10-13T07:08:50.87294Z",
+   "attempt_number": 3,
+   "created_at": "2026-10-13T07:08:49.384746Z",
+   "ending": "Finished",
+   "finished_at": "2026-10-13T07:28:55.432597Z",
+   "status": "completed"
+  }
+ ],
+ "best_loss": 0.026411686092615128,
+ "billable_seconds": 0,
+ "billed_cents": 1798,
+ "billing_mode": "tokens",
+ "can_resume": false,
+ "completed_at": "2026-10-13T07:28:52.024264Z",
+ "config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 34,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 750
+ },
+ "created_at": "2026-10-13T06:05:16.370262Z",
+ "current_loss": 0.0285489521920681,
+ "current_step": 340,
+ "dataset_ids": [
+  "d82c41a5-212e-4570-a70d-df5ce6146b5a",
+  "26bf5d24-ebae-488b-8d32-e66164f5eed1",
+  "c39c0ea5-ae12-4d99-a2d7-b498cf694f0c"
+ ],
+ "desired_state": "running",
+ "error_code": null,
+ "error_message": null,
+ "eval_dataset_ids": [],
+ "execution_attempt_count": 2,
+ "final_artifact_deleted_at": null,
+ "final_artifact_state": "verified",
+ "final_artifact_verified": true,
+ "has_cached_dataset": false,
+ "id": "cacd5204-1dac-4227-b7be-5d22f11857fb",
+ "last_callback_at": "2026-10-13T07:27:39.202879Z",
+ "last_phase_update_at": "2026-10-13T07:28:55.088767Z",
+ "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+ "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+ "name": "Case study - CFPB complaint triage v3 (Llama-3.1-8B)",
+ "phases": [
+  {
+   "done_bytes": 64068364,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:09:45.65561Z",
+   "eta_seconds": 170,
+   "pct": 100,
+   "phase": "dataset_download",
+   "rate": 41362328,
+   "state": "done",
+   "total_bytes": 64068364,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:28:51.819523Z"
+  },
+  {
+   "done_bytes": 16055129435,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:11:51.640592Z",
+   "eta_seconds": 0,
+   "pct": 99.9000015258789,
+   "phase": "model_download",
+   "rate": 619561.3125,
+   "started_at": "2026-10-13T07:09:53.651032Z",
+   "state": "done",
+   "total_bytes": 16071906651,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:28:51.821545Z"
+  },
+  {
+   "done_bytes": 16071907716,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:12:37.056881Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "model_load",
+   "started_at": "2026-10-13T07:12:37.056881Z",
+   "state": "done",
+   "total_bytes": 16071907716,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:28:51.830351Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 42756,
+   "ended_at": "2026-10-13T07:12:31.846299Z",
+   "eta_seconds": 4,
+   "pct": 100,
+   "phase": "preprocessing",
+   "rate": 1590.9000244140625,
+   "started_at": "2026-10-13T07:12:06.652593Z",
+   "state": "done",
+   "total_units": 42756,
+   "units": "samples",
+   "updated_at": "2026-10-13T07:28:51.826818Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 319,
+   "eta_seconds": 81,
+   "pct": 92.196533203125,
+   "phase": "training",
+   "rate": 12101.900390625,
+   "started_at": "2026-10-13T07:12:49.94677Z",
+   "state": "active",
+   "total_units": 346,
+   "units": "steps",
+   "updated_at": "2026-10-13T07:28:51.839364Z"
+  },
+  {
+   "done_bytes": 166802658,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:26:14.944594Z",
+   "pct": 100,
+   "phase": "checkpoint_upload",
+   "started_at": "2026-10-13T07:26:14.517644Z",
+   "state": "done",
+   "total_bytes": 166802656,
+   "units": "bytes",
+   "updated_at": "2026-10-13T07:28:55.088767Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:12:06.63659Z",
+   "pct": 0,
+   "phase": "model_build",
+   "started_at": "2026-10-13T07:12:01.670328Z",
+   "state": "done",
+   "updated_at": "2026-10-13T07:28:51.82347Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:12:06.644591Z",
+   "pct": 0,
+   "phase": "dataset_load",
+   "started_at": "2026-10-13T07:12:06.644591Z",
+   "state": "done",
+   "updated_at": "2026-10-13T07:28:51.825201Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 10,
+   "ended_at": "2026-10-13T07:12:37.055638Z",
+   "eta_seconds": 4,
+   "pct": 100,
+   "phase": "validation_prep",
+   "rate": 1.899999976158142,
+   "started_at": "2026-10-13T07:12:31.847788Z",
+   "state": "done",
+   "total_units": 10,
+   "units": "batches",
+   "updated_at": "2026-10-13T07:28:51.828644Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T07:12:55.232587Z",
+   "pct": 0,
+   "phase": "first_step",
+   "started_at": "2026-10-13T07:12:37.05839Z",
+   "state": "done",
+   "updated_at": "2026-10-13T07:28:51.831747Z"
+  }
+ ],
+ "preserve_on_stop": true,
+ "progress": {
+  "eta_confidence": "measured",
+  "eta_scope": "run",
+  "eta_seconds": 106,
+  "phases": [
+   {
+    "done_bytes": 64068364,
+    "pct": 100,
+    "phase": "dataset_download",
+    "rate": 41362326.8,
+    "state": "done",
+    "total_bytes": 64068364,
+    "units": "bytes"
+   },
+   {
+    "phase": "model_download",
+    "state": "done"
+   },
+   {
+    "phase": "model_build",
+    "state": "done"
+   },
+   {
+    "phase": "dataset_load",
+    "state": "done"
+   },
+   {
+    "done_units": 42756,
+    "pct": 100,
+    "phase": "preprocessing",
+    "state": "done",
+    "total_units": 42756,
+    "units": "samples"
+   },
+   {
+    "done_units": 10,
+    "pct": 100,
+    "phase": "validation_prep",
+    "state": "done",
+    "total_units": 10,
+    "units": "batches"
+   },
+   {
+    "done_bytes": 16071907716,
+    "eta_seconds": 0,
+    "pct": 100,
+    "phase": "model_load",
+    "state": "done",
+    "total_bytes": 16071907716,
+    "units": "bytes"
+   },
+   {
+    "phase": "first_step",
+    "state": "done"
+   }
+  ],
+  "schema_version": 2,
+  "ts": "2026-10-13T07:27:36.978642+00:00"
+ },
+ "queue": {
+  "admission_state": "terminal",
+  "created_at": "2026-10-13T06:05:16.388586Z",
+  "deadline_at": "2026-10-20T06:04:16.384993Z",
+  "eligible_choices": [
+   {
+    "eligible": true,
+    "id": 4200,
+    "price_per_gpu_hour_cents": 559,
+    "rank": 1,
+    "selected": true,
+    "tier": "secure",
+    "total_price_hour_cents": 2236
+   }
+  ],
+  "enqueue_sequence": 600,
+  "job_id": "cacd5204-1dac-4227-b7be-5d22f11857fb",
+  "position": null,
+  "position_estimated": false,
+  "position_scope": "",
+  "position_truncated": false,
+  "priority": 0,
+  "selected_choice": {
+   "eligible": true,
+   "id": 4200,
+   "price_per_gpu_hour_cents": 559,
+   "rank": 1,
+   "selected": true,
+   "tier": "secure",
+   "total_price_hour_cents": 2236
+  },
+  "selected_price_hour_cents": 2236,
+  "state": "promoted",
+  "updated_at": "2026-10-13T06:27:11.576591Z"
+ },
+ "queue_deadline": "2026-10-20T06:04:16.384993Z",
+ "queue_if_unavailable": true,
+ "queue_position": null,
+ "restart_child_job_id": null,
+ "restarted_from_job_id": null,
+ "resume_count": 0,
+ "resume_from_job_id": null,
+ "rlhf_type": null,
+ "stage": "completed",
+ "stage_detail": "",
+ "started_at": "2026-10-13T07:09:38.673619Z",
+ "status": "completed",
+ "stop_bios_accepted_at": null,
+ "stop_origin": "",
+ "stop_requested_at": null,
+ "stop_state": "idle",
+ "submitted_config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 34,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 750
+ },
+ "token_charge": {
+  "band_max_params_b": 16,
+  "band_min_params_b": 0,
+  "cents_per_million_tokens": 50,
+  "cost_cents": 1798,
+  "final": true,
+  "method": "lora",
+  "minimum_applied": false,
+  "minimum_charge_cents": 100,
+  "no_output_refunded": false,
+  "params_b": 8.03,
+  "token_cost_cents": 1797.8542,
+  "tokens": 35957084
+ },
+ "total_steps": 340,
+ "train_type": "lora",
+ "training_method": "sft"
+}

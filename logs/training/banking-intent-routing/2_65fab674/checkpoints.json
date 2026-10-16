@@ -1,0 +1,98 @@
+{
+ "checkpoints": [
+  {
+   "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+   "base_model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "created_at": "2026-10-13T04:58:31.580592Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "120ccdf8-1057-4c0a-ba70-cd906b31fcc2",
+   "is_best": true,
+   "is_final": false,
+   "name": "checkpoint-165",
+   "size_bytes": 166802655,
+   "step": 165
+  },
+  {
+   "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+   "base_model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "created_at": "2026-10-13T04:58:31.612586Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "1d3e99b1-e87f-4704-906f-8048aa767355",
+   "is_best": false,
+   "is_final": true,
+   "name": "final",
+   "size_bytes": 166802655,
+   "step": 169
+  }
+ ],
+ "deleted": [
+  {
+   "deleted_at": "2026-10-13T04:59:12.927907Z",
+   "is_final": false,
+   "step": 1
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:12.644222Z",
+   "is_final": false,
+   "step": 11
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:12.348597Z",
+   "is_final": false,
+   "step": 22
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:12.055717Z",
+   "is_final": false,
+   "step": 33
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:11.740598Z",
+   "is_final": false,
+   "step": 44
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:11.456419Z",
+   "is_final": false,
+   "step": 55
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:11.145724Z",
+   "is_final": false,
+   "step": 66
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:10.852709Z",
+   "is_final": false,
+   "step": 77
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:10.54463Z",
+   "is_final": false,
+   "step": 99
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:10.252599Z",
+   "is_final": false,
+   "step": 110
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:09.943736Z",
+   "is_final": false,
+   "step": 121
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:09.644354Z",
+   "is_final": false,
+   "step": 132
+  },
+  {
+   "deleted_at": "2026-10-13T04:59:09.369782Z",
+   "is_final": false,
+   "step": 154
+  }
+ ],
+ "downloads_enabled": true
+}

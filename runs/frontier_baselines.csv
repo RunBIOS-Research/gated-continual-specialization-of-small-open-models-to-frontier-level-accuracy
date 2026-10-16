@@ -1,0 +1,16 @@
+task,model,answers,exact_match,billed_total_usd,usd_per_1000
+banking-intent-routing,anthropic/claude-opus-5-5,500,0.884,0.7575,1.5151
+banking-intent-routing,openai/gpt-5.5,500,0.834,2.2655,4.531
+banking-intent-routing,openai/gpt-6-astra,500,0.86,2.9463,5.8927
+consumer-complaint-triage,anthropic/claude-opus-5-5,500,0.568,1.8461,3.6921
+consumer-complaint-triage,openai/gpt-5.5,500,0.54,4.2258,8.4515
+consumer-complaint-triage,openai/gpt-6-astra,500,0.558,4.9298,9.8596
+contract-clause-classification,anthropic/claude-opus-5-5,500,0.848,0.8332,1.6664
+contract-clause-classification,openai/gpt-5.5,500,0.798,2.0466,4.0932
+contract-clause-classification,openai/gpt-6-astra,500,0.83,2.8817,5.7635
+xbrl-numeric-tagging,anthropic/claude-opus-5-5,500,0.864,1.2566,2.5133
+xbrl-numeric-tagging,openai/gpt-5.5,500,0.818,5.4221,10.8441
+xbrl-numeric-tagging,openai/gpt-6-astra,500,0.802,7.8844,15.7687
+vulnerability-root-cause-triage,anthropic/claude-opus-5-5,500,0.762,1.1377,2.2754
+vulnerability-root-cause-triage,openai/gpt-5.5,500,0.67,4.3782,8.7565
+vulnerability-root-cause-triage,openai/gpt-6-astra,500,0.692,5.5468,11.0936

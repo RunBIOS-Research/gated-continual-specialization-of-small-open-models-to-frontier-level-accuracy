@@ -1,0 +1,83 @@
+{
+ "checkpoints": [
+  {
+   "base_model_id": "Qwen/Qwen3.6-27B",
+   "base_model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+   "created_at": "2026-10-15T17:39:52.745707Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "4554b81e-5fdf-4da4-ad4c-78009c69952d",
+   "is_best": true,
+   "is_final": false,
+   "name": "checkpoint-477",
+   "size_bytes": 338351893,
+   "step": 477
+  },
+  {
+   "base_model_id": "Qwen/Qwen3.6-27B",
+   "base_model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+   "created_at": "2026-10-15T17:47:22.273344Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "1214d5ba-a7a8-4070-932f-f8bb4131a384",
+   "is_best": false,
+   "is_final": true,
+   "name": "final",
+   "size_bytes": 337214133,
+   "step": 522
+  }
+ ],
+ "deleted": [
+  {
+   "deleted_at": "2026-10-15T17:47:57.284595Z",
+   "is_final": false,
+   "step": 1
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:56.916789Z",
+   "is_final": false,
+   "step": 53
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:56.624606Z",
+   "is_final": false,
+   "step": 106
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:56.33318Z",
+   "is_final": false,
+   "step": 159
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:55.9926Z",
+   "is_final": false,
+   "step": 212
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:55.648608Z",
+   "is_final": false,
+   "step": 265
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:55.356583Z",
+   "is_final": false,
+   "step": 318
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:55.039101Z",
+   "is_final": false,
+   "step": 371
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:54.72061Z",
+   "is_final": false,
+   "step": 424
+  },
+  {
+   "deleted_at": "2026-10-15T17:47:54.410331Z",
+   "is_final": false,
+   "step": 500
+  }
+ ],
+ "downloads_enabled": true
+}

@@ -1,0 +1,368 @@
+{
+ "allocation_attempt_count": 8,
+ "attempt_count": 8,
+ "attempts": [
+  {
+   "attempt_number": 1,
+   "created_at": "2026-10-13T19:50:18.934456Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T19:50:20.4933Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 2,
+   "created_at": "2026-10-13T20:58:19.574046Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T20:58:20.897735Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 3,
+   "created_at": "2026-10-13T21:12:56.964953Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T21:12:57.087809Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 4,
+   "created_at": "2026-10-13T21:23:27.788204Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T21:23:29.100857Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 5,
+   "created_at": "2026-10-13T21:33:56.312605Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T21:33:57.492595Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 6,
+   "created_at": "2026-10-13T21:59:12.413491Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T21:59:12.632597Z",
+   "status": "abandoned"
+  },
+  {
+   "attempt_number": 7,
+   "created_at": "2026-10-13T22:22:32.040876Z",
+   "ending": "The resources were not ready in time, so we moved your run to others.",
+   "finished_at": "2026-10-13T22:22:33.372814Z",
+   "status": "abandoned"
+  },
+  {
+   "activated_at": "2026-10-13T22:43:18.122141Z",
+   "attempt_number": 8,
+   "created_at": "2026-10-13T22:43:17.026206Z",
+   "ending": "Finished",
+   "finished_at": "2026-10-14T00:31:45.51039Z",
+   "status": "completed"
+  }
+ ],
+ "best_loss": 0.009326890110969543,
+ "billable_seconds": 0,
+ "billed_cents": 17803,
+ "billing_mode": "tokens",
+ "can_resume": false,
+ "completed_at": "2026-10-14T00:31:42.357644Z",
+ "config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 66,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 885
+ },
+ "created_at": "2026-10-13T19:32:18.350292Z",
+ "current_loss": 0.032277900725603104,
+ "current_step": 594,
+ "dataset_ids": [
+  "731d48e0-5faf-405e-8723-8fa93b3da32a",
+  "8ffe1a4b-e64c-4b41-a8d0-eb0e96f6d0f5",
+  "bef04f47-dfde-48d4-b02a-29192afb7f37",
+  "ccfdc168-58dd-4314-8250-2af64cb1a24e"
+ ],
+ "desired_state": "running",
+ "error_code": null,
+ "error_message": null,
+ "eval_dataset_ids": [],
+ "execution_attempt_count": 1,
+ "final_artifact_deleted_at": null,
+ "final_artifact_state": "verified",
+ "final_artifact_verified": true,
+ "has_cached_dataset": false,
+ "id": "3db3afc6-cc40-497f-9424-8004e53b96c9",
+ "last_callback_at": "2026-10-14T00:30:51.773863Z",
+ "last_phase_update_at": "2026-10-14T00:31:22.976808Z",
+ "model_id": "Qwen/Qwen3.6-27B",
+ "model_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+ "name": "Case study - XBRL tagging vq27 (Qwen3.6-27B)",
+ "phases": [
+  {
+   "done_bytes": 124817733,
+   "done_units": 0,
+   "ended_at": "2026-10-13T22:45:42.722574Z",
+   "eta_seconds": 203,
+   "pct": 100,
+   "phase": "dataset_download",
+   "rate": 68472112,
+   "state": "done",
+   "total_bytes": 124817733,
+   "units": "bytes",
+   "updated_at": "2026-10-14T00:30:44.768595Z"
+  },
+  {
+   "done_bytes": 54561455231,
+   "done_units": 0,
+   "ended_at": "2026-10-13T22:50:17.275684Z",
+   "eta_seconds": 4,
+   "pct": 98.16000366210938,
+   "phase": "model_download",
+   "rate": 219967440,
+   "started_at": "2026-10-13T22:45:48.968593Z",
+   "state": "done",
+   "total_bytes": 55586032383,
+   "units": "bytes",
+   "updated_at": "2026-10-14T00:30:44.772584Z"
+  },
+  {
+   "done_bytes": 55586033833,
+   "done_units": 0,
+   "ended_at": "2026-10-13T22:51:23.858648Z",
+   "eta_seconds": 0,
+   "pct": 100,
+   "phase": "model_load",
+   "started_at": "2026-10-13T22:51:18.834952Z",
+   "state": "done",
+   "total_bytes": 55586033833,
+   "units": "bytes",
+   "updated_at": "2026-10-14T00:30:44.790189Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 50472,
+   "ended_at": "2026-10-13T22:51:18.831775Z",
+   "eta_seconds": 3,
+   "pct": 100,
+   "phase": "preprocessing",
+   "rate": 1337.4000244140625,
+   "started_at": "2026-10-13T22:50:38.144184Z",
+   "state": "done",
+   "total_units": 50472,
+   "units": "samples",
+   "updated_at": "2026-10-14T00:30:44.784587Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 588,
+   "eta_seconds": 2017,
+   "pct": 74.6192855834961,
+   "phase": "training",
+   "rate": 3329.300048828125,
+   "started_at": "2026-10-13T22:51:41.662873Z",
+   "state": "active",
+   "total_units": 788,
+   "units": "steps",
+   "updated_at": "2026-10-14T00:30:44.816594Z"
+  },
+  {
+   "done_bytes": 350487573,
+   "done_units": 0,
+   "ended_at": "2026-10-14T00:16:37.831218Z",
+   "pct": 100,
+   "phase": "checkpoint_upload",
+   "started_at": "2026-10-14T00:16:37.576953Z",
+   "state": "done",
+   "total_bytes": 350443284,
+   "units": "bytes",
+   "updated_at": "2026-10-14T00:31:22.976808Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T22:50:33.11379Z",
+   "pct": 0,
+   "phase": "model_build",
+   "started_at": "2026-10-13T22:50:25.097575Z",
+   "state": "done",
+   "updated_at": "2026-10-14T00:30:44.776586Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T22:50:38.142645Z",
+   "pct": 0,
+   "phase": "dataset_load",
+   "started_at": "2026-10-13T22:50:33.115511Z",
+   "state": "done",
+   "updated_at": "2026-10-14T00:30:44.780583Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 10,
+   "ended_at": "2026-10-13T22:51:18.833345Z",
+   "pct": 100,
+   "phase": "validation_prep",
+   "started_at": "2026-10-13T22:51:18.833345Z",
+   "state": "done",
+   "total_units": 10,
+   "units": "batches",
+   "updated_at": "2026-10-14T00:30:44.788593Z"
+  },
+  {
+   "done_bytes": 0,
+   "done_units": 0,
+   "ended_at": "2026-10-13T22:51:47.584587Z",
+   "pct": 0,
+   "phase": "first_step",
+   "started_at": "2026-10-13T22:51:23.859814Z",
+   "state": "done",
+   "updated_at": "2026-10-14T00:30:44.79609Z"
+  }
+ ],
+ "preserve_on_stop": true,
+ "progress": {
+  "eta_confidence": "measured",
+  "eta_scope": "run",
+  "eta_seconds": 2017,
+  "phases": [
+   {
+    "done_bytes": 124817733,
+    "pct": 100,
+    "phase": "dataset_download",
+    "rate": 68472108.4,
+    "state": "done",
+    "total_bytes": 124817733,
+    "units": "bytes"
+   },
+   {
+    "phase": "model_download",
+    "state": "done"
+   },
+   {
+    "phase": "model_build",
+    "state": "done"
+   },
+   {
+    "phase": "dataset_load",
+    "state": "done"
+   },
+   {
+    "done_units": 50472,
+    "pct": 100,
+    "phase": "preprocessing",
+    "state": "done",
+    "total_units": 50472,
+    "units": "samples"
+   },
+   {
+    "done_units": 10,
+    "pct": 100,
+    "phase": "validation_prep",
+    "state": "done",
+    "total_units": 10,
+    "units": "batches"
+   },
+   {
+    "done_bytes": 55586033833,
+    "eta_seconds": 0,
+    "pct": 100,
+    "phase": "model_load",
+    "state": "done",
+    "total_bytes": 55586033833,
+    "units": "bytes"
+   },
+   {
+    "phase": "first_step",
+    "state": "done"
+   }
+  ],
+  "schema_version": 2,
+  "ts": "2026-10-14T00:30:10.931889+00:00"
+ },
+ "queue": {
+  "admission_state": "terminal",
+  "created_at": "2026-10-13T19:32:18.352796Z",
+  "deadline_at": "2026-10-20T19:31:18.352564Z",
+  "eligible_choices": [
+   {
+    "eligible": true,
+    "id": 4214,
+    "price_per_gpu_hour_cents": 559,
+    "rank": 1,
+    "selected": true,
+    "tier": "secure",
+    "total_price_hour_cents": 2236
+   }
+  ],
+  "enqueue_sequence": 607,
+  "job_id": "3db3afc6-cc40-497f-9424-8004e53b96c9",
+  "position": null,
+  "position_estimated": false,
+  "position_scope": "",
+  "position_truncated": false,
+  "priority": 0,
+  "selected_choice": {
+   "eligible": true,
+   "id": 4214,
+   "price_per_gpu_hour_cents": 559,
+   "rank": 1,
+   "selected": true,
+   "tier": "secure",
+   "total_price_hour_cents": 2236
+  },
+  "selected_price_hour_cents": 2236,
+  "state": "promoted",
+  "updated_at": "2026-10-13T22:43:18.124663Z"
+ },
+ "queue_deadline": "2026-10-20T19:31:18.352564Z",
+ "queue_if_unavailable": true,
+ "queue_position": null,
+ "restart_child_job_id": null,
+ "restarted_from_job_id": null,
+ "resume_count": 0,
+ "resume_from_job_id": null,
+ "rlhf_type": null,
+ "stage": "completed",
+ "stage_detail": "",
+ "started_at": "2026-10-13T22:45:36.63472Z",
+ "status": "completed",
+ "stop_bios_accepted_at": null,
+ "stop_origin": "",
+ "stop_requested_at": null,
+ "stop_state": "idle",
+ "submitted_config": {
+  "early_stopping_patience": 3,
+  "eval_steps": 66,
+  "eval_strategy": "steps",
+  "learning_rate": 0.0002,
+  "lr_scheduler_type": "cosine",
+  "max_length": 2048,
+  "num_train_epochs": 3,
+  "optim": "adamw_torch_fused",
+  "precision": "bf16",
+  "split_dataset_samples": 885
+ },
+ "token_charge": {
+  "band_max_params_b": 80,
+  "band_min_params_b": 16,
+  "cents_per_million_tokens": 300,
+  "cost_cents": 17803,
+  "final": true,
+  "method": "lora",
+  "minimum_applied": false,
+  "minimum_charge_cents": 100,
+  "no_output_refunded": false,
+  "params_b": 27.78,
+  "token_cost_cents": 17802.0564,
+  "tokens": 59340188
+ },
+ "total_steps": 594,
+ "train_type": "lora",
+ "training_method": "sft"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "b340f9a7-e3c2-4a22-84a1-547198c2a234",
+ "run_id": "abd447e2-11d4-48b8-8d3d-27a9b9a0dfb2",
+ "split": "holdout",
+ "incumbent_ref": {
+  "kind": "deployment",
+  "name": "loop-case-study-retail-banking-customer-message-routing-loop-abd447e2:base",
+  "deployment_id": "0112973a-9263-493d-84a7-ec398e97e07c",
+  "model_version": "0e9e39f249a16976918f6564b8830bc894c89659"
+ },
+ "candidate_ref": {
+  "kind": "deployment",
+  "name": "loop-case-study-retail-banking-customer-message-routing-loop-abd447e2",
+  "deployment_id": "0112973a-9263-493d-84a7-ec398e97e07c",
+  "model_version": "3d56d7d5-135c-48fb-bb67-030af9302d4c"
+ },
+ "judge_id": "e7b5e2b5-f46d-4e2c-9b60-a30e46f9e89a",
+ "judge_name": "Conscious Loop default judge",
+ "judge_model": "anthropic/claude-sonnet-5",
+ "judge_dimensions": [
+  {
+   "key": "correctness",
+   "description": "Is the answer right, with nothing invented?"
+  },
+  {
+   "key": "helpfulness",
+   "description": "Does it do everything the person asked?"
+  },
+  {
+   "key": "clarity",
+   "description": "Is it clear, well organised and no longer than it needs to be?"
+  }
+ ],
+ "decoding": {
+  "temperature": 0,
+  "max_tokens": 1024,
+  "stream": false
+ },
+ "rows_selected": 200,
+ "rows_scored": 200,
+ "rows_failed": 0,
+ "wins": 73,
+ "losses": 8,
+ "ties": 119,
+ "win_rate": 0.9012345679012346,
+ "incumbent_mean": 0.6581666666666662,
+ "candidate_mean": 0.9174166666666669,
+ "mean_delta": 0.25924999999999987,
+ "pass_threshold": 0.7,
+ "incumbent_passed": 112,
+ "candidate_passed": 179,
+ "incumbent_pass_rate": 0.56,
+ "candidate_pass_rate": 0.895,
+ "judge_incumbent_mean": 0.6581666666666662,
+ "judge_candidate_mean": 0.9174166666666669,
+ "per_dimension": [
+  {
+   "dimension": "clarity",
+   "incumbent": 0.8155000000000001,
+   "candidate": 0.958,
+   "delta": 0.14249999999999985
+  },
+  {
+   "dimension": "correctness",
+   "incumbent": 0.5780000000000001,
+   "candidate": 0.89725,
+   "delta": 0.3192499999999999
+  },
+  {
+   "dimension": "helpfulness",
+   "incumbent": 0.581,
+   "candidate": 0.8969999999999999,
+   "delta": 0.31599999999999995
+  }
+ ],
+ "trainer_eval_loss": null,
+ "warnings": [],
+ "verdict": "better",
+ "verdict_reason": "The new model scored 0.92 against 0.66 on the scoring rubric (+0.26, it needed at least +0.05) and won 73 of the 81 conversations where one answer was better (90%), with 119 ties. Each conversation was compared twice, with the two answers in both orders, and counts as a win only when both orders agree. A model no better than the base model would win this often by chance less than 1% of the time.",
+ "margin_used": {
+  "promote_margin": 0.05,
+  "promote_min_win_rate": 0.55,
+  "min_holdout_rows": 100,
+  "mean_change_needed": 0.05
+ },
+ "prompt_tokens": 1432863,
+ "completion_tokens": 57691,
+ "spent_cents": 303,
+ "status": "done",
+ "last_error": null,
+ "created_at": "2026-10-14T16:06:07.747601Z",
+ "finished_at": "2026-10-14T16:11:45.245343Z"
+}
