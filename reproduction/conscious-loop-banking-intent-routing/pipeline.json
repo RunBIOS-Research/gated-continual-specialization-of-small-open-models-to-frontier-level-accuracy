@@ -1,0 +1,378 @@
+{
+ "pipeline": {
+  "rule_id": "09c7932a-d82a-4067-b740-80378d991cc0",
+  "rule_name": "Conscious Loop reproduction: banking-intent-routing",
+  "enabled": true,
+  "revision": 3,
+  "max_versions": 2,
+  "versions_made": 2,
+  "use_case": "Retail banking: customer-message routing",
+  "own_tag": "conscious-loop-reproduction-banking-intent-routing",
+  "tags": [
+   "conscious-loop-reproduction-banking-intent-routing"
+  ],
+  "conditions": {
+   "feedback": [],
+   "origin": null,
+   "model": null,
+   "from": null,
+   "to": null
+  },
+  "datasets": [],
+  "capture": {
+   "days": 7,
+   "not_recorded": []
+  },
+  "challenger_model": null,
+  "train_when": {
+   "schedule": null
+  },
+  "promotion": {
+   "policy": "manual",
+   "k": null
+  },
+  "holdout": {
+   "percent": 5,
+   "min_rows": 100,
+   "rows": 200,
+   "held_before": 200
+  },
+  "holdout_size": 200,
+  "minimums": {
+   "basis": "new_rows",
+   "needed": 1000,
+   "have": 0,
+   "short": 1053,
+   "message": "Needs 1053 more new samples before the next training: 0 of 1000 since training #2 can be trained on, once duplicates, conversations too long to train on, ones training #2 already trained on and new ones kept aside for the automatic test are taken out. New samples fill the automatic test first: 53 of the next 1053 are kept aside for it and are not trained on.",
+   "picked_by_judge": 0
+  },
+  "samples_total": 4000,
+  "samples_recent": 4000,
+  "training": {
+   "epochs": null,
+   "learning_rate": null,
+   "lora_rank": null,
+   "lora_alpha": null,
+   "replay_percent": null
+  },
+  "training_defaults": {
+   "learning_rate": 0.0002,
+   "lora_rank": 16,
+   "lora_alpha": 32,
+   "replay_percent": 50,
+   "min_epochs": 3,
+   "max_epochs": 15
+  },
+  "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "base_model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "live_version": 2,
+  "serving_name": "loop-conscious-loop-reproduction-banking-intent-routing",
+  "live_deployment": {
+   "status": "serving",
+   "checked_at": "2026-10-16T21:17:03.561517Z",
+   "deployment_id": "212a053f-62a1-408f-85b2-23e95e86559f"
+  },
+  "status": "complete",
+  "next_reason": "complete: this pipeline has made 2 versions and its limit is 2. Raise the limit, or remove it, to keep improving it",
+  "last_checked_at": "2026-10-16T21:19:03.612724Z",
+  "next_due_at": null,
+  "paused_reason": null,
+  "scoring_capped_until": null,
+  "auto_scoring": null,
+  "active_run": null,
+  "chain": {
+   "versions": [
+    1,
+    2
+   ],
+   "live_version": 2,
+   "learned_samples": 3800,
+   "not_learned_samples": 0,
+   "rebuild": null
+  },
+  "second_model": null,
+  "versions": [
+   {
+    "version": 1,
+    "run_id": "4659e641-728d-4527-876d-f9190b77816a",
+    "attempt": 1,
+    "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_family": "Llama3",
+    "seq": 1,
+    "state": "promoted",
+    "verdict": "better",
+    "decision": "promoted",
+    "decided_at": "2026-10-16T16:42:23.610754Z",
+    "is_live": false,
+    "promoted_at": "2026-10-16T17:03:56.832845Z",
+    "checkpoint_id": "875a015f-aecd-489e-a18b-0d60b8d3cc14",
+    "train_rows": 2454,
+    "holdout_rows": 130,
+    "rows_scored": 130,
+    "win_rate": 0.9811320754716981,
+    "mean_delta": 0.31166666666666654,
+    "incumbent_pass_rate": 0.5384615384615384,
+    "candidate_pass_rate": 0.9153846153846154,
+    "benchmark_score": 0.835,
+    "benchmark_rows": 200,
+    "benchmark_rows_total": 200,
+    "benchmark_status": "done",
+    "benchmark_comparable": true,
+    "cost_cents": 684,
+    "cost_includes_candidate_ceiling": false,
+    "cost_up_to": true,
+    "sample_scoring_cents": 0,
+    "sample_scored": 0,
+    "sample_picked": 0,
+    "train_rows_by_judge": 0,
+    "gpu_seconds": 2274,
+    "created_at": "2026-10-16T15:51:31.560603Z",
+    "compared_at": "2026-10-16T16:35:07.132791Z",
+    "trigger": "data",
+    "finished_at": "2026-10-16T17:03:56.832845Z",
+    "lineage": {
+     "trained_from": "base",
+     "built_on": [],
+     "served_as": "adapter",
+     "new_samples": 2454,
+     "carried_samples": 0,
+     "carried_from_attempts": [],
+     "replayed_samples": 0,
+     "learned_before": 0,
+     "rebuild": false,
+     "learned_deleted_conversation": false,
+     "from_base_reason": "first_version"
+    },
+    "tested": true
+   },
+   {
+    "version": 2,
+    "run_id": "6c7f64c0-7ab2-4818-8e8b-8362d8fdbad8",
+    "attempt": 2,
+    "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_family": "Llama3",
+    "seq": 2,
+    "state": "promoted",
+    "verdict": "not_better",
+    "decision": "promoted",
+    "decided_at": "2026-10-16T18:04:17.46129Z",
+    "is_live": true,
+    "promoted_at": "2026-10-16T18:32:21.86649Z",
+    "checkpoint_id": "f4f20bcb-8be7-4ab4-bd16-1489a759b2bf",
+    "train_rows": 2692,
+    "holdout_rows": 200,
+    "rows_scored": 200,
+    "win_rate": 0.875,
+    "mean_delta": 0.018500000000000003,
+    "incumbent_pass_rate": 0.895,
+    "candidate_pass_rate": 0.92,
+    "benchmark_score": 0.89,
+    "benchmark_rows": 200,
+    "benchmark_rows_total": 200,
+    "benchmark_status": "done",
+    "benchmark_comparable": true,
+    "cost_cents": 913,
+    "cost_includes_candidate_ceiling": false,
+    "cost_up_to": true,
+    "sample_scoring_cents": 0,
+    "sample_scored": 0,
+    "sample_picked": 0,
+    "train_rows_by_judge": 0,
+    "gpu_seconds": 2534,
+    "created_at": "2026-10-16T17:03:33.946117Z",
+    "compared_at": "2026-10-16T17:55:12.110343Z",
+    "trigger": "data",
+    "finished_at": "2026-10-16T18:32:21.86649Z",
+    "lineage": {
+     "trained_from": "versions",
+     "built_on": [
+      1
+     ],
+     "served_as": "merged",
+     "new_samples": 1346,
+     "carried_samples": 0,
+     "carried_from_attempts": [],
+     "replayed_samples": 1346,
+     "learned_before": 2454,
+     "rebuild": false,
+     "learned_deleted_conversation": false,
+     "from_base_reason": null
+    },
+    "tested": true
+   }
+  ],
+  "attempts": [
+   {
+    "attempt": 1,
+    "run_id": "4659e641-728d-4527-876d-f9190b77816a",
+    "state": "promoted",
+    "trigger": "data",
+    "model_role": "main",
+    "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_family": "Llama3",
+    "outcome": "became_version",
+    "decision": "promoted",
+    "train_rows": 2454,
+    "holdout_rows": 130,
+    "version": 1,
+    "created_at": "2026-10-16T15:51:31.560603Z",
+    "finished_at": "2026-10-16T17:03:56.832845Z",
+    "gpu_seconds": 2274,
+    "cost_cents": 684,
+    "cost_up_to": true,
+    "comparison_returned_cents": 0,
+    "sample_scoring_cents": 0,
+    "sample_scored": 0,
+    "sample_picked": 0,
+    "train_rows_by_judge": 0,
+    "verdict": "better",
+    "win_rate": 0.9811320754716981,
+    "incumbent_pass_rate": 0.5384615384615384,
+    "candidate_pass_rate": 0.9153846153846154,
+    "evaluation_id": "864dc77a-882b-4c1e-b4a1-f9b438eba98c",
+    "reason": "your app now gets answers from the model this training made; the address and the model name did not change",
+    "lineage": {
+     "trained_from": "base",
+     "built_on": [],
+     "served_as": "adapter",
+     "new_samples": 2454,
+     "carried_samples": 0,
+     "carried_from_attempts": [],
+     "replayed_samples": 0,
+     "learned_before": 0,
+     "rebuild": false,
+     "learned_deleted_conversation": false,
+     "from_base_reason": "first_version"
+    },
+    "trained_on": {
+     "tags": [
+      "conscious-loop-reproduction-banking-intent-routing"
+     ],
+     "conditions": {
+      "feedback": [],
+      "origin": null,
+      "model": null,
+      "from": null,
+      "to": null
+     },
+     "datasets": []
+    },
+    "builds_on_version": null,
+    "compared_with_version": null,
+    "compared_with": "original",
+    "missed_bar": null,
+    "explanation": {
+     "headline": "Became v1",
+     "detail": "It did better than the original model on its automatic test, and a member put it live. It was right on 92% of 130 questions it never trained on; the original model got 54% on the same questions.",
+     "next": null
+    },
+    "tested": true
+   },
+   {
+    "attempt": 2,
+    "run_id": "6c7f64c0-7ab2-4818-8e8b-8362d8fdbad8",
+    "state": "promoted",
+    "trigger": "data",
+    "model_role": "main",
+    "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_family": "Llama3",
+    "outcome": "became_version",
+    "decision": "promoted",
+    "train_rows": 2692,
+    "holdout_rows": 200,
+    "version": 2,
+    "created_at": "2026-10-16T17:03:33.946117Z",
+    "finished_at": "2026-10-16T18:32:21.86649Z",
+    "gpu_seconds": 2534,
+    "cost_cents": 913,
+    "cost_up_to": true,
+    "comparison_returned_cents": 0,
+    "sample_scoring_cents": 0,
+    "sample_scored": 0,
+    "sample_picked": 0,
+    "train_rows_by_judge": 0,
+    "verdict": "not_better",
+    "win_rate": 0.875,
+    "incumbent_pass_rate": 0.895,
+    "candidate_pass_rate": 0.92,
+    "evaluation_id": "18dffab6-bfa1-4985-b13d-a438f9a5855b",
+    "reason": "your app now gets answers from the model this training made; the address and the model name did not change",
+    "lineage": {
+     "trained_from": "versions",
+     "built_on": [
+      1
+     ],
+     "served_as": "merged",
+     "new_samples": 1346,
+     "carried_samples": 0,
+     "carried_from_attempts": [],
+     "replayed_samples": 1346,
+     "learned_before": 2454,
+     "rebuild": false,
+     "learned_deleted_conversation": false,
+     "from_base_reason": null
+    },
+    "trained_on": {
+     "tags": [
+      "conscious-loop-reproduction-banking-intent-routing"
+     ],
+     "conditions": {
+      "feedback": [],
+      "origin": null,
+      "model": null,
+      "from": null,
+      "to": null
+     },
+     "datasets": []
+    },
+    "builds_on_version": 1,
+    "compared_with_version": 1,
+    "compared_with": "version",
+    "missed_bar": null,
+    "explanation": {
+     "headline": "Became v2",
+     "detail": "A member put it live. It was right on 92% of 200 questions it never trained on; v1 got 90% on the same questions.",
+     "next": null
+    },
+    "tested": true
+   }
+  ],
+  "attempts_total": 2,
+  "versions_total": 2,
+  "totals": {
+   "trainings": 2,
+   "trainings_finished": 2,
+   "trainings_untested": 0,
+   "trainings_by_result": {
+    "became_version": 2,
+    "not_better": 0,
+    "inconclusive": 0,
+    "not_tested": 0,
+    "stopped": 0,
+    "failed": 0,
+    "running": 0,
+    "waiting_for_review": 0
+   },
+   "trainings_by_model": {
+    "main": 2,
+    "second": 0
+   },
+   "versions": 2,
+   "spent_cents": 1597,
+   "spent_up_to": true,
+   "spent_so_far": false,
+   "scoring_not_yet_in_a_training_cents": 0,
+   "spent_parts": {
+    "training_cents": 509,
+    "test_machine_cents": 596,
+    "grading_cents": 492,
+    "benchmark_cents": 0,
+    "sample_scoring_cents": 0
+   },
+   "gpu_seconds": 4808,
+   "first_training_at": "2026-10-16T15:51:31.560603Z",
+   "last_training_at": "2026-10-16T17:03:33.946117Z"
+  },
+  "counts_as_of": "2026-10-16T21:17:41.942177Z"
+ }
+}

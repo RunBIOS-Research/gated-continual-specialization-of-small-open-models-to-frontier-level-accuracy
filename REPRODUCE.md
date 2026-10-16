@@ -1,6 +1,6 @@
 # Reproducing the results
 
-There are three levels of reproduction. Level 1 needs nothing but Python. Levels 2 and 3 use the public RunBios API and
+There are four levels of reproduction. Level 1 needs nothing but Python. Levels 2 and 3 use the public RunBios API and
 bill your own RunBios account.
 
 ## Level 1. Recompute every reported number (no account needed)
@@ -56,6 +56,19 @@ training job (bf16, maximum length 2,048), deploys the best checkpoint on the ch
 
 The script prints the RunBios estimate before training starts.
 
+## Level 4. Run the Conscious Loop yourself (Study B)
+
+Requirements: a RunBios API key with Conscious Loop access (`loop:read`, `loop:write`) and credit.
+
+```
+export RUNBIOS_API_KEY=<your key>
+python reproduce/conscious_loop.py --task banking-intent-routing --model meta-llama/Llama-3.1-8B-Instruct
+```
+
+The script pins the task's 200-case benchmark, creates a pipeline, feeds labeled training rows in batches and lets the Loop
+train, compare and replay the benchmark for each attempt, then promotes or rejects each version. `CONSCIOUS_LOOP.md`
+explains every step and the equivalent API calls, so the same procedure can be applied to your own data.
+
 ## What to expect
 
 Reproduction is statistical, not bit-exact. Fine-tuning is not deterministic across GPUs and runs, and providers update
@@ -66,6 +79,4 @@ frontier models over time. A faithful reproduction should fall within the 95% in
 
 `original_scripts/` contains the scripts as they were run for the study, with the API address and key taken from
 environment variables. They expect the working-folder layout of the study and are provided for inspection. Use
-`reproduce/` to re-run. The Conscious Loop pipelines of Study B depend on platform changes that are not yet available on
-the public RunBios API, so Study B is documented by its complete logs in `logs/conscious_loop/` rather than by a re-run
-script.
+`reproduce/` to re-run.

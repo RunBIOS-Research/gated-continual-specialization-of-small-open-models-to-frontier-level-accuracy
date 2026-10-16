@@ -1,0 +1,51 @@
+{
+ "benchmark_run": {
+  "id": "6eb573f2-7931-4226-aa2d-39f080d9beb8",
+  "benchmark_id": "52f9e724-9e9e-4400-90f4-88439aa720d6",
+  "benchmark_name": "banking-intent-routing benchmark (exact, 200 cases) 2026-10-16 19:50",
+  "run_id": "6c7f64c0-7ab2-4818-8e8b-8362d8fdbad8",
+  "incumbent_ref": {
+   "kind": "deployment",
+   "name": "9bd766a7-851d-4258-b5ab-82c986cab62c",
+   "deployment_id": "9bd766a7-851d-4258-b5ab-82c986cab62c",
+   "model_version": null
+  },
+  "candidate_ref": {
+   "kind": "deployment",
+   "name": "loop-conscious-loop-reproduction-banking-intent-routing-loop-6c7f64c0",
+   "deployment_id": "212a053f-62a1-408f-85b2-23e95e86559f",
+   "model_version": "11c0c08d-88f1-4d1f-96fb-12f53d24d273"
+  },
+  "items_digest": "a167f07a739109051427a267fac3c43241993fb2a8a4df588f68c921404e1ef1",
+  "rows_total": 200,
+  "rows_scored": 200,
+  "rows_failed": 0,
+  "candidate_score": 0.89,
+  "incumbent_score": 0.835,
+  "score_delta": 0.05500000000000005,
+  "per_dimension": [
+   {
+    "dimension": "match",
+    "incumbent": 0.835,
+    "candidate": 0.89,
+    "delta": 0.05500000000000005
+   }
+  ],
+  "pass_threshold": 0.7,
+  "incumbent_passed": 167,
+  "candidate_passed": 178,
+  "incumbent_pass_rate": 0.835,
+  "candidate_pass_rate": 0.89,
+  "wins": 14,
+  "losses": 3,
+  "ties": 183,
+  "prompt_tokens": 195424,
+  "completion_tokens": 2024,
+  "spent_cents": 0,
+  "learned_by_version": 0,
+  "status": "done",
+  "status_reason": null,
+  "created_at": "2026-10-16T18:01:56.834253Z",
+  "finished_at": "2026-10-16T18:03:58.29747Z"
+ }
+}

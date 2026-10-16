@@ -1,0 +1,67 @@
+{
+ "checkpoints": [
+  {
+   "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+   "base_model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "created_at": "2026-10-16T17:17:27.724115Z",
+   "epoch": null,
+   "format": "merged",
+   "id": "11c0c08d-88f1-4d1f-96fb-12f53d24d273",
+   "is_best": false,
+   "is_final": false,
+   "merged_of_checkpoint_id": "f4f20bcb-8be7-4ab4-bd16-1489a759b2bf",
+   "name": "merged model (step 60)",
+   "size_bytes": 16069723405,
+   "step": 60
+  },
+  {
+   "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+   "base_model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "created_at": "2026-10-16T17:11:00.11964Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "f4f20bcb-8be7-4ab4-bd16-1489a759b2bf",
+   "is_best": true,
+   "is_final": false,
+   "name": "checkpoint-60",
+   "size_bytes": 321994432,
+   "step": 60
+  },
+  {
+   "base_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+   "base_model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "created_at": "2026-10-16T17:12:00.298946Z",
+   "epoch": null,
+   "format": "adapter",
+   "id": "a30abd1d-b9ff-46a8-a902-0c2f4c69705e",
+   "is_best": false,
+   "is_final": true,
+   "name": "final",
+   "size_bytes": 321994432,
+   "step": 96
+  }
+ ],
+ "deleted": [
+  {
+   "deleted_at": "2026-10-16T17:17:34.943837Z",
+   "is_final": false,
+   "step": 1
+  },
+  {
+   "deleted_at": "2026-10-16T17:17:34.941309Z",
+   "is_final": false,
+   "step": 12
+  },
+  {
+   "deleted_at": "2026-10-16T17:17:34.692244Z",
+   "is_final": false,
+   "step": 24
+  },
+  {
+   "deleted_at": "2026-10-16T17:17:34.43102Z",
+   "is_final": false,
+   "step": 36
+  }
+ ],
+ "downloads_enabled": true
+}

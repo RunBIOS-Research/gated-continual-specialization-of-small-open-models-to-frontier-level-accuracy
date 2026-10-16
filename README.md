@@ -7,6 +7,21 @@ It contains everything needed to check the numbers in the report without access 
 cases, the training rows of every selected model, every answer from every model with its billed cost, the complete run log
 and the scripts used.
 
+## What the paper claims, and where the evidence is
+
+| Claim | Evidence in this repository |
+| --- | --- |
+| On five enterprise classification tasks built from real public records, an open model of 8 to 27 billion parameters fine-tuned on RunBios was more accurate than Claude Opus 5.5, GPT-5.5 and GPT-6 Astra on all five, with a statistically significant margin on three (banking +6.6, complaints +8.6, contracts +4.2 points) and parity within sampling error on two (XBRL tagging +1.0, vulnerability triage +0.4) | `results/`, `runs/run_log.csv`, recomputed by `verify.py` |
+| The reported model of each task was chosen on separate validation cases, never on the test cases | `data/<task>/validation.jsonl`, the validation columns of `runs/run_log.csv`, and the selection check in `verify.py` |
+| No test case was used for training | `data/<task>/test.jsonl` and `data/<task>/train_selected_model.jsonl.gz` |
+| Serving cost per request was 4.1 to 19.0 times lower than the strongest frontier model | Billed cost of every frontier answer in `results/`, serving price and measured throughput in `runs/run_log.csv` and `logs/training/*/deployment.json` |
+| Accuracy rose with the volume and recency of real training data | The development paths in `runs/run_log.csv` and the training curves in `logs/training/` |
+| The Conscious Loop trained, tested and promoted successive versions on its own (Study B) | `loop/pipelines.json` and every attempt in `logs/conscious_loop/` |
+| The results can be reproduced on the public RunBios API | `reproduce/`, `REPRODUCE.md`, `CONSCIOUS_LOOP.md` and the re-runs in `reproduction/` |
+
+The paper does not claim that a fine-tuned model is better than frontier models in general. Its claims are limited to
+these tasks and these test cases.
+
 ## Verify the results
 
 ```
@@ -26,6 +41,12 @@ After the study, the selected banking-intent-routing configuration was retrained
 (95% interval 92.7% to 96.6%), for $7.02 of training. The run log, training records and every answer are in
 `reproduction/banking-intent-routing/`.
 
+A Conscious Loop pipeline for the same task was then created and run on the public RunBios API with
+`reproduce/conscious_loop.py`. Its benchmark rose from 47.5% (untrained) to 83.5% with the first version, promoted on the
+Loop's own held-back verdict, and to 89.0% with a second version that the pipeline started by itself and built on the first
+(promoted under the Study B rule, since its held-back comparison was not significant). Every record is in
+`reproduction/conscious-loop-banking-intent-routing/`.
+
 ## Contents
 
 | Path | Contents |
@@ -41,11 +62,12 @@ After the study, the selected banking-intent-routing configuration was retrained
 | `loop/pipelines.json` | Conscious Loop pipelines (Study B): every attempt, its benchmark scores, verdict and outcome |
 | `logs/training/` | For each of the 41 training jobs: the job record and configuration, per-step training and validation metrics, checkpoints, evaluations and, where it was served, the deployment and throughput measurement. `logs/training/index.csv` lists them |
 | `logs/conscious_loop/` | For each pipeline: its settings, benchmark and benchmark history, and for every attempt the run record, the training job logs, the held-back comparison and the benchmark replay, answer by answer |
-| `reproduce/` | Standalone scripts that use only the public RunBios API to re-ask the frontier models and to retrain and test a selected model (see `REPRODUCE.md`) |
+| `reproduce/` | Standalone scripts that use only the public RunBios API: `evaluate.py` re-asks any model the test cases, `train.py` retrains and tests a selected model, `conscious_loop.py` runs a Conscious Loop pipeline (see `REPRODUCE.md`) |
+| `CONSCIOUS_LOOP.md` | How the Conscious Loop works and how to run your own pipeline, with every API call |
 | `reproduction/` | An independent re-run on the public RunBios API made after the study |
 | `original_scripts/` | The data preparation, training, evaluation and throughput scripts as they were run |
 | `verify.py` | Independent recomputation of the reported results |
-| `REPRODUCE.md` | How to reproduce the results at three levels |
+| `REPRODUCE.md` | How to reproduce the results at four levels |
 | `MANIFEST.sha256` | SHA-256 checksum of every file |
 
 The platform does not expose raw trainer console output, so training logs are the structured records RunBios keeps for

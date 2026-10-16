@@ -1,0 +1,45 @@
+{
+ "what": "Conscious Loop pipeline created and run on the public RunBios API with reproduce/conscious_loop.py, after the study",
+ "date": "2026-10-16",
+ "task": "banking-intent-routing",
+ "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+ "benchmark_cases": 200,
+ "rule": "promote when the new version beats the live version on the benchmark (Study B rule)",
+ "note": "Attempt 2 was started by the pipeline itself after version 1 went live, from samples it already held, and built on version 1",
+ "attempts": [
+  {
+   "attempt": 1,
+   "labeled_rows_imported_before_it": 4000,
+   "train_rows": 2454,
+   "held_back_rows": 130,
+   "trained_from": "base",
+   "built_on_versions": [],
+   "new_samples": 2454,
+   "replayed_samples": 0,
+   "training_summary": "Trained for 65 steps, planned as 7 passes over its 2,454 samples less the 5% set aside to check it; kept the checkpoint from step 26, where it did best on samples drawn from that 5%.",
+   "benchmark_new_version": 0.835,
+   "benchmark_live_version": 0.475,
+   "heldback_verdict": "better",
+   "decision": "promote",
+   "promotion_needed_override": false
+  },
+  {
+   "attempt": 2,
+   "labeled_rows_imported_before_it": 4000,
+   "train_rows": 2692,
+   "held_back_rows": 200,
+   "trained_from": "versions",
+   "built_on_versions": [
+    1
+   ],
+   "new_samples": 1346,
+   "replayed_samples": 1346,
+   "training_summary": "Trained for 96 steps, planned as 6 passes over its 2,692 samples less the 5% set aside to check it; kept the checkpoint from step 60, where it did best on samples drawn from that 5%.",
+   "benchmark_new_version": 0.89,
+   "benchmark_live_version": 0.835,
+   "heldback_verdict": "not_better",
+   "decision": "promote",
+   "promotion_needed_override": true
+  }
+ ]
+}

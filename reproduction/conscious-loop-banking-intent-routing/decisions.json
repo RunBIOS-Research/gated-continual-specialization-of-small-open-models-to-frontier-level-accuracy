@@ -1,0 +1,29 @@
+{
+ "fed": 4000,
+ "decisions": [
+  {
+   "attempt": 1,
+   "run_id": "4659e641-728d-4527-876d-f9190b77816a",
+   "rows_fed": 4000,
+   "benchmark_new": 0.835,
+   "benchmark_live": 0.475,
+   "heldback_verdict": "better",
+   "decision": "promote",
+   "at": "2026-10-16T20:42:23"
+  },
+  {
+   "attempt": 2,
+   "run_id": "6c7f64c0-7ab2-4818-8e8b-8362d8fdbad8",
+   "rows_fed": 4000,
+   "benchmark_new": 0.89,
+   "benchmark_live": 0.835,
+   "heldback_verdict": "not_better",
+   "decision": "promote",
+   "at": "2026-10-16T22:04:16"
+  }
+ ],
+ "benchmark_id": "52f9e724-9e9e-4400-90f4-88439aa720d6",
+ "pipeline_id": "09c7932a-d82a-4067-b740-80378d991cc0",
+ "serving_name": "loop-conscious-loop-reproduction-banking-intent-routing",
+ "last_state": "6c7f64c0-7ab2-4818-8e8b-8362d8fdbad8:awaiting_review"
+}

@@ -1,0 +1,51 @@
+{
+ "benchmark_run": {
+  "id": "9108e064-b64a-497f-86f3-0ed2e6d0e83e",
+  "benchmark_id": "52f9e724-9e9e-4400-90f4-88439aa720d6",
+  "benchmark_name": "banking-intent-routing benchmark (exact, 200 cases) 2026-10-16 19:50",
+  "run_id": "4659e641-728d-4527-876d-f9190b77816a",
+  "incumbent_ref": {
+   "kind": "deployment",
+   "name": "loop-conscious-loop-reproduction-banking-intent-routing-loop-4659e641:base",
+   "deployment_id": "9bd766a7-851d-4258-b5ab-82c986cab62c",
+   "model_version": "0e9e39f249a16976918f6564b8830bc894c89659"
+  },
+  "candidate_ref": {
+   "kind": "deployment",
+   "name": "loop-conscious-loop-reproduction-banking-intent-routing-loop-4659e641",
+   "deployment_id": "9bd766a7-851d-4258-b5ab-82c986cab62c",
+   "model_version": "875a015f-aecd-489e-a18b-0d60b8d3cc14"
+  },
+  "items_digest": "a167f07a739109051427a267fac3c43241993fb2a8a4df588f68c921404e1ef1",
+  "rows_total": 200,
+  "rows_scored": 200,
+  "rows_failed": 0,
+  "candidate_score": 0.835,
+  "incumbent_score": 0.475,
+  "score_delta": 0.36,
+  "per_dimension": [
+   {
+    "dimension": "match",
+    "incumbent": 0.475,
+    "candidate": 0.835,
+    "delta": 0.36
+   }
+  ],
+  "pass_threshold": 0.7,
+  "incumbent_passed": 95,
+  "candidate_passed": 167,
+  "incumbent_pass_rate": 0.475,
+  "candidate_pass_rate": 0.835,
+  "wins": 77,
+  "losses": 5,
+  "ties": 118,
+  "prompt_tokens": 195424,
+  "completion_tokens": 1946,
+  "spent_cents": 0,
+  "learned_by_version": 0,
+  "status": "done",
+  "status_reason": null,
+  "created_at": "2026-10-16T16:39:57.097593Z",
+  "finished_at": "2026-10-16T16:41:57.750532Z"
+ }
+}

@@ -1,0 +1,16 @@
+19:50:08 benchmark pinned 52f9e724-9e9e-4400-90f4-88439aa720d6 (200 cases, exact match)
+19:50:27 pipeline created 09c7932a-d82a-4067-b740-80378d991cc0 (serving name loop-conscious-loop-reproduction-banking-intent-routing), benchmark attached
+19:52:52 fed 4000 labeled rows (total 4000)
+19:53:41 attempt 1: training (waiting for a machine; nothing is charged while a run waits)
+20:00:44 attempt 1: candidate_booking (setting up the machine for the comparison)
+20:35:15 attempt 1: evaluating (comparing the new model against the base model on 130 questions from the automatic test)
+20:42:21 attempt 1: awaiting_review (waiting for someone to decide; nothing has changed in your app)
+20:42:23 attempt 1: benchmark new 0.835 vs live 0.475, held-back verdict better -> promoted
+20:43:10 attempt 1: promoting (copying the new model onto the machine for the comparison)
+21:04:23 attempt 2: registering (the member who set up this pipeline is still in the workspace)
+21:05:10 attempt 2: training (waiting for a machine; nothing is charged while a run waits)
+21:18:30 attempt 2: candidate_booking (setting up the machine for the comparison)
+21:55:32 attempt 2: evaluating (comparing the two models: 192 conversations still to go)
+22:04:15 attempt 2: awaiting_review (waiting for someone to decide; nothing has changed in your app)
+22:04:16 attempt 2: benchmark new 0.89 vs live 0.835, held-back verdict not_better -> promoted
+22:05:02 done: 2 attempts, 1 versions made
