@@ -47,6 +47,15 @@ Loop's own held-back verdict, and to 89.0% with a second version that the pipeli
 (promoted under the Study B rule, since its held-back comparison was not significant). Every record is in
 `reproduction/conscious-loop-banking-intent-routing/`.
 
+Both production re-runs can also be viewed live, without an account, as read-only public previews on RunBios
+(settings, training curves, checkpoints, comparisons, benchmark answers and costs, with no download or deploy):
+
+- Retraining: https://platform.runbios.ai/public/training/XulG3ywp1CfnzUBezlY9QvNL
+- Conscious Loop pipeline: https://platform.runbios.ai/public/loop/C0Ga-gNRE_ueMs0SbomYtQuS
+
+The main study's records were produced in the pre-production environment and are not published this way. This
+repository is their permanent record, and it does not depend on those pages staying online.
+
 ## Contents
 
 | Path | Contents |
