@@ -47,14 +47,20 @@ Loop's own held-back verdict, and to 89.0% with a second version that the pipeli
 (promoted under the Study B rule, since its held-back comparison was not significant). Every record is in
 `reproduction/conscious-loop-banking-intent-routing/`.
 
-Both production re-runs can also be viewed live, without an account, as read-only public previews on RunBios
-(settings, training curves, checkpoints, comparisons, benchmark answers and costs, with no download or deploy):
+### Live read-only previews
 
-- Retraining: https://platform.runbios.ai/public/training/XulG3ywp1CfnzUBezlY9QvNL
-- Conscious Loop pipeline: https://platform.runbios.ai/public/loop/C0Ga-gNRE_ueMs0SbomYtQuS
+The runs made on the production RunBios platform can also be opened live, without an account. Each page shows the
+settings, training curve, validation results, checkpoints, comparisons, benchmark answers and costs, and allows no
+download or deployment.
 
-The main study's records were produced in the pre-production environment and are not published this way. This
-repository is their permanent record, and it does not depend on those pages staying online.
+| Task | Run | What it shows | Live preview |
+|---|---|---|---|
+| Banking intent routing | Retraining of the selected model from `data/banking-intent-routing/` | 94.0% on the 500-case test set, $7.02 | https://platform.runbios.ai/public/training/XulG3ywp1CfnzUBezlY9QvNL |
+| Banking intent routing | Conscious Loop pipeline, two versions | 47.5% → 83.5% → 89.0% on its 200-case benchmark | https://platform.runbios.ai/public/loop/C0Ga-gNRE_ueMs0SbomYtQuS |
+
+The five-task study itself ran in the RunBios pre-production environment, which is not reachable from the internet,
+so it has no live pages. This repository is the permanent record of every result, and nothing in it depends on the
+pages above staying online. Further production runs will be added to this table as they are made.
 
 ## Contents
 
