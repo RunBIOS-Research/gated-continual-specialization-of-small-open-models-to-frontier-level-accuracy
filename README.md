@@ -1,7 +1,7 @@
 # Gated Continual Specialization of Small Open Models to Frontier-Level Accuracy: data, logs and code (version 1.0.0)
 
 This package accompanies the technical report *The Conscious Loop: Gated Continual Specialization of Small Open Models to
-Frontier-Level Accuracy at a Fraction of the Cost* (Arpit Sharma, Tathagat Sharma, Bhavesh Soni, Mohit Kumar, Pranjal Bawa, Anubhav Tripathi, Suraj Sharma, Ankit Sharma, UltraSafe AI, October 2026), included here as `paper.pdf`.
+Frontier-Level Accuracy at a Fraction of the Cost* (Arpit Sharma and Tathagat Sharma, UltraSafe AI, October 2026), included here as `paper.pdf`.
 
 It contains everything needed to check the numbers in the report without access to RunBios: the exact test and validation
 cases, the training rows of every selected model, every answer from every model with its billed cost, the complete run log
