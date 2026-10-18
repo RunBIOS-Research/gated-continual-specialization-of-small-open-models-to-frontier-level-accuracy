@@ -1,10 +1,15 @@
 # Licence
 
-## Data, results and report
+## Report
+
+`paper.pdf` is Copyright 2026 UltraSafe AI and is released under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0), https://creativecommons.org/licenses/by/4.0/legalcode.
+
+## Data and results
 
 Copyright 2026 UltraSafe AI.
 
-The data, results and report in this package are licensed under the Creative Commons Attribution-ShareAlike 4.0
+The data and results in this package are licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License (CC-BY-SA-4.0), https://creativecommons.org/licenses/by-sa/4.0/legalcode. The package contains
 material derived from FiNER-139, which is distributed under CC-BY-SA-4.0, so derivative material is shared under the same
 licence.
@@ -43,3 +48,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 ## Trademarks
 
 Model names are trademarks of their respective owners and are used only to identify the systems evaluated.
+
+## RunBios and the Conscious Loop
+
+RunBios and the Conscious Loop are proprietary products of UltraSafe AI. Nothing in this package licenses the RunBios
+platform, its software, the Conscious Loop or their trademarks. The scripts in this package only call the public RunBios
+API, which is used under the RunBios terms of service.
