@@ -1,4 +1,4 @@
-# The Conscious Loop: evidence package (version 1.0.0)
+# Gated Continual Specialization of Small Open Models to Frontier-Level Accuracy: data, logs and code (version 1.0.0)
 
 This package accompanies the technical report *The Conscious Loop: Gated Continual Specialization of Small Open Models to
 Frontier-Level Accuracy at a Fraction of the Cost* (Arpit Sharma, Tathagat Sharma, Bhavesh Soni, Mohit Kumar, Suraj Sharma, Anubhav Tripathi, Pranjal Bawa, Ankit Sharma and the UltraSafe AI Team, UltraSafe AI, October 2026), included here as `paper.pdf`.
