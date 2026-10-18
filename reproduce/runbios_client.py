@@ -25,7 +25,7 @@ class ApiError(Exception):
 
 
 def call(method, path, body=None, headers=None, timeout=300, retries=6, raw_body=None):
-    h = {"Accept": "application/json", "User-Agent": "conscious-loop-reproduce/1.0"}
+    h = {"Accept": "application/json", "User-Agent": "runbios-paper-reproduce/1.0"}
     # model calls (/v1) take a bearer token, platform calls (/api) take the X-API-Key header
     if path.startswith("/v1/"):
         h["Authorization"] = "Bearer " + _key()
@@ -77,7 +77,7 @@ def chat(model, messages, **extra):
 
 def upload_jsonl(name, lines):
     """Upload a JSONL training file (multipart form) and return the dataset record."""
-    boundary = "----conscious-loop-" + str(int(time.time() * 1000))
+    boundary = "----runbios-paper-" + str(int(time.time() * 1000))
     payload = "\n".join(lines).encode() + b"\n"
     parts = []
     ws = (get("/api/api-keys/introspect").get("workspace") or {}).get("id", "")
