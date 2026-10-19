@@ -2,8 +2,8 @@
 
 ## Report
 
-`paper.pdf` is Copyright 2026 UltraSafe AI and is released under the Creative Commons Attribution 4.0 International License
-(CC BY 4.0), https://creativecommons.org/licenses/by/4.0/legalcode.
+`paper.pdf` is Copyright 2026 UltraSafe AI. All rights reserved. It is included in this package for reference and may be
+read, shared unmodified and cited. No other rights in the report are granted.
 
 ## Data and results
 
