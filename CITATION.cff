@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this evidence package or its results, please cite the technical report."
 title: "Gated Continual Specialization of Small Open Models to Frontier-Level Accuracy: evidence package"
 version: "1.0.0"
-date-released: "2026-10-18"
+date-released: "2026-10-19"
 license: CC-BY-SA-4.0
 authors:
   - given-names: "Arpit"
